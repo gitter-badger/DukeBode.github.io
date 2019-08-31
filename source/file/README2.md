@@ -1,0 +1,4 @@
+- [MSD Web](https://developer.mozilla.org/zh-CN/)
+- [Adobe](https://helpx.adobe.com/cn/learn.html)
+- [OpenShift](https://manage.openshift.com/)
+- [Office](https://support.office.com/)
