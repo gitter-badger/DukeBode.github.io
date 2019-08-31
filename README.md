@@ -1,2 +1,2 @@
-# DukeBode.github.io
+# 博德蝈蝈
 蝈蝈的个人博客
