@@ -1,0 +1,5 @@
+net start mysql80
+net stop mysql80
+
+mysql -u root -h 127.0.0.1 -p
+mysql -u root -p
