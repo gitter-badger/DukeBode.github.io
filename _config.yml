@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: /
+url: https://dukebode.github.io/
 ICP: 晋ICP备18006078号
 root: /
 permalink: :year/:month/:day/:title/
