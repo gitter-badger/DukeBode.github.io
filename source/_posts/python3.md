@@ -1,5 +1,5 @@
 ---
-title: Python 3.x | Django 2.x
+title: Python 3.x
 date: 2018-11-17 21:29:32
 tags: 
 - Python
@@ -46,9 +46,9 @@ yum install nginx
 ## 中国地区 pypi 配置
 ```sh
 # 更新 pip 至最新版
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pip -U
-# 配置清华大学镜像源
-pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+pip install -i https://mirrors.huaweicloud.com/repository/pypi/simple pip -U
+# 配置华为云镜像源
+pip config set global.index-url https://mirrors.huaweicloud.com/repository/pypi/simple
 ```
 
 ## Pip 包管理

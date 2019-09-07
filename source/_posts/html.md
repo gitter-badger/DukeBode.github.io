@@ -1,11 +1,34 @@
-﻿---
-title: HTML5
-author: Duke
-authorURL: http://weibo.com/newggbode
 ---
+title: html
+date: 2017-09-07 13:01:35
+cover:
+tags:
+---
+（1）结构化元素包括：
 
 ```html
-<!> 跑马灯
+< header >, < nav >, < article >, < section >, < aside >, < footer >。
+```
+
+（2）元素级别：都是block级别元素，不包含样式，只用于结构化，每个页面可多次使用。
+（3）元素说明：
+>header描述头部信息，
+nav用于导航模块，
+article用于可重新覆盖的新闻类内容块，section模块化，
+aside页面左或右模块，
+footer底脚模块。
+
+## 常用布局元素
+
+
+div：流布局使用；
+
+span：文字块使用。
+
+----
+
+跑马灯
+```html
 <marquee>...</marquee>普通卷动
 <marquee behavior=slide>...</marquee>滑动
 <marquee behavior=scroll>...</marquee>预设卷动
@@ -14,8 +37,6 @@ authorURL: http://weibo.com/newggbode
 <marquee direction=up>...</marquee>向上卷动
 <marquee direction=right></marquee>向右卷动
 <marquee direction=’left’></marquee>向左卷动
-
-
 <marquee loop=2>...</marquee>卷动次数
 <marquee width=180>...</marquee>设定宽度
 <marquee height=30>...</marquee>设定高度
@@ -488,11 +509,6 @@ css样式包含两个基础部分，
 </head>
 <body bgcolor="#ffffff">
 <p class="red">士大夫井冈山地方官
-
-
-九连环离开计划
-
-
 </body>
 还有一种方法就是限定可以应用它的页面元素
 例：〈head>
