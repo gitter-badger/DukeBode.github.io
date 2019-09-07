@@ -43,17 +43,7 @@
             s.parentNode.insertBefore(hm, s);
         })();
     </script>
-    <script type="text/javascript">
-        (function () { 
-            document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E')); 
-            var bdcs = document.createElement('script'); 
-            bdcs.type = 'text/javascript'; 
-            bdcs.async = true; 
-            bdcs.src = 'http://znsv.baidu.com/customer_search/api/js?sid=13814921785718250866' + '&plate_url=' + encodeURIComponent(window.location.href) + '&t=' + Math.ceil(new Date() / 3600000); 
-            var s = document.getElementsByTagName('script')[0]; 
-            s.parentNode.insertBefore(bdcs, s); 
-        })();
-    </script>
+    
     <!-- 友盟统计 -->
     <script type="text/javascript">
         var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
@@ -64,6 +54,17 @@
     </script>
 </head></html>
 <body class="loading">
+        <script type="text/javascript">
+            (function () { 
+                document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E')); 
+                var bdcs = document.createElement('script'); 
+                bdcs.type = 'text/javascript'; 
+                bdcs.async = true; 
+                bdcs.src = 'http://znsv.baidu.com/customer_search/api/js?sid=13814921785718250866' + '&plate_url=' + encodeURIComponent(window.location.href) + '&t=' + Math.ceil(new Date() / 3600000); 
+                var s = document.getElementsByTagName('script')[0]; 
+                s.parentNode.insertBefore(bdcs, s); 
+            })();
+        </script>
     <span id="config-title" style="display:none">Duke Studio</span>
     <div id="loader"></div>
     <div id="single">
@@ -138,6 +139,7 @@
     </div>
 </div>
 </body>
+
 <script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
 <script src="/js/plugin.js"></script>

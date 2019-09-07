@@ -40,17 +40,7 @@
             s.parentNode.insertBefore(hm, s);
         })();
     </script>
-    <script type="text/javascript">
-        (function () { 
-            document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E')); 
-            var bdcs = document.createElement('script'); 
-            bdcs.type = 'text/javascript'; 
-            bdcs.async = true; 
-            bdcs.src = 'http://znsv.baidu.com/customer_search/api/js?sid=13814921785718250866' + '&plate_url=' + encodeURIComponent(window.location.href) + '&t=' + Math.ceil(new Date() / 3600000); 
-            var s = document.getElementsByTagName('script')[0]; 
-            s.parentNode.insertBefore(bdcs, s); 
-        })();
-    </script>
+    
     <!-- 友盟统计 -->
     <script type="text/javascript">
         var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
@@ -61,6 +51,17 @@
     </script>
 </head></html>
 <body class="loading">
+        <script type="text/javascript">
+            (function () { 
+                document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E')); 
+                var bdcs = document.createElement('script'); 
+                bdcs.type = 'text/javascript'; 
+                bdcs.async = true; 
+                bdcs.src = 'http://znsv.baidu.com/customer_search/api/js?sid=13814921785718250866' + '&plate_url=' + encodeURIComponent(window.location.href) + '&t=' + Math.ceil(new Date() / 3600000); 
+                var s = document.getElementsByTagName('script')[0]; 
+                s.parentNode.insertBefore(bdcs, s); 
+            })();
+        </script>
     <span id="config-title" style="display:none">Duke Studio</span>
     <div id="loader"></div>
     <div class="nav">
@@ -115,13 +116,11 @@
     
     <div id="post0">
         <p>六月 07, 2019</p>
-        <h2><a href="/2019/06/07/Setting/" title="Windows Setting" class="posttitle">Windows Setting</a></h2>
-        <p class="summary">
+        <h2><a href="/2019/06/07/程序执行环境/" title="程序执行环境" class="posttitle">程序执行环境</a></h2>
+        <p class="summary">参数列表linux 命令行规范
 
-关闭虚拟内存
-java 中文显示不正常
-
-JAVA_TOOL_OPTIONS -Dfile.encoding=...</p>
+短参数：以单横开头，后跟单一字符，例如：ls -h
+长参数：以双横开头，后跟字符...</p>
     </div>
     
 </div>
@@ -129,20 +128,18 @@ JAVA_TOOL_OPTIONS -Dfile.encoding=...</p>
     <div id="primary">
         
 <div class="post">
-    <a href="/2019/06/07/Setting/" title="Windows Setting">
+    <a href="/2019/06/07/程序执行环境/" title="程序执行环境">
         <img src="/img/cover.jpg" class="cover" width="680" height="440">
     </a>
     <div class="else">
         <p>六月 07, 2019</p>
-        <h3><a href="/2019/06/07/Setting/" title="Windows Setting" class="posttitle">Windows Setting</a></h3>
-        <p>
+        <h3><a href="/2019/06/07/程序执行环境/" title="程序执行环境" class="posttitle">程序执行环境</a></h3>
+        <p>参数列表linux 命令行规范
 
-关闭虚拟内存
-java 中文显示不正常
+短参数：以单横开头，后跟单一字符，例如：ls -h
+长参数：以双横开头，后跟字符串，例如：ls -help
 
-JAVA_TOOL_OPTIONS -Dfile.encoding=UTF-8
-
-</p>
+程序访问参...</p>
     </div>
 </div>
 
@@ -298,6 +295,7 @@ chmod -R 777 dirname 将dirname授权给所有用户
 <div id="preview"></div>
 
 </body>
+
 <script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
 <script src="/js/plugin.js"></script>
