@@ -448,31 +448,27 @@
   </entry>
   
   <entry>
-    <title>Windows Setting</title>
-    <link href="https://dukebode.github.io/2019/06/07/Setting/"/>
-    <id>https://dukebode.github.io/2019/06/07/Setting/</id>
+    <title>Docker</title>
+    <link href="https://dukebode.github.io/2019/06/07/Docker/"/>
+    <id>https://dukebode.github.io/2019/06/07/Docker/</id>
     <published>2019-06-07T06:04:29.000Z</published>
-    <updated>2019-09-07T05:14:14.068Z</updated>
+    <updated>2019-07-29T07:08:10.243Z</updated>
     
-    <content type="html"><![CDATA[<!--truncate--><p>关闭虚拟内存</p><p>java 中文显示不正常</p><blockquote><p>JAVA_TOOL_OPTIONS -Dfile.encoding=UTF-8</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<h1 id="部署-nginx"><a href="#部署-nginx" class="headerlink" title="部署 nginx"></a>部署 nginx</h1><ul><li>仓库查找镜像 <code>docker search nginx</code></li><li>拉取官网镜像 <code>docker pull nginx</code></li><li>查看本地镜像 <code>docker images</code></li><li>启动所需容器 <code>docker run -d -p 80:80 nginx</code></li><li>80端口打开</li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;!--truncate--&gt;
-
-&lt;p&gt;关闭虚拟内存&lt;/p&gt;
-&lt;p&gt;java 中文显示不正常&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;JAVA_TOOL_OPTIONS -Dfile.encoding=UTF-8&lt;/p&gt;
-&lt;/blockquote&gt;
-
+        &lt;h1 id=&quot;部署-nginx&quot;&gt;&lt;a href=&quot;#部署-nginx&quot; class=&quot;headerlink&quot; title=&quot;部署 nginx&quot;&gt;&lt;/a&gt;部署 nginx&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;仓库查找镜像 &lt;code&gt;docker search nginx&lt;/code&gt;&lt;
       
     
     </summary>
     
     
+    
+      <category term="软件" scheme="https://dukebode.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
     
   </entry>
   
@@ -499,27 +495,26 @@
   </entry>
   
   <entry>
-    <title>Docker</title>
-    <link href="https://dukebode.github.io/2019/06/07/Docker/"/>
-    <id>https://dukebode.github.io/2019/06/07/Docker/</id>
+    <title>程序执行环境</title>
+    <link href="https://dukebode.github.io/2019/06/07/%E7%A8%8B%E5%BA%8F%E6%89%A7%E8%A1%8C%E7%8E%AF%E5%A2%83/"/>
+    <id>https://dukebode.github.io/2019/06/07/程序执行环境/</id>
     <published>2019-06-07T06:04:29.000Z</published>
-    <updated>2019-07-29T07:08:10.243Z</updated>
+    <updated>2019-09-07T05:13:06.027Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="部署-nginx"><a href="#部署-nginx" class="headerlink" title="部署 nginx"></a>部署 nginx</h1><ul><li>仓库查找镜像 <code>docker search nginx</code></li><li>拉取官网镜像 <code>docker pull nginx</code></li><li>查看本地镜像 <code>docker images</code></li><li>启动所需容器 <code>docker run -d -p 80:80 nginx</code></li><li>80端口打开</li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="参数列表"><a href="#参数列表" class="headerlink" title="参数列表"></a>参数列表</h2><p>linux 命令行规范</p><ol><li>短参数：以单横开头，后跟单一字符，例如：<code>ls -h</code></li><li>长参数：以双横开头，后跟字符串，例如：<code>ls -help</code></li></ol><p>程序访问参数列表的方法</p><ol><li>主函数的参数<code>argc</code>和<code>argv</code></li><li>程序接受命令行的输入参数，并解释</li></ol><h2 id="环境变量"><a href="#环境变量" class="headerlink" title="环境变量"></a>环境变量</h2><ul><li>程序推出码</li><li>系统调用错误处理</li><li>资源管理</li><li>系统日志</li><li>用户信息</li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;部署-nginx&quot;&gt;&lt;a href=&quot;#部署-nginx&quot; class=&quot;headerlink&quot; title=&quot;部署 nginx&quot;&gt;&lt;/a&gt;部署 nginx&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;仓库查找镜像 &lt;code&gt;docker search nginx&lt;/code&gt;&lt;
+        &lt;h2 id=&quot;参数列表&quot;&gt;&lt;a href=&quot;#参数列表&quot; class=&quot;headerlink&quot; title=&quot;参数列表&quot;&gt;&lt;/a&gt;参数列表&lt;/h2&gt;&lt;p&gt;linux 命令行规范&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;短参数：以单横开头，后跟单一字符，例如：&lt;code&gt;ls -h&lt;/code
       
     
     </summary>
     
     
-    
-      <category term="软件" scheme="https://dukebode.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
     
   </entry>
   
