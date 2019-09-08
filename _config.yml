@@ -82,6 +82,6 @@ deploy:
 - type: git
   repo: git@github.com:DukeBode/DukeBode.github.io.git
   branch: master
-- type: git
-  repo: git@git.dev.tencent.com:DukeBode/DukeBode.coding.me.git
-  branch: master
+# - type: git
+#   repo: git@git.dev.tencent.com:DukeBode/DukeBode.coding.me.git
+#   branch: master
