@@ -6,6 +6,13 @@ tags:
 - git
 ---
 
+## 常用 Git 仓库
+
+腾讯工蜂 https://git.code.tencent.com
+
+
+
+
 ## git
 
 ![git 官网](/img/git/0.png)
@@ -96,9 +103,9 @@ Host github.com
     PreferredAuthentications publickey
     IdentityFile C:\Users\Duke1\.ssh\github
 ```
-
+```sh
 git -T git@github.com
-
+```
 
 ## 参考文章
 

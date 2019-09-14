@@ -5,6 +5,13 @@ cover:
 tags:
 ---
 
+# yum
+查看yum源Java包
+yum list *java*
+yum install java-latest-openjdk
+
+
+
 ## Linux 基础
 
 [文件目录](#文件目录)
