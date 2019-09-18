@@ -74,8 +74,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: false
-# theme: diaspora
+# theme: false
+theme: diaspora
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -87,6 +87,8 @@ deploy:
 #   repo: git@git.dev.tencent.com:DukeBode/DukeBode.coding.me.git
 #   branch: master
 
+# diaspora
+
 # 头部菜单，title: link
 menu:
   Whoami: /whoami
@@ -94,11 +96,9 @@ menu:
   Weibo: https://weibo.com/newggbode
   QQ/TIM: http://sighttp.qq.com/authd?IDKEY=a4c1ecd1bdaaa9fa13fb4895719e261aec692bac2895dcd9
 
-
-# diaspora
-
-# 是否显示目录
-TOC: true
+theme_config:
+  # 是否显示目录
+  TOC: true
 
 # 是否自动播放音乐
 autoplay: false
