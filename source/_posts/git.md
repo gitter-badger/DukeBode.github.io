@@ -109,4 +109,9 @@ git -T git@github.com
 
 ## 参考文章
 
-1. [Git配置多个SSH-Key](https://gitee.com/help/articles/4229#article-header1)
+1. [Git命令备份](https://www.jianshu.com/p/dbb352ea14cf)
+1. [Git配置多个SSH-Key](https://gitee.com/help/articles/4229)
+1. [aliyun SSH-Key](https://code.aliyun.com/help/ssh/README)
+1. [在Windows下配置多个git账号](https://www.cnblogs.com/liuguanglin/p/8351616.html)
+1. [Linux下安装Git](https://blog.csdn.net/sinat_29963957/article/details/81256227)
+1. [CentOS安装GIT](https://www.cnblogs.com/sahara/p/5683066.html)
