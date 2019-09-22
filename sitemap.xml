@@ -2,58 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://dukebode.github.io/2019/08/15/git/</loc>
+    <loc>https://dukebode.github.io/2017/08/06/note/</loc>
     
-    <lastmod>2019-09-14T13:33:30.831Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dukebode.github.io/2019/07/29/Linux/</loc>
-    
-    <lastmod>2019-09-13T13:39:10.623Z</lastmod>
+    <lastmod>2019-09-22T13:40:25.546Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://dukebode.github.io/2019/09/08/blog-env/</loc>
     
-    <lastmod>2019-09-08T08:43:18.494Z</lastmod>
+    <lastmod>2019-09-22T13:39:14.192Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2019/06/07/%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://dukebode.github.io/2019/09/22/hexo/</loc>
     
-    <lastmod>2019-09-08T08:20:57.432Z</lastmod>
+    <lastmod>2019-09-22T13:37:23.193Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dukebode.github.io/2019/07/29/Linux/</loc>
+    
+    <lastmod>2019-09-22T13:36:25.008Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://dukebode.github.io/2019/09/08/gitpage/</loc>
     
-    <lastmod>2019-09-08T07:23:01.682Z</lastmod>
+    <lastmod>2019-09-22T13:05:39.827Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2019/09/08/hexo/</loc>
+    <loc>https://dukebode.github.io/2019/06/07/%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
     
-    <lastmod>2019-09-08T06:50:27.933Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dukebode.github.io/2019/09/08/gitalk/</loc>
-    
-    <lastmod>2019-09-08T06:47:37.863Z</lastmod>
+    <lastmod>2019-09-22T12:52:55.980Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2017/06/11/hello-world/</loc>
+    <loc>https://dukebode.github.io/2019/08/06/node/</loc>
     
-    <lastmod>2019-09-07T05:19:39.045Z</lastmod>
+    <lastmod>2019-09-22T11:41:56.008Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dukebode.github.io/2019/07/16/Jupyter/</loc>
+    
+    <lastmod>2019-09-22T09:47:40.741Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dukebode.github.io/2019/08/15/git/</loc>
+    
+    <lastmod>2019-09-18T11:04:36.272Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dukebode.github.io/2018/11/17/python3/</loc>
+    
+    <lastmod>2019-09-17T14:55:46.904Z</lastmod>
     
   </url>
   
@@ -100,30 +114,9 @@
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2018/11/17/python3/</loc>
-    
-    <lastmod>2019-09-07T05:07:43.694Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dukebode.github.io/2019/06/07/javascript/</loc>
-    
-    <lastmod>2019-09-07T05:04:37.824Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://dukebode.github.io/2017/09/07/html/</loc>
     
     <lastmod>2019-09-07T05:04:11.578Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dukebode.github.io/2019/09/06/docusaurus/</loc>
-    
-    <lastmod>2019-09-06T07:50:38.562Z</lastmod>
     
   </url>
   
@@ -212,13 +205,6 @@
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2019/08/06/node/</loc>
-    
-    <lastmod>2019-08-16T08:34:28.832Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://dukebode.github.io/2019/07/08/php-env/</loc>
     
     <lastmod>2019-08-16T07:45:05.140Z</lastmod>
@@ -264,13 +250,6 @@
     <loc>https://dukebode.github.io/2019/07/31/php-run/</loc>
     
     <lastmod>2019-07-31T12:01:13.450Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dukebode.github.io/2019/07/16/Jupyter/</loc>
-    
-    <lastmod>2019-07-31T09:58:54.126Z</lastmod>
     
   </url>
   
@@ -369,13 +348,6 @@
     <loc>https://dukebode.github.io/file/bookmarks_2018_9_8.html</loc>
     
     <lastmod>2018-09-08T06:25:43.148Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dukebode.github.io/2019/08/31/note/</loc>
-    
-    <lastmod>2018-01-31T09:57:52.859Z</lastmod>
     
   </url>
   
