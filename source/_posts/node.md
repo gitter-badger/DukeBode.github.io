@@ -10,15 +10,6 @@ tags:
 
 [官网](https://nodejs.org/)
 
-## yarn
-
-[官网](https://yarnpkg.com)
-
-```sh
-# 若经常网络异常，执行此句
-yarn config set registry https://registry.npm.taobao.org/ -g
-```
-
 ## 切换 npm 源
 
 Node 的官方模块仓库网速太慢，模块仓库需要切换到阿里的源。
@@ -33,4 +24,13 @@ npm config set registry https://registry.npm.taobao.org/
 
 ```sh
 npm config get registry
+```
+
+## yarn
+
+[官网](https://yarnpkg.com)
+
+```sh
+# 若经常网络异常，执行此句
+yarn config set registry https://registry.npm.taobao.org/ -g
 ```

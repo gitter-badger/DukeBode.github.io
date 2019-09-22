@@ -90,60 +90,61 @@ deploy:
 # diaspora
 
 # 头部菜单，title: link
-menu:
-  Whoami: /whoami
-  Github: https://github.com/DukeBode
-  Weibo: https://weibo.com/newggbode
-  QQ/TIM: http://sighttp.qq.com/authd?IDKEY=a4c1ecd1bdaaa9fa13fb4895719e261aec692bac2895dcd9
+# menu:
+#   Whoami: /whoami
+#   Github: https://github.com/DukeBode
+#   Weibo: https://weibo.com/newggbode
+#   QQ/TIM: http://sighttp.qq.com/authd?IDKEY=a4c1ecd1bdaaa9fa13fb4895719e261aec692bac2895dcd9
 
 theme_config:
-  # 是否显示目录
-  TOC: true
+- TOC: true
+# 是否显示目录
+
 
 # 是否自动播放音乐
 autoplay: false
 
-# 默认音乐
-mp3: 
-  - http://link.hhtjim.com/163/5146554.mp3
-  - http://link.hhtjim.com/qq/001faIUs4M2zna.mp3
+# # 默认音乐
+# mp3: 
+#   - http://link.hhtjim.com/163/5146554.mp3
+#   - http://link.hhtjim.com/qq/001faIUs4M2zna.mp3
 
-# 首页封面图, 为空时取文章的cover作为封面
-welcome_cover: # /img/welcome-cover.jpg
+# # 首页封面图, 为空时取文章的cover作为封面
+# welcome_cover: # /img/welcome-cover.jpg
 
-# 默认文章封面图
-cover: /img/cover.jpg
+# # 默认文章封面图
+# cover: /img/cover.jpg
 
-# 是否关闭默认滚动条
-scrollbar: true
+# # 是否关闭默认滚动条
+# scrollbar: true
 
-# Gitalk 评论插件（https://github.com/gitalk/gitalk）
-gitalk:
-    # 是否自动展开评论框
-    autoExpand: true
-    # 应用编号
-    clientID: 'a8f7c41a1904f1b5e95d'
-    # 应用秘钥
-    clientSecret: 'cafc93915ae936fd91c56193bc9101e0e5ad6ca0'
-    # issue仓库名
-    repo: 'DukeBode.github.io'
-    # Github名
-    owner: 'DukeBode'
-    # Github名
-    admin: ['DukeBode']
-    # Ensure uniqueness and length less than 50
-    id: location.pathname
-    # Facebook-like distraction free mode
-    distractionFreeMode: false
+# # Gitalk 评论插件（https://github.com/gitalk/gitalk）
+# gitalk:
+#     # 是否自动展开评论框
+#     autoExpand: true
+#     # 应用编号
+#     clientID: 'a8f7c41a1904f1b5e95d'
+#     # 应用秘钥
+#     clientSecret: 'cafc93915ae936fd91c56193bc9101e0e5ad6ca0'
+#     # issue仓库名
+#     repo: 'DukeBode.github.io'
+#     # Github名
+#     owner: 'DukeBode'
+#     # Github名
+#     admin: ['DukeBode']
+#     # Ensure uniqueness and length less than 50
+#     id: location.pathname
+#     # Facebook-like distraction free mode
+#     distractionFreeMode: false
 
-# 网站关键字
-keywords: Fechin
+# # 网站关键字
+# keywords: Fechin
 
-# 要使用google_analytics进行统计的话，这里需要配置ID
-google_analytics: 
+# # 要使用google_analytics进行统计的话，这里需要配置ID
+# google_analytics: 
 
-# 网站ico
-favicon: /img/favicon.png
+# # 网站ico
+# favicon: /img/favicon.png
 
-# rss文件
-rss: atom.xml
+# # rss文件
+# rss: atom.xml

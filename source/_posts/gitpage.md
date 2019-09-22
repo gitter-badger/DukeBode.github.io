@@ -25,7 +25,7 @@ tags:
 ### 配置config
 
 ```diff
-_config.yml
+# _config.yml
 - type
 + - type: git
 +   repo: git@github.com:DukeBode/DukeBode.github.io.git
@@ -43,7 +43,6 @@ GitHub
 
 gitpage
 - gitpage 仓库
-- source 分支
 
 hexo-theme
 

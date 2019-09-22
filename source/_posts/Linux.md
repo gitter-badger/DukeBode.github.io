@@ -6,6 +6,7 @@ tags:
 ---
 
 # yum
+
 查看yum源Java包
 yum list *java*
 yum install java-latest-openjdk
@@ -81,15 +82,11 @@ linux
 md5sum hero.png 
 fefd01c9db6e3e83b978eff1b7a67c02  hero.png
  
-
 sha1sum hero.png 
 f1e929db9cef34a8786ee4b6246fb739566c799d  hero.png
  
-
 sha256sum hero.png 
 5b654b2297f17d9106388db31c1190240cfb359144925e892468b40d692c780f  hero.png
- 
-
  
 
 windows

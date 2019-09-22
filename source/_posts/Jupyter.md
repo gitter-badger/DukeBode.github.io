@@ -11,7 +11,6 @@ tags:
 [Jupyter kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
 
 ## 设置默认起始目录
----
 
 1. 使用 shell 打开配置文件
 
