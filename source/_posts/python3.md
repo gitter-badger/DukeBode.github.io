@@ -14,6 +14,33 @@ tags:
 
 [官网](https://www.python.org/) | [文档](https://docs.python.org) | [包管理工具 pip](https://pip.pypa.io/)
 
+
+Windows 64位
+
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    
+<div id="python">
+        <p>Python 64位下载地址：</p>
+        <p>https://mirrors.huaweicloud.com/python/{{ python_version }}/python-{{ python_version }}-amd64.exe</p>
+        <br>
+        <p>Python 64位压缩包：</p>
+        <p>https://mirrors.huaweicloud.com/python/{{ python_version }}/python-{{ python_version }}-embed-amd64.zip</p>
+        <br>
+        <p>Python 32位下载地址：</p>
+        <p>https://mirrors.huaweicloud.com/python/{{ python_version }}/python-{{ python_version }}.exe</p>
+        <br>
+        请输入要下载的 python 版本号：<input v-model="python_version">
+</div>
+    
+<script>
+        var python = new Vue({
+            el: '#python',
+            data: {
+                python_version: '3.7.4'
+            }
+        })
+</script>
+
 ### 源码安装（推荐）
 
 ```sh
@@ -54,6 +81,9 @@ pip install -i https://mirrors.huaweicloud.com/repository/pypi/simple pip -U
 pip config set global.index-url https://mirrors.huaweicloud.com/repository/pypi/simple
 ```
 
+
+https://mirrors.huaweicloud.com/yarn/v1.19.1/yarn-1.19.1.msi
+https://mirrors.huaweicloud.com/yarn/
 ## Pip 包管理
 
 [官网](https://pip.pypa.io)
