@@ -1,14 +1,14 @@
 
 <!DOCTYPE html>
 <html lang="zh-CN" class="loading">
-<head><meta name="generator" content="Hexo 3.9.0">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>nginx - Duke Studio</title>
-    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="google" content="notranslate">
+    <meta name="google" content="notranslate" />
     <meta name="keywords" content="Fechin,"> 
     <meta name="description" content="官网
 版本简介
@@ -29,26 +29,27 @@ Legacy   历年稳定版本
               enable_page_level_ads: true
          });
     </script>
-    <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    <script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
     </script>
 </head>
-</html>
+
 <body class="loading">
     <span id="config-title" style="display:none">Duke Studio</span>
     <div id="loader"></div>
     <div id="single">
     <div id="top" style="display: block;">
     <div class="bar" style="width: 0;"></div>
-    <a class="icon-home image-icon" href="javascript:;" data-url="https://dukebode.github.io"></a>
+    <a class="icon-home image-icon" href="javascript:;" target="_blank" rel="noopener" data-url="https://dukebode.github.io"></a>
     <div title="播放/暂停" class="icon-play"></div>
     <h3 class="subtitle">nginx</h3>
     <div class="social">
         <!--<div class="like-icon">-->
-            <!--<a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
+            <!--<a href="javascript:;" target="_blank" rel="noopener" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
         <!--</div>-->
         <div>
             <div class="share">
-                <a title="获取二维码" class="icon-scan" href="javascript:;"></a>
+                <a title="获取二维码" class="icon-scan" href="javascript:;" target="_blank" rel="noopener"></a>
             </div>
             <div id="qr"></div>
         </div>
@@ -63,7 +64,7 @@ Legacy   历年稳定版本
         <div class="stuff">
             <span>十一月 08, 2018</span>
             
-  <ul class="post-tags-list"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/linux/">linux</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/nginx/">nginx</a></li></ul>
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/linux/" rel="tag">linux</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/nginx/" rel="tag">nginx</a></li></ul>
 
 
         </div>
@@ -75,9 +76,7 @@ Legacy   历年稳定版本
 <li>Legacy   历年稳定版本</li>
 </ul>
 <h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> wget http://nginx.org/download/nginx-1.14.0.tar.gz</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> tar -zxvf nginx-1.14.0.tar.gz</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> <span class="built_in">cd</span> nginx-1.14.0</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> ./configure --with-http_ssl_module --with-http_v2_module</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> make</span></span><br></pre></td></tr></table></figure>
-
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">Configuration summary</span><br><span class="line">  + using system PCRE library</span><br><span class="line">  + OpenSSL library is not used</span><br><span class="line">  + using system zlib library</span><br><span class="line"></span><br><span class="line">  nginx path prefix:          &quot;/usr/local/nginx&quot;</span><br><span class="line">  nginx binary file:          &quot;/usr/local/nginx/sbin/nginx&quot;</span><br><span class="line">  nginx modules path:         &quot;/usr/local/nginx/modules&quot;</span><br><span class="line">  nginx configuration prefix: &quot;/usr/local/nginx/conf&quot;</span><br><span class="line">  nginx configuration file:   &quot;/usr/local/nginx/conf/nginx.conf&quot;</span><br><span class="line">  nginx pid file:             &quot;/usr/local/nginx/logs/nginx.pid&quot;</span><br><span class="line">  nginx error log file:       &quot;/usr/local/nginx/logs/error.log&quot;</span><br><span class="line">  nginx http access log file: &quot;/usr/local/nginx/logs/access.log&quot;</span><br><span class="line">  nginx http client request body temporary files: &quot;client_body_temp&quot;</span><br><span class="line">  nginx http proxy temporary files:   &quot;proxy_temp&quot;</span><br><span class="line">  nginx http fastcgi temporary files: &quot;fastcgi_temp&quot;</span><br><span class="line">  nginx http uwsgi temporary files:   &quot;uwsgi_temp&quot;</span><br><span class="line">  nginx http scgi temporary files:    &quot;scgi_temp&quot;</span><br></pre></td></tr></table></figure>
-
 <h2 id="Nginx-操作命令"><a href="#Nginx-操作命令" class="headerlink" title="Nginx 操作命令"></a>Nginx 操作命令</h2><ul>
 <li>nginx -s reload 重新加载配置文件</li>
 <li>nginx -s reopen 重新打开日志文件</li>

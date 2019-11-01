@@ -1,14 +1,14 @@
 
 <!DOCTYPE html>
 <html lang="zh-CN" class="loading">
-<head><meta name="generator" content="Hexo 3.9.0">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Jupyter - Duke Studio</title>
-    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="google" content="notranslate">
+    <meta name="google" content="notranslate" />
     <meta name="keywords" content="Fechin,"> 
     <meta name="description" content="配置内核Jupyter kernels
 设置默认起始目录
@@ -27,26 +27,27 @@
               enable_page_level_ads: true
          });
     </script>
-    <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    <script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
     </script>
 </head>
-</html>
+
 <body class="loading">
     <span id="config-title" style="display:none">Duke Studio</span>
     <div id="loader"></div>
     <div id="single">
     <div id="top" style="display: block;">
     <div class="bar" style="width: 0;"></div>
-    <a class="icon-home image-icon" href="javascript:;" data-url="https://dukebode.github.io"></a>
+    <a class="icon-home image-icon" href="javascript:;" target="_blank" rel="noopener" data-url="https://dukebode.github.io"></a>
     <div title="播放/暂停" class="icon-play"></div>
     <h3 class="subtitle">Jupyter</h3>
     <div class="social">
         <!--<div class="like-icon">-->
-            <!--<a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
+            <!--<a href="javascript:;" target="_blank" rel="noopener" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
         <!--</div>-->
         <div>
             <div class="share">
-                <a title="获取二维码" class="icon-scan" href="javascript:;"></a>
+                <a title="获取二维码" class="icon-scan" href="javascript:;" target="_blank" rel="noopener"></a>
             </div>
             <div id="qr"></div>
         </div>
@@ -61,7 +62,7 @@
         <div class="stuff">
             <span>七月 16, 2019</span>
             
-  <ul class="post-tags-list"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/IDE/">IDE</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/编辑器/">编辑器</a></li></ul>
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/IDE/" rel="tag">IDE</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/%E7%BC%96%E8%BE%91%E5%99%A8/" rel="tag">编辑器</a></li></ul>
 
 
         </div>
@@ -71,7 +72,6 @@
 <li>使用 shell 打开配置文件</li>
 </ol>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 获取默认配置文件路径，有配置的同学请按 N。</span></span><br><span class="line">jupyter notebook --generate-config</span><br><span class="line"><span class="comment"># vim 编辑配置文件，Windows下没有也可以用 start。</span></span><br><span class="line">vim ~/.jupyter/jupyter_notebook_config.py</span><br></pre></td></tr></table></figure>
-
 <ol start="2">
 <li>取消<code>c.NotebookApp.notebook_dir</code>注释，即删除行前<code>#</code>符号</li>
 <li>将要设置的默认起始目录填入后面的引号之中。</li>

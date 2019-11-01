@@ -1,14 +1,14 @@
 
 <!DOCTYPE html>
 <html lang="zh-CN" class="loading">
-<head><meta name="generator" content="Hexo 3.9.0">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Python 3.x - Duke Studio</title>
-    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="google" content="notranslate">
+    <meta name="google" content="notranslate" />
     <meta name="keywords" content="Fechin,"> 
     <meta name="description" content="| |  
 Python 3 安装官网 | 文档 | 包管理工具 pip
@@ -30,26 +30,27 @@ Windows 64位
               enable_page_level_ads: true
          });
     </script>
-    <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    <script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
     </script>
 </head>
-</html>
+
 <body class="loading">
     <span id="config-title" style="display:none">Duke Studio</span>
     <div id="loader"></div>
     <div id="single">
     <div id="top" style="display: block;">
     <div class="bar" style="width: 0;"></div>
-    <a class="icon-home image-icon" href="javascript:;" data-url="https://dukebode.github.io"></a>
+    <a class="icon-home image-icon" href="javascript:;" target="_blank" rel="noopener" data-url="https://dukebode.github.io"></a>
     <div title="播放/暂停" class="icon-play"></div>
     <h3 class="subtitle">Python 3.x</h3>
     <div class="social">
         <!--<div class="like-icon">-->
-            <!--<a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
+            <!--<a href="javascript:;" target="_blank" rel="noopener" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
         <!--</div>-->
         <div>
             <div class="share">
-                <a title="获取二维码" class="icon-scan" href="javascript:;"></a>
+                <a title="获取二维码" class="icon-scan" href="javascript:;" target="_blank" rel="noopener"></a>
             </div>
             <div id="qr"></div>
         </div>
@@ -64,12 +65,12 @@ Windows 64位
         <div class="stuff">
             <span>十一月 17, 2018</span>
             
-  <ul class="post-tags-list"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/Django/">Django</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/Python/">Python</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/框架/">框架</a></li></ul>
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/Django/" rel="tag">Django</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/Python/" rel="tag">Python</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/%E6%A1%86%E6%9E%B6/" rel="tag">框架</a></li></ul>
 
 
         </div>
         <div class="content markdown">
-            <p>| <a href></a><br>| <a href></a> </p>
+            <p>| <a href=""></a><br>| <a href=""></a> </p>
 <h2 id="Python-3-安装"><a href="#Python-3-安装" class="headerlink" title="Python 3 安装"></a>Python 3 安装</h2><p><a href="https://www.python.org/" target="_blank" rel="noopener">官网</a> | <a href="https://docs.python.org" target="_blank" rel="noopener">文档</a> | <a href="https://pip.pypa.io/" target="_blank" rel="noopener">包管理工具 pip</a></p>
 <p>Windows 64位</p>
 <script src="https://cdn.jsdelivr.net/npm/vue"></script>
@@ -101,6 +102,7 @@ Windows 64位
 <h3 id="CentOS-软件包方式安装"><a href="#CentOS-软件包方式安装" class="headerlink" title="CentOS 软件包方式安装"></a>CentOS 软件包方式安装</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 安装 python3</span></span><br><span class="line">yum install python36</span><br><span class="line"><span class="comment"># 安装 pip3</span></span><br><span class="line">python36 get-pip.py</span><br><span class="line"><span class="comment"># 安装 uwsgi</span></span><br><span class="line">pip3 install uwsgi</span><br><span class="line"><span class="comment"># 安装 nginx</span></span><br><span class="line">yum install nginx</span><br></pre></td></tr></table></figure>
 
 <h2 id="中国地区-pypi-配置"><a href="#中国地区-pypi-配置" class="headerlink" title="中国地区 pypi 配置"></a>中国地区 pypi 配置</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 更新 pip 至最新版</span></span><br><span class="line">pip install -i https://mirrors.huaweicloud.com/repository/pypi/simple pip -U</span><br><span class="line"><span class="comment"># 配置华为云镜像源</span></span><br><span class="line">pip config <span class="built_in">set</span> global.index-url https://mirrors.huaweicloud.com/repository/pypi/simple</span><br></pre></td></tr></table></figure>
+
 
 <p><a href="https://mirrors.huaweicloud.com/yarn/v1.19.1/yarn-1.19.1.msi" target="_blank" rel="noopener">https://mirrors.huaweicloud.com/yarn/v1.19.1/yarn-1.19.1.msi</a><br><a href="https://mirrors.huaweicloud.com/yarn/" target="_blank" rel="noopener">https://mirrors.huaweicloud.com/yarn/</a></p>
 <h2 id="Pip-包管理"><a href="#Pip-包管理" class="headerlink" title="Pip 包管理"></a>Pip 包管理</h2><p><a href="https://pip.pypa.io" target="_blank" rel="noopener">官网</a></p>
