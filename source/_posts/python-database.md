@@ -3,6 +3,7 @@ title: python-database
 date: 2019-10-25 16:26:41
 cover:
 tags:
+- python
 ---
 
 DATABASE | Python DB-API | INSTALL 

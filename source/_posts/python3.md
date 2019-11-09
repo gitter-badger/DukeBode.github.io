@@ -2,7 +2,7 @@
 title: Python 3.x
 date: 2018-11-17 21:29:32
 tags: 
-- Python
+- python
 - Django
 - 框架
 ---
