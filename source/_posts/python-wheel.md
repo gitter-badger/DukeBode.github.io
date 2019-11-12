@@ -6,6 +6,11 @@ tags:
 - python
 ---
 
+[官方教程](https://packaging.python.org/)
+[概述](https://packaging.python.org/overview/)
+[教程](https://packaging.python.org/tutorials/)
+[指南](https://packaging.python.org/guides/)
+
 ### 打包环境
 
 ```sh
@@ -35,12 +40,15 @@ pip install twine
 > setup.py 文件是 setuptools 打包的脚本文件，文件内应当写明包相关信息，以及其它的附属操作。
 
 ```py
-# 示例
+# 官方示例
 # https://github.com/pypa/sampleproject/blob/master/setup.py
-with open("README.md", "r") as fh:
+
+# read the contents of README file
+with open("README.md", "r", encoding='utf-8') as fh:
     long_description = fh.read()
 
 setuptools.setup(
+    # https://packaging.python.org/guides/distributing-packages-using-setuptools/
     name="example-pkg-YOUR-USERNAME-HERE", # Replace with your own username
     version="0.0.1",
     author="Example Author",

@@ -16,7 +16,8 @@ timezone:
 url: https://dukebode.github.io/
 ICP: 晋ICP备18006078号
 root: /
-permalink: :year/:month/:day/:title/
+# permalink: :year/:month/:day/:title/
+permalink: :year/:month:day-:title.html
 permalink_defaults:
 
 # Directory
@@ -105,10 +106,12 @@ theme_config:
 # 是否自动播放音乐
 autoplay: false
 
-# # 默认音乐
+# 默认音乐
 # mp3: 
-#   - http://link.hhtjim.com/163/5146554.mp3
-#   - http://link.hhtjim.com/qq/001faIUs4M2zna.mp3
+#   - http://sc1.111ttt.cn/2016/1/12/09/205092009303.mp3 # Justin Bieber-Baby
+#   - http://sc1.111ttt.cn/2018/1/03/13/396131227447.mp3
+  # - http://link.hhtjim.com/163/5146554.mp3
+  # - http://link.hhtjim.com/qq/001faIUs4M2zna.mp3
 
 # # 首页封面图, 为空时取文章的cover作为封面
 # welcome_cover: # /img/welcome-cover.jpg
