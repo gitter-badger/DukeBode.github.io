@@ -1,12 +1,8 @@
 ---
-title: SSH笔记
+title: SSH 配置
 date: 2018-06-11 16:34:30
 tags:
 ---
-
-主机 host
-端口 22
-用户名 user
 
 ## 口令登录
 
@@ -23,6 +19,8 @@ ssh [-p 22] [user@]host
     1. 生成公钥
 
 ```sh
+# 格式 
+# ssh-keygen -t rsa -C "通常为邮箱" -f "私钥文件绝对路径"
 ssh-keygen
 ```
 
@@ -33,4 +31,18 @@ ssh-keygen
     
 ```sh
 ssh-copy-id user@host
+```
+
+```config
+host ecs（主机别名）
+HostName 主机地址
+User 用户名
+Port 22（sshd 端口号）
+IdentitiesOnly yes
+IdentityFile 私钥路径
+```
+
+```conf
+
+PermitRootLogin yes
 ```
