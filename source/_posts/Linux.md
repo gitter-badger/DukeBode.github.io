@@ -9,9 +9,6 @@ tags:
 
 查看yum源Java包
 yum list *java*
-yum install java-latest-openjdk
-
-
 
 ## Linux 基础
 
