@@ -30,6 +30,9 @@ npm config get registry
 
 [官网](https://yarnpkg.com)
 
+https://mirrors.huaweicloud.com/yarn/v1.19.1/yarn-1.19.1.msi
+https://mirrors.huaweicloud.com/yarn/
+
 ```sh
 # 若经常网络异常，执行此句
 yarn config set registry https://registry.npm.taobao.org/ -g

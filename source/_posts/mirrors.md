@@ -14,8 +14,3 @@ tags:
 - [东软信息学院开源镜像站](http://mirrors.neusoft.edu.cn/)
 - [北京交通大学自由与开源软件镜像站](https://mirror.bjtu.edu.cn/)
 - [浙江大学开源镜像站](http://mirrors.zju.edu.cn/)
-
-浙江大学
-http://mirrors.zju.edu.cn/pypi/web/simple/
-北京交通大学
-https://mirror.bjtu.edu.cn/pypi/web/simple/

@@ -14,7 +14,7 @@ tags:
 - Stable   当前稳定版本，版本号为偶数
 - Legacy   历年稳定版本
 
-## 安装
+## 源码安装
 
 ```shell
 # wget http://nginx.org/download/nginx-1.14.0.tar.gz

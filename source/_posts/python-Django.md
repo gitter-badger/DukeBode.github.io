@@ -68,6 +68,13 @@ tags:
 
 ## 配置 nginx
 
+```
+# 安装 uwsgi
+pip3 install uwsgi
+# 安装 nginx
+yum install nginx
+```
+
 测试
 
 nginx -t
