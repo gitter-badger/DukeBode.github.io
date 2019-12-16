@@ -74,12 +74,12 @@ pause
 #     HostName codehub.devcloud.huaweicloud.com
 #     PreferredAuthentications publickey
 #     IdentityFile C:\Users\Duke1\.ssh\huawei
-# ssh-keygen -t rsa -C "Duke123@aliyun.com" -f "C:\Users\Duke1\.ssh\github"
+# 在用户下的.ssh目录下运行
+ssh-keygen -t rsa -C "Duke123@aliyun.com" -f aliyun
+ssh-keygen -t rsa -C "Duke123@aliyun.com" -f aliyun_ecs
+ssh-keygen -t rsa -C "Duke123@aliyun.com" -f azure
+ssh-keygen -t rsa -C "Duke123@aliyun.com" -f coding
+ssh-keygen -t rsa -C "Duke123@aliyun.com" -f gitee
+ssh-keygen -t rsa -C "Duke123@aliyun.com" -f github
+ssh-keygen -t rsa -C "Duke123@aliyun.com" -f huawei
 
-# ssh-keygen -t rsa -C "Duke123@aliyun.com" -f "C:\Users\Duke1\.ssh\github"
-# ssh-keygen -t rsa -C "Duke123@aliyun.com" -f "C:\Users\Duke1\.ssh\github"
-# ssh-keygen -t rsa -C "Duke123@aliyun.com" -f "C:\Users\Duke1\.ssh\github"
-# ssh-keygen -t rsa -C "Duke123@aliyun.com" -f "C:\Users\Duke1\.ssh\github"
-# ssh-keygen -t rsa -C "Duke123@aliyun.com" -f "C:\Users\Duke1\.ssh\github"
-# ssh-keygen -t rsa -C "Duke123@aliyun.com" -f "C:\Users\Duke1\.ssh\github"
-# ssh-keygen -t rsa -C "Duke123@aliyun.com" -f "C:\Users\Duke1\.ssh\github"

@@ -9,6 +9,11 @@
 - [腾讯 QQ](http://sighttp.qq.com/authd?IDKEY=a4c1ecd1bdaaa9fa13fb4895719e261aec692bac2895dcd9) 
 
 
+#
+```sh
+yarn global add hexo-cli
+yarn upgrade-interactive
+```
 <!-- - Visual Studio Code
 - NodeJS & Yarn
 - MinGit
