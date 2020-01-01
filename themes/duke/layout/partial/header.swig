@@ -1,0 +1,1 @@
+<h1 id="logo">{{ config.title }}{{ title }}</h1>
