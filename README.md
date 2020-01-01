@@ -32,4 +32,4 @@ yarn upgrade-interactive
 - MinGit
 - HEXO -->
 
-![赞助](img/open/支付宝红包.jpg)
+![赞助](source/img/open/支付宝红包.jpg)
