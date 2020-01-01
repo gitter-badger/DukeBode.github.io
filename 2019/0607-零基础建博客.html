@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <base target="_blank" />
+    <link rel="manifest" href="manifest.json">
+<style>
+    html{
+        max-width: 100vh;
+        margin: auto;
+    }
+    img{
+        max-width:100%;
+        align:center;
+    }
+    .highlight {
+        background: #2d2d2d;
+        margin:0;
+        padding: 15px 20px;
+        overflow: auto;
+        color: #ccc;
+    }
+</style>
+<h3 id="Hexo-博客"><a href="#Hexo-博客" class="headerlink" title="Hexo 博客"></a>Hexo 博客</h3><p>Hexo 不是博客而是快速、简洁且高效的博客框架，适合任何有打字基础的人建立属于自己、完全定制的个人博客，可用于个人生活记录、学习笔记整理、连载个人小说等。</p>
+<hr>
+<h3 id="流程简介"><a href="#流程简介" class="headerlink" title="流程简介"></a>流程简介</h3><ul>
+<li>前期准备：申请 GitHub 账户、创建 GitPage 仓库、配置 Git 环境、配置 Nodejs 环境</li>
+<li>搭建博客：安装 Hexo-cli、搭建博客环境、设置博客主题、部署博客至 GitPage</li>
+<li>博客编写：Hexo 命令、安装 VScode 插件、Markdown 编写博客</li>
+</ul>
+<hr>
+<h3 id="申请-GitHub-账户"><a href="#申请-GitHub-账户" class="headerlink" title="申请 GitHub 账户"></a>申请 GitHub 账户</h3><p>访问 GitHub 官网 建立自己的 GitHub 帐号：<a href="https://github.com/join" target="_blank" rel="noopener">注册地址</a></p>
+<p><img src="/img/blog/1.png" alt="Github 注册界面"></p>
+<p>请将自己在图中标记的项目中所填写的内容记录下，以便后期的操作。</p>
+<p>建议用户名①尽量使用全英文字母，避免不必要的麻烦</p>
+<p>举个例子，我的为：</p>
+<ul>
+<li>① DukeBode</li>
+<li>② <a href="mailto:Duke123@aliyun.com">Duke123@aliyun.com</a></li>
+</ul>
+<p>剩余的<code>红色标记</code>请自行记录，此处仅记录重要信息</p>
+<h3 id="创建-GitPage-仓库"><a href="#创建-GitPage-仓库" class="headerlink" title="创建 GitPage 仓库"></a>创建 GitPage 仓库</h3><p>登录 GitHub,在相关位置输入上文记录的内容。<a href="https://github.com/login" target="_blank" rel="noopener">登录地址</a></p>
+<p><img src="/img/blog/2.png" alt="GitHub 登录界面"></p>
+<p>如图所示，新建仓库，输入相关信息。仓库名（用户名.github.io）为 GitPage 固定写法。<a href="https://github.com/new" target="_blank" rel="noopener">新建仓库地址</a></p>
+<p><img src="/img/blog/3.png" alt="仓库创建界面"></p>
+<p>说明：<br><code>黄色标记</code>会自动显示对应的个人信息，<code>绿色标记</code>需要自己填写，填写时请勿遗漏点等字母或符号。</p>
+<h3 id="配置-Git-环境"><a href="#配置-Git-环境" class="headerlink" title="配置 Git 环境"></a>配置 Git 环境</h3><p>不是<code>中国地区</code>的<code>Windows 系统</code>用户请自行阅读官网文档安装，切记配置 path 环境。 <a href="https://git-scm.com/downloads" target="_blank" rel="noopener">git 官方下载地址</a></p>
+<p><img src="/img/blog/4.png" alt="Git 下载界面"></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name "①"</span><br><span class="line"></span><br><span class="line">git config --global user.email ②</span><br><span class="line"></span><br><span class="line">ssh-keygen -t rsa -C "②"</span><br></pre></td></tr></table></figure>
+
+<h3 id="配置-Nodejs-环境"><a href="#配置-Nodejs-环境" class="headerlink" title="配置 Nodejs 环境"></a>配置 Nodejs 环境</h3><p><a href="">NodeJS 官网</a></p>
+<h3 id="安装-Hexo-cli"><a href="#安装-Hexo-cli" class="headerlink" title="安装 Hexo-cli"></a>安装 Hexo-cli</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+
+<h3 id="搭建博客环境"><a href="#搭建博客环境" class="headerlink" title="搭建博客环境"></a>搭建博客环境</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog</span><br><span class="line"><span class="comment"># </span></span><br><span class="line"><span class="built_in">cd</span> blog</span><br><span class="line"><span class="comment"># </span></span><br><span class="line">npm install</span><br><span class="line"><span class="comment"># </span></span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+
+<p>git clone -b &lt;指定分支名&gt; &lt;远程仓库地址&gt;</p>
+<h3 id="编写博客"><a href="#编写博客" class="headerlink" title="编写博客"></a>编写博客</h3><figure class="highlight bat"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set</span> <span class="built_in">PATH</span>=<span class="variable">%PATH%</span>;</span><br><span class="line">reg add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment" /v "<span class="built_in">Path</span>" /t REG_EXPAND_SZ /d "<span class="variable">%PATH%</span>" /f</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>参考文章 </p>
+</blockquote>
+<ul>
+<li><a href="https://blog.csdn.net/lucklymm/article/details/89014085" target="_blank" rel="noopener">hexo搭建个人博客</a></li>
+</ul>
+<p>用电脑记笔记<br>让更多人看到自己的笔记<br>备份笔记</p>
+
+<a href="/2019/0611-Chrome%E7%9A%84%E4%BD%BF%E7%94%A8.html">Chrome的使用</a>
+<a href="/2019/0607-Docker.html">Docker</a>
+
+<script type="text/javascript">
+document.write(document.referrer)
+
+document.write(window.location.search.substr(1).split("&"))
+
+// "MicroMessenger"
+// "AlipayClient"
+// "QQ"
+</script>
+
+<script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
+<script type="text/javascript">
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register("/service-worker.js", {scope: '/'})
+    .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
+    .catch(err => console.log('SW Registration Failed! Error: ', err));
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <base target="_blank" />
+    <link rel="manifest" href="manifest.json">
+<style>
+    html{
+        max-width: 100vh;
+        margin: auto;
+    }
+    img{
+        max-width:100%;
+        align:center;
+    }
+    .highlight {
+        background: #2d2d2d;
+        margin:0;
+        padding: 15px 20px;
+        overflow: auto;
+        color: #ccc;
+    }
+</style>
+<h1 id="部署-nginx"><a href="#部署-nginx" class="headerlink" title="部署 nginx"></a>部署 nginx</h1><ul>
+<li>仓库查找镜像 <code>docker search nginx</code></li>
+<li>拉取官网镜像 <code>docker pull nginx</code></li>
+<li>查看本地镜像 <code>docker images</code></li>
+<li>启动所需容器 <code>docker run -d -p 80:80 nginx</code></li>
+<li>80端口打开</li>
+</ul>
+
+<a href="/2019/0607-%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%BB%BA%E5%8D%9A%E5%AE%A2.html">零基础建博客</a>
+<a href="/2019/0607-Setting.html">Windows Setting</a>
+
+<script type="text/javascript">
+document.write(document.referrer)
+
+document.write(window.location.search.substr(1).split("&"))
+
+// "MicroMessenger"
+// "AlipayClient"
+// "QQ"
+</script>
+
+<script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
+<script type="text/javascript">
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register("/service-worker.js", {scope: '/'})
+    .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
+    .catch(err => console.log('SW Registration Failed! Error: ', err));
+}
+</script>
+</body>
+</html>

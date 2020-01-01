@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <base target="_blank" />
+    <link rel="manifest" href="manifest.json">
+<style>
+    html{
+        max-width: 100vh;
+        margin: auto;
+    }
+    img{
+        max-width:100%;
+        align:center;
+    }
+    .highlight {
+        background: #2d2d2d;
+        margin:0;
+        padding: 15px 20px;
+        overflow: auto;
+        color: #ccc;
+    }
+</style>
+<h2 id="读前准备"><a href="#读前准备" class="headerlink" title="读前准备"></a>读前准备</h2><ul>
+<li><input checked="" disabled="" type="checkbox"> node install</li>
+<li><input checked="" disabled="" type="checkbox"> hexo project</li>
+<li><input disabled="" type="checkbox"> hexo-generator-feed</li>
+<li><input checked="" disabled="" type="checkbox"> hexo-deployer-git</li>
+</ul>
+<h3 id="创建-GitPage-仓库"><a href="#创建-GitPage-仓库" class="headerlink" title="创建 GitPage 仓库"></a>创建 GitPage 仓库</h3><p>登录 GitHub,在相关位置输入上文记录的内容。<a href="https://github.com/login" target="_blank" rel="noopener">登录地址</a></p>
+<p><img src="/img/blog/2.png" alt="GitHub 登录界面"></p>
+<p>如图所示，新建仓库，输入相关信息。仓库名（用户名.github.io）为 GitPage 固定写法。<a href="https://github.com/new" target="_blank" rel="noopener">新建仓库地址</a></p>
+<p><img src="/img/gitpage/2.png" alt="仓库创建界面"></p>
+<h3 id="配置config"><a href="#配置config" class="headerlink" title="配置config"></a>配置config</h3><figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># _config.yml</span><br><span class="line"><span class="deletion">- type</span></span><br><span class="line"><span class="addition">+ - type: git</span></span><br><span class="line"><span class="addition">+   repo: git@github.com:DukeBode/DukeBode.github.io.git</span></span><br><span class="line"><span class="addition">+   branch: master</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="/img/gitpage/4.png" alt="config配置"></p>
+<p>git</p>
+<ul>
+<li>install</li>
+</ul>
+<p>GitHub</p>
+<ul>
+<li>账户</li>
+<li>ssh 免密访问</li>
+</ul>
+<p>gitpage</p>
+<ul>
+<li>gitpage 仓库</li>
+</ul>
+<p>hexo-theme</p>
+<p>analytics</p>
+<ul>
+<li>confing</li>
+</ul>
+<p>search</p>
+
+<a href="/2019/0908-blog-env.html">blog-env</a>
+<a href="/2019/0906-latex.html">latex</a>
+
+<script type="text/javascript">
+document.write(document.referrer)
+
+document.write(window.location.search.substr(1).split("&"))
+
+// "MicroMessenger"
+// "AlipayClient"
+// "QQ"
+</script>
+
+<script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
+<script type="text/javascript">
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register("/service-worker.js", {scope: '/'})
+    .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
+    .catch(err => console.log('SW Registration Failed! Error: ', err));
+}
+</script>
+</body>
+</html>

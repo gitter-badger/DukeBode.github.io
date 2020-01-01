@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <base target="_blank" />
+    <link rel="manifest" href="manifest.json">
+<style>
+    html{
+        max-width: 100vh;
+        margin: auto;
+    }
+    img{
+        max-width:100%;
+        align:center;
+    }
+    .highlight {
+        background: #2d2d2d;
+        margin:0;
+        padding: 15px 20px;
+        overflow: auto;
+        color: #ccc;
+    }
+</style>
+<h2 id="shell-语法"><a href="#shell-语法" class="headerlink" title="shell 语法"></a>shell 语法</h2><ul>
+<li>变量声明以“$”开头后跟变量名</li>
+<li>变量名不区分大小写，可包含数字、字母和下划线</li>
+<li>预定义变量</li>
+<li>$null（空值）$true（真值为真）$false（真值为假）$_（当前处理的元素）</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>net share</td>
+<td>查看共享文件</td>
+</tr>
+</tbody></table>
+<h2 id="脚本运行"><a href="#脚本运行" class="headerlink" title="脚本运行"></a>脚本运行</h2><h3 id="运行权限"><a href="#运行权限" class="headerlink" title="运行权限"></a>运行权限</h3><p>Windows 默认不允许任何脚本运行，可以使用”Set-ExecutionPolicy” cmdlet 来改变的你PowerShell环境。例如，你可以使用如下命令让PowerShell运行在无限制的环境之下：</p>
+<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 查看当前脚本运行权限</span></span><br><span class="line">ExecutionPolicy</span><br><span class="line"><span class="comment"># 设置脚本运行权限，允许任何脚本运行</span></span><br><span class="line"><span class="built_in">Set-ExecutionPolicy</span> Unrestricted;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>Restricted——默认的设置， 不允许任何script运行</li>
+<li>AllSigned——只能运行经过数字证书签名的script</li>
+<li>RemoteSigned——运行本地的script不需要数字签名，但是运行从网络上下载的script就必须要有- 数字签名</li>
+<li>Unrestricted——允许所有的script运行</li>
+</ul>
+<p>如果报错，使用管理员的权限启动命令命令行重试。</p>
+<h3 id="java-调用脚本"><a href="#java-调用脚本" class="headerlink" title="java 调用脚本"></a>java 调用脚本</h3><p>使用 java 调用 powershell 脚本，可以使用以下命令：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">String cmd = <span class="string">"cmd /c powershell </span></span><br><span class="line"><span class="string">-ExecutionPolicy RemoteSigned -noprofile </span></span><br><span class="line"><span class="string">-noninteractive -file \""</span>+ scriptFilename + <span class="string">"\""</span>;</span><br></pre></td></tr></table></figure>
+<a href="/2018/0607-%E7%94%B5%E8%84%91%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97.html">电脑新手指南</a>
+<a href="/2018/0526-yiban.html">兰州理工大学易班</a>
+
+<script type="text/javascript">
+document.write(document.referrer)
+
+document.write(window.location.search.substr(1).split("&"))
+
+// "MicroMessenger"
+// "AlipayClient"
+// "QQ"
+</script>
+
+<script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
+<script type="text/javascript">
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register("/service-worker.js", {scope: '/'})
+    .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
+    .catch(err => console.log('SW Registration Failed! Error: ', err));
+}
+</script>
+</body>
+</html>

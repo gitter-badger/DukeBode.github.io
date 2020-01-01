@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <base target="_blank" />
+    <link rel="manifest" href="manifest.json">
+<style>
+    html{
+        max-width: 100vh;
+        margin: auto;
+    }
+    img{
+        max-width:100%;
+        align:center;
+    }
+    .highlight {
+        background: #2d2d2d;
+        margin:0;
+        padding: 15px 20px;
+        overflow: auto;
+        color: #ccc;
+    }
+</style>
+<ul>
+<li><a href="https://mirrors.tuna.tsinghua.edu.cn/" target="_blank" rel="noopener">清华大学开源软件镜像站</a></li>
+<li><a href="http://mirrors.163.com/" target="_blank" rel="noopener">网易开源镜像站</a></li>
+<li><a href="https://mirrors.cloud.tencent.com/" target="_blank" rel="noopener">腾讯云软件源站</a></li>
+<li><a href="https://mirrors.huaweicloud.com/" target="_blank" rel="noopener">华为开源镜像站</a></li>
+<li><a href="https://mirrors.aliyun.com" target="_blank" rel="noopener">阿里巴巴开源镜像站</a></li>
+<li><a href="http://mirrors.ustc.edu.cn/" target="_blank" rel="noopener">中国科学技术大学开源软件镜像</a></li>
+<li><a href="http://mirrors.neusoft.edu.cn/" target="_blank" rel="noopener">东软信息学院开源镜像站</a></li>
+<li><a href="https://mirror.bjtu.edu.cn/" target="_blank" rel="noopener">北京交通大学自由与开源软件镜像站</a></li>
+<li><a href="http://mirrors.zju.edu.cn/" target="_blank" rel="noopener">浙江大学开源镜像站</a></li>
+</ul>
+
+<a href="/2019/0906-latex.html">latex</a>
+<a href="/2019/0815-git.html">git 仓库配置</a>
+
+<script type="text/javascript">
+document.write(document.referrer)
+
+document.write(window.location.search.substr(1).split("&"))
+
+// "MicroMessenger"
+// "AlipayClient"
+// "QQ"
+</script>
+
+<script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
+<script type="text/javascript">
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register("/service-worker.js", {scope: '/'})
+    .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
+    .catch(err => console.log('SW Registration Failed! Error: ', err));
+}
+</script>
+</body>
+</html>

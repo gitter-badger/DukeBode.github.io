@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <base target="_blank" />
+    <link rel="manifest" href="manifest.json">
+<style>
+    html{
+        max-width: 100vh;
+        margin: auto;
+    }
+    img{
+        max-width:100%;
+        align:center;
+    }
+    .highlight {
+        background: #2d2d2d;
+        margin:0;
+        padding: 15px 20px;
+        overflow: auto;
+        color: #ccc;
+    }
+</style>
+<p>0 系统的选择及安装<br>1 联网，请备好网线<br>2 浏览器的使用<br>3 我的电脑，配置系统文件<br>4 软件安装及卸载<br>5 拒绝广告和病毒<br>6 快捷键及shell基础<br>7 浅谈自学知识<br>8 电脑是工具，不是玩具<br>9 必经之路，交流经验</p>
+<ul>
+<li>电脑的保养及维护技巧</li>
+</ul>
+
+<a href="/2018/0611-SSH.html">SSH 配置</a>
+<a href="/2018/0603-powershell.html">PowerShell笔记</a>
+
+<script type="text/javascript">
+document.write(document.referrer)
+
+document.write(window.location.search.substr(1).split("&"))
+
+// "MicroMessenger"
+// "AlipayClient"
+// "QQ"
+</script>
+
+<script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
+<script type="text/javascript">
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register("/service-worker.js", {scope: '/'})
+    .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
+    .catch(err => console.log('SW Registration Failed! Error: ', err));
+}
+</script>
+</body>
+</html>

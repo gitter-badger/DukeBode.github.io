@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <base target="_blank" />
+    <link rel="manifest" href="manifest.json">
+<style>
+    html{
+        max-width: 100vh;
+        margin: auto;
+    }
+    img{
+        max-width:100%;
+        align:center;
+    }
+    .highlight {
+        background: #2d2d2d;
+        margin:0;
+        padding: 15px 20px;
+        overflow: auto;
+        color: #ccc;
+    }
+</style>
+<h1 id="网页结构"><a href="#网页结构" class="headerlink" title="网页结构"></a>网页结构</h1><blockquote>
+<p>网页结构一般都包含文档声明DOCTYPE，并且在head中的meta应该包含编码格式、关键字、网页描述信息。简单格式如下：</p>
+</blockquote>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Hello World<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>JD首页的meta声明包含：</p>
+<ul>
+<li>charset 编码格式</li>
+<li>description网站描述</li>
+<li>Keywords关键字</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt; <span class="attr">meta</span> <span class="attr">charset</span>=<span class="string">"gbk"</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt; <span class="attr">meta</span> <span class="attr">name</span>=<span class="string">"description"</span> <span class="attr">content</span>=<span class="string">"京东JD.COM-专业的综合网上购物商城,销售家电等数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物体验!"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt; <span class="attr">meta</span> <span class="attr">name</span>=<span class="string">"Keywords"</span> <span class="attr">content</span>=<span class="string">"网上购物,网上商城,手机,笔记本,电脑"</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="文字类元素"><a href="#文字类元素" class="headerlink" title="文字类元素"></a>文字类元素</h2><p>（1）加粗元素：strong、b。例如：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt; <span class="attr">p</span>&gt;</span><span class="tag">&lt; <span class="attr">strong</span>&gt;</span>Caution:<span class="tag">&lt; /<span class="attr">strong</span>&gt;</span> Falling rocks.<span class="tag">&lt; /<span class="attr">p</span>&gt;</span><span class="tag">&lt; <span class="attr">p</span>&gt;</span>This recipe calls for <span class="tag">&lt; <span class="attr">b</span>&gt;</span>bacon<span class="tag">&lt; /<span class="attr">b</span>&gt;</span> and <span class="tag">&lt; <span class="attr">b</span>&gt;</span>baconnaise<span class="tag">&lt; /<span class="attr">b</span>&gt;</span>.<span class="tag">&lt; /<span class="attr">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>（2）倾斜元素：和。例如：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt; !<span class="attr">--</span> <span class="attr">Stressed</span> <span class="attr">emphasis</span> <span class="attr">--</span> &gt;</span></span><br><span class="line"><span class="tag">&lt; <span class="attr">p</span>&gt;</span>I <span class="tag">&lt; <span class="attr">em</span>&gt;</span>love<span class="tag">&lt; /<span class="attr">em</span>&gt;</span> Chicago!<span class="tag">&lt; /<span class="attr">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt; !<span class="attr">--</span> <span class="attr">Alternative</span> <span class="attr">voice</span> <span class="attr">or</span> <span class="attr">tone</span> <span class="attr">--</span>&gt;</span></span><br><span class="line"><span class="tag">&lt; <span class="attr">p</span>&gt;</span>The name <span class="tag">&lt; <span class="attr">i</span>&gt;</span>Shay<span class="tag">&lt; /<span class="attr">i</span>&gt;</span> means a gift.<span class="tag">&lt; /<span class="attr">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="自关闭元素"><a href="#自关闭元素" class="headerlink" title="自关闭元素"></a>自关闭元素</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt; <span class="attr">br</span>&gt;</span></span><br><span class="line"><span class="tag">&lt; <span class="attr">embed</span>&gt;</span></span><br><span class="line"><span class="tag">&lt; <span class="attr">hr</span>&gt;</span></span><br><span class="line"><span class="tag">&lt; <span class="attr">img</span>&gt;</span></span><br><span class="line"><span class="tag">&lt; <span class="attr">input</span>&gt;</span></span><br><span class="line"><span class="tag">&lt; <span class="attr">link</span>&gt;</span></span><br><span class="line"><span class="tag">&lt; <span class="attr">meta</span>&gt;</span></span><br><span class="line"><span class="tag">&lt; <span class="attr">param</span>&gt;</span></span><br><span class="line"><span class="tag">&lt; <span class="attr">source</span>&gt;</span></span><br><span class="line"><span class="tag">&lt; <span class="attr">wbr</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="页面内跳转"><a href="#页面内跳转" class="headerlink" title="页面内跳转"></a>页面内跳转</h2><p>如果需要跳转到页面指定的位置，可在该位置设置元素的id属性，然后为链接添加href=”#id”。例如：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt; <span class="attr">body</span> <span class="attr">id</span>=<span class="string">"top"</span> &gt;</span></span><br><span class="line">...</span><br><span class="line"><span class="tag">&lt; <span class="attr">a</span> <span class="attr">href</span>=<span class="string">"#top"</span> &gt;</span>Back to top<span class="tag">&lt; /<span class="attr">a</span> &gt;</span></span><br><span class="line">...</span><br><span class="line"><span class="tag">&lt; /<span class="attr">body</span> &gt;</span></span><br></pre></td></tr></table></figure>
+
+<a href="/2019/0607-%E7%A8%8B%E5%BA%8F%E6%89%A7%E8%A1%8C%E7%8E%AF%E5%A2%83.html">程序执行环境</a>
+<a href="/2019/0531-Screenshot.html">Screenshot 截图其实很简单</a>
+
+<script type="text/javascript">
+document.write(document.referrer)
+
+document.write(window.location.search.substr(1).split("&"))
+
+// "MicroMessenger"
+// "AlipayClient"
+// "QQ"
+</script>
+
+<script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
+<script type="text/javascript">
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register("/service-worker.js", {scope: '/'})
+    .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
+    .catch(err => console.log('SW Registration Failed! Error: ', err));
+}
+</script>
+</body>
+</html>

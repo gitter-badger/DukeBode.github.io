@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <base target="_blank" />
+    <link rel="manifest" href="manifest.json">
+<style>
+    html{
+        max-width: 100vh;
+        margin: auto;
+    }
+    img{
+        max-width:100%;
+        align:center;
+    }
+    .highlight {
+        background: #2d2d2d;
+        margin:0;
+        padding: 15px 20px;
+        overflow: auto;
+        color: #ccc;
+    }
+</style>
+<h2 id="程序注释"><a href="#程序注释" class="headerlink" title="程序注释"></a>程序注释</h2><ul>
+<li>“;”开头，右边为注释内容</li>
+</ul>
+<h2 id="保留字"><a href="#保留字" class="headerlink" title="保留字"></a>保留字</h2><ul>
+<li>指令</li>
+<li>伪操作</li>
+<li>操作符</li>
+<li>预定义符号</li>
+</ul>
+<h1 id="符号指令系统"><a href="#符号指令系统" class="headerlink" title="符号指令系统"></a>符号指令系统</h1><table>
+<thead>
+<tr>
+<th>指令</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>ADC</td>
+<td>带进位加法(and with carry)</td>
+</tr>
+<tr>
+<td>ADD</td>
+<td>二进制数加法(add)</td>
+</tr>
+<tr>
+<td>DEC</td>
+<td>减一(decrease 1)</td>
+</tr>
+<tr>
+<td>DIV</td>
+<td>无符号数除法(divide)</td>
+</tr>
+<tr>
+<td>IDIV</td>
+<td>带符号数整数除法(integer divide)</td>
+</tr>
+<tr>
+<td>IMUL</td>
+<td>带符号数整数乘法(integer multiplication)</td>
+</tr>
+<tr>
+<td>INC</td>
+<td>加一(increase 1)</td>
+</tr>
+<tr>
+<td>MUL</td>
+<td>无符号数乘法(multiplication)</td>
+</tr>
+<tr>
+<td>NEG</td>
+<td>求补(negative)</td>
+</tr>
+<tr>
+<td>SBB</td>
+<td>带借位减法(substract with borrow)</td>
+</tr>
+<tr>
+<td>SUB</td>
+<td>二进制减法(substact)</td>
+</tr>
+<tr>
+<td>XADD</td>
+<td>交换并相加</td>
+</tr>
+</tbody></table>
+
+<a href="/2018/1117-python.html">Python 3.x</a>
+<a href="/2018/1110-asm-base.html">asm-base</a>
+
+<script type="text/javascript">
+document.write(document.referrer)
+
+document.write(window.location.search.substr(1).split("&"))
+
+// "MicroMessenger"
+// "AlipayClient"
+// "QQ"
+</script>
+
+<script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
+<script type="text/javascript">
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register("/service-worker.js", {scope: '/'})
+    .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
+    .catch(err => console.log('SW Registration Failed! Error: ', err));
+}
+</script>
+</body>
+</html>

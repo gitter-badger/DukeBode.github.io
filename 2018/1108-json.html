@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <base target="_blank" />
+    <link rel="manifest" href="manifest.json">
+<style>
+    html{
+        max-width: 100vh;
+        margin: auto;
+    }
+    img{
+        max-width:100%;
+        align:center;
+    }
+    .highlight {
+        background: #2d2d2d;
+        margin:0;
+        padding: 15px 20px;
+        overflow: auto;
+        color: #ccc;
+    }
+</style>
+<p>JSON(JavaScript Object Notation) 是一种轻量级数据交换格式，可以对复杂数据进行表达和存储，易于阅读和理解。</p>
+<h1 id="规则"><a href="#规则" class="headerlink" title="规则"></a>规则</h1><ol>
+<li>数据保存在键值对中</li>
+<li>键值对之间由逗号分割</li>
+<li>花括号用于保存键值对数据组成的对象</li>
+<li>方括号用于保存键值对数据组成的数组</li>
+</ol>
+<ul>
+<li>采用对象、数组方式组织起来的键值对可以表示任何结构的数据</li>
+<li>JSON 格式是互联网上主要使用的复杂数据格式之一</li>
+</ul>
+
+<a href="/2018/1108-nginx.html">nginx</a>
+<a href="/2018/0822-shell.html">shell</a>
+
+<script type="text/javascript">
+document.write(document.referrer)
+
+document.write(window.location.search.substr(1).split("&"))
+
+// "MicroMessenger"
+// "AlipayClient"
+// "QQ"
+</script>
+
+<script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
+<script type="text/javascript">
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register("/service-worker.js", {scope: '/'})
+    .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
+    .catch(err => console.log('SW Registration Failed! Error: ', err));
+}
+</script>
+</body>
+</html>

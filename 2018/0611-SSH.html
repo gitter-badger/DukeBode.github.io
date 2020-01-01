@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <base target="_blank" />
+    <link rel="manifest" href="manifest.json">
+<style>
+    html{
+        max-width: 100vh;
+        margin: auto;
+    }
+    img{
+        max-width:100%;
+        align:center;
+    }
+    .highlight {
+        background: #2d2d2d;
+        margin:0;
+        padding: 15px 20px;
+        overflow: auto;
+        color: #ccc;
+    }
+</style>
+<h2 id="口令登录"><a href="#口令登录" class="headerlink" title="口令登录"></a>口令登录</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh [-p 22] [user@]host</span><br></pre></td></tr></table></figure>
+
+<p>说明：</p>
+<ul>
+<li>默认端口22可省略</li>
+<li>用户名与本地用户名相同时可省略</li>
+</ul>
+<h2 id="公钥登录"><a href="#公钥登录" class="headerlink" title="公钥登录"></a>公钥登录</h2><pre><code>1. 生成公钥</code></pre><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 格式 </span></span><br><span class="line"><span class="comment"># ssh-keygen -t rsa -C "通常为邮箱" -f "私钥文件绝对路径"</span></span><br><span class="line">ssh-keygen</span><br></pre></td></tr></table></figure>
+
+<p>说明：</p>
+<ul>
+<li>私钥口令 passphrase，若担心私钥的安全，设置一个</li>
+<li>公钥 id_rsa.pub，私约 id_rsa<ol start="2">
+<li>复制公钥至主机</li>
+</ol>
+</li>
+</ul>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-copy-id user@host</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">host ecs（主机别名）</span><br><span class="line">HostName 主机地址</span><br><span class="line">User 用户名</span><br><span class="line">Port 22（sshd 端口号）</span><br><span class="line">IdentitiesOnly yes</span><br><span class="line">IdentityFile 私钥路径</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">PermitRootLogin yes</span><br></pre></td></tr></table></figure>
+<a href="/2018/0718-python-Django.html">Django 部署</a>
+<a href="/2018/0607-%E7%94%B5%E8%84%91%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97.html">电脑新手指南</a>
+
+<script type="text/javascript">
+document.write(document.referrer)
+
+document.write(window.location.search.substr(1).split("&"))
+
+// "MicroMessenger"
+// "AlipayClient"
+// "QQ"
+</script>
+
+<script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
+<script type="text/javascript">
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register("/service-worker.js", {scope: '/'})
+    .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
+    .catch(err => console.log('SW Registration Failed! Error: ', err));
+}
+</script>
+</body>
+</html>

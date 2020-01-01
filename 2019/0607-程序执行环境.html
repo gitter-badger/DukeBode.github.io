@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <base target="_blank" />
+    <link rel="manifest" href="manifest.json">
+<style>
+    html{
+        max-width: 100vh;
+        margin: auto;
+    }
+    img{
+        max-width:100%;
+        align:center;
+    }
+    .highlight {
+        background: #2d2d2d;
+        margin:0;
+        padding: 15px 20px;
+        overflow: auto;
+        color: #ccc;
+    }
+</style>
+<h2 id="参数列表"><a href="#参数列表" class="headerlink" title="参数列表"></a>参数列表</h2><p>linux 命令行规范</p>
+<ol>
+<li>短参数：以单横开头，后跟单一字符，例如：<code>ls -h</code></li>
+<li>长参数：以双横开头，后跟字符串，例如：<code>ls -help</code></li>
+</ol>
+<p>程序访问参数列表的方法</p>
+<ol>
+<li>主函数的参数<code>argc</code>和<code>argv</code></li>
+<li>程序接受命令行的输入参数，并解释</li>
+</ol>
+<h2 id="环境变量"><a href="#环境变量" class="headerlink" title="环境变量"></a>环境变量</h2><ul>
+<li>程序推出码</li>
+<li>系统调用错误处理</li>
+<li>资源管理</li>
+<li>系统日志</li>
+<li>用户信息</li>
+</ul>
+
+<a href="/2019/0607-mariadb.html">mariadb</a>
+<a href="/2019/0607-%E7%BD%91%E9%A1%B5%E7%BB%93%E6%9E%84.html">网页结构</a>
+
+<script type="text/javascript">
+document.write(document.referrer)
+
+document.write(window.location.search.substr(1).split("&"))
+
+// "MicroMessenger"
+// "AlipayClient"
+// "QQ"
+</script>
+
+<script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
+<script type="text/javascript">
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register("/service-worker.js", {scope: '/'})
+    .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
+    .catch(err => console.log('SW Registration Failed! Error: ', err));
+}
+</script>
+</body>
+</html>

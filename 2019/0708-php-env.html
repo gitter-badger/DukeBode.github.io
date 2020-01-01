@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <base target="_blank" />
+    <link rel="manifest" href="manifest.json">
+<style>
+    html{
+        max-width: 100vh;
+        margin: auto;
+    }
+    img{
+        max-width:100%;
+        align:center;
+    }
+    .highlight {
+        background: #2d2d2d;
+        margin:0;
+        padding: 15px 20px;
+        overflow: auto;
+        color: #ccc;
+    }
+</style>
+<h2 id="环境说明"><a href="#环境说明" class="headerlink" title="环境说明"></a>环境说明</h2><ul>
+<li>CentOS 7</li>
+</ul>
+<h2 id="源码安装-libiconv"><a href="#源码安装-libiconv" class="headerlink" title="源码安装 libiconv"></a>源码安装 libiconv</h2><p><a href="http://www.gnu.org/software/libiconv/" target="_blank" rel="noopener">官网</a></p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 切换至程序源代码目录</span></span><br><span class="line"><span class="built_in">cd</span> /usr/src</span><br><span class="line"><span class="comment"># 下载 libiconv</span></span><br><span class="line">wget https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.16.tar.gz</span><br><span class="line"><span class="comment"># 解压</span></span><br><span class="line">tar -zxvf libiconv-1.16.tar.gz </span><br><span class="line"><span class="comment"># 配置</span></span><br><span class="line">./configure --prefix=/usr/<span class="built_in">local</span>/libiconv</span><br><span class="line"><span class="comment"># 编译并安装</span></span><br><span class="line">make &amp;&amp; make install</span><br></pre></td></tr></table></figure>
+
+<h2 id="源码安装-php7"><a href="#源码安装-php7" class="headerlink" title="源码安装 php7"></a>源码安装 php7</h2><p><a href="https://www.php.net/" target="_blank" rel="noopener">官网</a></p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 切换至程序源代码目录</span></span><br><span class="line"><span class="built_in">cd</span> /usr/src</span><br><span class="line"><span class="comment"># 删除旧版本</span></span><br><span class="line">rm -rf php-7.*</span><br><span class="line"><span class="comment"># 下载 php</span></span><br><span class="line">wget https://www.php.net/distributions/php-7.3.8.tar.gz</span><br><span class="line"><span class="comment"># 解压</span></span><br><span class="line">tar -zxvf php-7.3.8.tar.gz</span><br><span class="line"><span class="comment"># 删除压缩包</span></span><br><span class="line">rm php-7.3.8.tar.gz</span><br><span class="line"><span class="comment"># 切换至 php 目录</span></span><br><span class="line"><span class="built_in">cd</span> php-7.3.8</span><br><span class="line"><span class="comment"># 配置 makefile 脚本</span></span><br><span class="line">./configure</span><br><span class="line">--prefix=/usr/<span class="built_in">local</span>/php <span class="comment"># 程序目录</span></span><br><span class="line">--with-iconv=/usr/<span class="built_in">local</span>/libiconv</span><br><span class="line">--<span class="built_in">enable</span>-fpm <span class="comment"># fastcgi 方式运行</span></span><br><span class="line">--with-pdo-mysql <span class="comment"># mysql 数据库</span></span><br><span class="line">--with-curl</span><br><span class="line">--with-zlib</span><br></pre></td></tr></table></figure>
+
+<p>脚本配置成功</p>
+<p><img src="/img/php/1.png" alt="脚本配置成功界面"></p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># make 检查，可省略</span></span><br><span class="line">make <span class="built_in">test</span></span><br><span class="line"><span class="comment"># 杀死全部 php-fpm 进程</span></span><br><span class="line">killall php-fpm</span><br><span class="line"><span class="comment"># 编译并安装</span></span><br><span class="line">make &amp;&amp; make install</span><br><span class="line"><span class="comment"># 切换 php 目录</span></span><br><span class="line"><span class="built_in">cd</span> /usr/<span class="built_in">local</span>/php/</span><br><span class="line"><span class="comment"># 复制 php.ini 配置文件</span></span><br><span class="line">cp /usr/src/php-7.3.8/php.ini-production lib/php.ini</span><br><span class="line"><span class="comment"># 复制 nginx 配置文件</span></span><br><span class="line">cp etc/php-fpm.conf.default etc/php-fpm.conf</span><br><span class="line"><span class="comment"># 复制配置文件</span></span><br><span class="line">cp etc/php-fpm.d/www.conf.default etc/php-fpm.d/www.conf</span><br><span class="line"><span class="comment"># 启动php-fpm</span></span><br><span class="line">./sbin/php-fpm</span><br><span class="line"><span class="comment"># 确认php-fpm成功</span></span><br><span class="line">ps aux | grep php</span><br><span class="line"><span class="comment"># 查看占用端口</span></span><br><span class="line">netstat -anpo | grep php</span><br></pre></td></tr></table></figure>
+
+<h3 id="phpinfo-php"><a href="#phpinfo-php" class="headerlink" title="phpinfo.php"></a>phpinfo.php</h3><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line">    phpinfo();</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="nginx-conf"><a href="#nginx-conf" class="headerlink" title="nginx.conf"></a>nginx.conf</h4><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">location</span> <span class="regexp">~ \.php$</span> &#123;</span><br><span class="line">  <span class="attribute">root</span> /www/php; <span class="comment">#指定php的根目录</span></span><br><span class="line">  <span class="attribute">fastcgi_pass</span> <span class="number">127.0.0.1:9000</span>;<span class="comment">#php-fpm的默认端口是9000</span></span><br><span class="line">  <span class="attribute">fastcgi_index</span> index.php;</span><br><span class="line">  <span class="attribute">fastcgi_param</span> SCRIPT_FILENAME <span class="variable">$document_root</span><span class="variable">$fastcgi_script_name</span>;</span><br><span class="line">  <span class="attribute">include</span> fastcgi_params;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="配置-php-模块"><a href="#配置-php-模块" class="headerlink" title="配置 php 模块"></a>配置 php 模块</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 查看当前已加载模块</span></span><br><span class="line">/usr/<span class="built_in">local</span>/php/bin/php -m</span><br><span class="line"><span class="comment"># 切换至相应的模块源码目录</span></span><br><span class="line"><span class="built_in">cd</span> /usr/src/php-7.3.8/ext/curl/</span><br><span class="line"><span class="comment">#  设置软链接，防止头文件找不到的问题（类似问题同解）</span></span><br><span class="line">ln -s /usr/src/php-7.3.8/ext/ ./ext</span><br><span class="line"><span class="comment"># 执行 phpize</span></span><br><span class="line">/usr/<span class="built_in">local</span>/php/bin/phpize</span><br><span class="line"><span class="comment"># 配置</span></span><br><span class="line">./configure -with-php-config=/usr/<span class="built_in">local</span>/php/bin/php-config</span><br><span class="line"><span class="comment"># 编译</span></span><br><span class="line">make &amp;&amp; make install</span><br><span class="line"><span class="comment"># 查看对应的 so 文件</span></span><br><span class="line">ls /usr/<span class="built_in">local</span>/php/lib/php/extensions/no-debug-non-zts-20180731/</span><br><span class="line"><span class="comment"># 编辑配置文件，可通过 phpinfo 函数查找文件位置</span></span><br><span class="line">vi /usr/<span class="built_in">local</span>/php/lib/php.ini</span><br><span class="line"><span class="comment"># 重启 php</span></span><br><span class="line">/usr/<span class="built_in">local</span>/php/sbin/php-fpm restart</span><br></pre></td></tr></table></figure>
+
+<p>编译安装可指定php.ini的路劲(多PHP版本共存的情况)<br>–with-config-file-path=/usr/local/php/etc</p>
+<h2 id="配置文件"><a href="#配置文件" class="headerlink" title="配置文件"></a>配置文件</h2><hr>
+<ul>
+<li>wget 的使用</li>
+<li>tar 的使用</li>
+<li>configure 的使用</li>
+<li>make 的使用</li>
+</ul>
+<hr>
+<p>./configure<br>–prefix=/usr/local/php –with-iconv=/usr/local/libiconv –enable-fpm –with-pdo-mysql </p>
+
+<a href="/2019/0708-gvim.html">gvim</a>
+<a href="/2019/0611-Chrome%E7%9A%84%E4%BD%BF%E7%94%A8.html">Chrome的使用</a>
+
+<script type="text/javascript">
+document.write(document.referrer)
+
+document.write(window.location.search.substr(1).split("&"))
+
+// "MicroMessenger"
+// "AlipayClient"
+// "QQ"
+</script>
+
+<script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
+<script type="text/javascript">
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register("/service-worker.js", {scope: '/'})
+    .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
+    .catch(err => console.log('SW Registration Failed! Error: ', err));
+}
+</script>
+</body>
+</html>

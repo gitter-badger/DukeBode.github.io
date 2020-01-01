@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <base target="_blank" />
+    <link rel="manifest" href="manifest.json">
+<style>
+    html{
+        max-width: 100vh;
+        margin: auto;
+    }
+    img{
+        max-width:100%;
+        align:center;
+    }
+    .highlight {
+        background: #2d2d2d;
+        margin:0;
+        padding: 15px 20px;
+        overflow: auto;
+        color: #ccc;
+    }
+</style>
+<ol>
+<li>信息的时效性<ol>
+<li>链接、静态的链接二维码<ul>
+<li>非一次性链接应说明年限</li>
+<li>系统应当对过期链接重新认证</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>不干就不胁迫<ol>
+<li>微信链接及二维码<ul>
+<li>不是每个浏览器都认微信，但微信可以打开所有浏览器</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+
+<a href="/2017/0907-html.html">html</a>
+<a href="/2017/0611-college-app.html">易班动态</a>
+
+<script type="text/javascript">
+document.write(document.referrer)
+
+document.write(window.location.search.substr(1).split("&"))
+
+// "MicroMessenger"
+// "AlipayClient"
+// "QQ"
+</script>
+
+<script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
+<script type="text/javascript">
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register("/service-worker.js", {scope: '/'})
+    .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
+    .catch(err => console.log('SW Registration Failed! Error: ', err));
+}
+</script>
+</body>
+</html>

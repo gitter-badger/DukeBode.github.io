@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <base target="_blank" />
+    <link rel="manifest" href="manifest.json">
+<style>
+    html{
+        max-width: 100vh;
+        margin: auto;
+    }
+    img{
+        max-width:100%;
+        align:center;
+    }
+    .highlight {
+        background: #2d2d2d;
+        margin:0;
+        padding: 15px 20px;
+        overflow: auto;
+        color: #ccc;
+    }
+</style>
+<h2 id="配置内核"><a href="#配置内核" class="headerlink" title="配置内核"></a>配置内核</h2><p><a href="https://github.com/jupyter/jupyter/wiki/Jupyter-kernels" target="_blank" rel="noopener">Jupyter kernels</a></p>
+<h2 id="设置默认起始目录"><a href="#设置默认起始目录" class="headerlink" title="设置默认起始目录"></a>设置默认起始目录</h2><ol>
+<li>使用 shell 打开配置文件</li>
+</ol>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 获取默认配置文件路径，有配置的同学请按 N。</span></span><br><span class="line">jupyter notebook --generate-config</span><br><span class="line"><span class="comment"># vim 编辑配置文件，Windows下没有也可以用 start。</span></span><br><span class="line">vim ~/.jupyter/jupyter_notebook_config.py</span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li>取消<code>c.NotebookApp.notebook_dir</code>注释，即删除行前<code>#</code>符号</li>
+<li>将要设置的默认起始目录填入后面的引号之中。</li>
+</ol>
+
+<a href="/2019/0729-vscode.html">vscode</a>
+<a href="/2019/0709-%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.html">汇编语言环境搭建</a>
+
+<script type="text/javascript">
+document.write(document.referrer)
+
+document.write(window.location.search.substr(1).split("&"))
+
+// "MicroMessenger"
+// "AlipayClient"
+// "QQ"
+</script>
+
+<script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
+<script type="text/javascript">
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register("/service-worker.js", {scope: '/'})
+    .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
+    .catch(err => console.log('SW Registration Failed! Error: ', err));
+}
+</script>
+</body>
+</html>

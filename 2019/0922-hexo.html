@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <base target="_blank" />
+    <link rel="manifest" href="manifest.json">
+<style>
+    html{
+        max-width: 100vh;
+        margin: auto;
+    }
+    img{
+        max-width:100%;
+        align:center;
+    }
+    .highlight {
+        background: #2d2d2d;
+        margin:0;
+        padding: 15px 20px;
+        overflow: auto;
+        color: #ccc;
+    }
+</style>
+<blockquote>
+<p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
+</blockquote>
+<h2 id="初始化博客环境"><a href="#初始化博客环境" class="headerlink" title="初始化博客环境"></a>初始化博客环境</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog</span><br></pre></td></tr></table></figure>
+
+<h2 id="404-页面"><a href="#404-页面" class="headerlink" title="404 页面"></a>404 页面</h2><p>source 目录下新建 404.md 文件</p>
+<figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">script</span>&gt;</span></span></span><br><span class="line">location.href="https://dukebode.github.io/";</span><br><span class="line"><span class="xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+<h2 id="主题设置"><a href="#主题设置" class="headerlink" title="主题设置"></a>主题设置</h2><h2 id="git-部署"><a href="#git-部署" class="headerlink" title="git 部署"></a>git 部署</h2><p>配置config</p>
+<figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">_config.yml</span><br><span class="line"><span class="deletion">- type</span></span><br><span class="line"><span class="addition">+ - type: git</span></span><br><span class="line"><span class="addition">+   repo: git@github.com:DukeBode/DukeBode.github.io.git</span></span><br><span class="line"><span class="addition">+   branch: master</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 安装插件</span></span><br><span class="line">yarn add hexo-deployer-git</span><br><span class="line"><span class="comment"># 部署</span></span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+<h2 id="git-备份"><a href="#git-备份" class="headerlink" title="git 备份"></a>git 备份</h2><p>我们将采用 gitpage 的 backup 分支来备份</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># git 仓库</span></span><br><span class="line">git init</span><br><span class="line"><span class="comment"># 添加文件</span></span><br><span class="line">git add *</span><br><span class="line"><span class="comment"># 提交至版本库</span></span><br><span class="line">git commit -m <span class="string">"hexo backup"</span></span><br><span class="line"><span class="comment"># 添加远程仓库</span></span><br><span class="line">git remote add origin git@github.com:DukeBode/DukeBode.github.io.git</span><br><span class="line"><span class="comment"># 创建 backup 分支</span></span><br><span class="line">git branch backup</span><br><span class="line"><span class="comment"># 切换 backup 分支</span></span><br><span class="line">git checkout backup</span><br><span class="line"><span class="comment"># 删除 master 分支</span></span><br><span class="line">git branch -d master</span><br><span class="line"><span class="comment"># 推送 backup 分支</span></span><br><span class="line">git push -u origin backup</span><br></pre></td></tr></table></figure>
+
+<h2 id="git-恢复"><a href="#git-恢复" class="headerlink" title="git 恢复"></a>git 恢复</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> -b backup git@github.com:DukeBode/DukeBode.github.io.git blog</span><br></pre></td></tr></table></figure>
+
+<h2 id="多机编写"><a href="#多机编写" class="headerlink" title="多机编写"></a>多机编写</h2><h2 id="网站地图"><a href="#网站地图" class="headerlink" title="网站地图"></a>网站地图</h2><blockquote>
+<p>为搜索引擎提供搜索依据</p>
+</blockquote>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yarn add hexo-generator-sitemap</span><br></pre></td></tr></table></figure>
+
+<h2 id="RSS-订阅"><a href="#RSS-订阅" class="headerlink" title="RSS 订阅"></a>RSS 订阅</h2><blockquote>
+<p>方便用户订阅</p>
+</blockquote>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yarn add hexo-generator-feed</span><br></pre></td></tr></table></figure>
+
+<h2 id="评论"><a href="#评论" class="headerlink" title="评论"></a>评论</h2><ul>
+<li>gitalk</li>
+</ul>
+
+<a href="/2019/1021-python-win.html">python_win</a>
+<a href="/2019/0908-blog-env.html">blog-env</a>
+
+<script type="text/javascript">
+document.write(document.referrer)
+
+document.write(window.location.search.substr(1).split("&"))
+
+// "MicroMessenger"
+// "AlipayClient"
+// "QQ"
+</script>
+
+<script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
+<script type="text/javascript">
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register("/service-worker.js", {scope: '/'})
+    .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
+    .catch(err => console.log('SW Registration Failed! Error: ', err));
+}
+</script>
+</body>
+</html>

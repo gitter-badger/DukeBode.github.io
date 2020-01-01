@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <base target="_blank" />
+    <link rel="manifest" href="manifest.json">
+<style>
+    html{
+        max-width: 100vh;
+        margin: auto;
+    }
+    img{
+        max-width:100%;
+        align:center;
+    }
+    .highlight {
+        background: #2d2d2d;
+        margin:0;
+        padding: 15px 20px;
+        overflow: auto;
+        color: #ccc;
+    }
+</style>
+<p><a href="https://hexo.io/" target="_blank" rel="noopener">hexo 官网</a></p>
+<h2 id="软件-插件"><a href="#软件-插件" class="headerlink" title="软件/插件"></a>软件/插件</h2><p><a href="https://nodejs.org" target="_blank" rel="noopener">NodeJS 官网</a> |<br><a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VSCode 官网</a> |<br><a href="https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans" target="_blank" rel="noopener">VSCode 中文插件</a> |<br><a href="https://marketplace.visualstudio.com/items?itemName=codeyu.vscode-hexo" target="_blank" rel="noopener">VSCode Hexo 插件</a></p>
+<ul>
+<li>依次到相应官网下载相应软件并自行安装</li>
+<li>插件安装时需要打开 VScode</li>
+<li>shell 执行<br><code>npm install hexo-cli -g</code> 命令安装  hexo-cli</li>
+</ul>
+<h2 id="记事本"><a href="#记事本" class="headerlink" title="记事本"></a>记事本</h2><p>首行 .LOG</p>
+
+<a href="/2019/0815-git.html">git 仓库配置</a>
+<a href="/2019/0807-wordpress.html">wordpress</a>
+
+<script type="text/javascript">
+document.write(document.referrer)
+
+document.write(window.location.search.substr(1).split("&"))
+
+// "MicroMessenger"
+// "AlipayClient"
+// "QQ"
+</script>
+
+<script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
+<script type="text/javascript">
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register("/service-worker.js", {scope: '/'})
+    .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
+    .catch(err => console.log('SW Registration Failed! Error: ', err));
+}
+</script>
+</body>
+</html>

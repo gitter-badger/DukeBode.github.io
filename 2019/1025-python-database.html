@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <base target="_blank" />
+    <link rel="manifest" href="manifest.json">
+<style>
+    html{
+        max-width: 100vh;
+        margin: auto;
+    }
+    img{
+        max-width:100%;
+        align:center;
+    }
+    .highlight {
+        background: #2d2d2d;
+        margin:0;
+        padding: 15px 20px;
+        overflow: auto;
+        color: #ccc;
+    }
+</style>
+<table>
+<thead>
+<tr>
+<th>DATABASE</th>
+<th>Python DB-API</th>
+<th>INSTALL</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>SQLite</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>MongoDB</td>
+<td><a href="https://api.mongodb.com/python/current" target="_blank" rel="noopener">PyMongo</a></td>
+<td>pip install pymongo</td>
+</tr>
+<tr>
+<td>Oracle</td>
+<td><a href="https://oracle.github.io/python-cx_Oracle/" target="_blank" rel="noopener">cx-Oracle</a></td>
+<td>pip install cx-Oracle</td>
+</tr>
+<tr>
+<td>DB2</td>
+<td><a href="https://github.com/ibmdb/python-ibmdb" target="_blank" rel="noopener">ibm-db</a></td>
+<td>pip install ibm-db</td>
+</tr>
+<tr>
+<td>SQL Server</td>
+<td><a href="https://github.com/pymssql/pymssql" target="_blank" rel="noopener">pymssql</a></td>
+<td>pip install pymssql</td>
+</tr>
+<tr>
+<td>MySQL</td>
+<td><a href="https://dev.mysql.com/doc/connector-python/en/" target="_blank" rel="noopener">mysql-connector-python</a></td>
+<td>pip install mysql-connector-python</td>
+</tr>
+<tr>
+<td>PostgreSQL</td>
+<td><a href="http://initd.org/psycopg/docs/" target="_blank" rel="noopener">psycopg2</a></td>
+<td>pip install psycopg2</td>
+</tr>
+<tr>
+<td>PostgreSQL</td>
+<td><a href="http://www.pygresql.org/contents/index.html" target="_blank" rel="noopener">PyGreSQL</a></td>
+<td>pip install PyGreSQL</td>
+</tr>
+</tbody></table>
+
+<a href="/2019/1109-python-wheel.html">python-wheel</a>
+<a href="/2019/1021-python-win.html">python_win</a>
+
+<script type="text/javascript">
+document.write(document.referrer)
+
+document.write(window.location.search.substr(1).split("&"))
+
+// "MicroMessenger"
+// "AlipayClient"
+// "QQ"
+</script>
+
+<script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
+<script type="text/javascript">
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register("/service-worker.js", {scope: '/'})
+    .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
+    .catch(err => console.log('SW Registration Failed! Error: ', err));
+}
+</script>
+</body>
+</html>

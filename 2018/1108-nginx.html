@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <base target="_blank" />
+    <link rel="manifest" href="manifest.json">
+<style>
+    html{
+        max-width: 100vh;
+        margin: auto;
+    }
+    img{
+        max-width:100%;
+        align:center;
+    }
+    .highlight {
+        background: #2d2d2d;
+        margin:0;
+        padding: 15px 20px;
+        overflow: auto;
+        color: #ccc;
+    }
+</style>
+<p><a href="https://www.nginx.com/" target="_blank" rel="noopener">官网</a></p>
+<h1 id="版本简介"><a href="#版本简介" class="headerlink" title="版本简介"></a>版本简介</h1><ul>
+<li>Mainline 主线开发版本，版本号为奇数</li>
+<li>Stable   当前稳定版本，版本号为偶数</li>
+<li>Legacy   历年稳定版本</li>
+</ul>
+<h2 id="源码安装"><a href="#源码安装" class="headerlink" title="源码安装"></a>源码安装</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> wget http://nginx.org/download/nginx-1.14.0.tar.gz</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> tar -zxvf nginx-1.14.0.tar.gz</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> <span class="built_in">cd</span> nginx-1.14.0</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> ./configure --with-http_ssl_module --with-http_v2_module</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> make</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">Configuration summary</span><br><span class="line">  + using system PCRE library</span><br><span class="line">  + OpenSSL library is not used</span><br><span class="line">  + using system zlib library</span><br><span class="line"></span><br><span class="line">  nginx path prefix:          &quot;&#x2F;usr&#x2F;local&#x2F;nginx&quot;</span><br><span class="line">  nginx binary file:          &quot;&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin&#x2F;nginx&quot;</span><br><span class="line">  nginx modules path:         &quot;&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;modules&quot;</span><br><span class="line">  nginx configuration prefix: &quot;&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;conf&quot;</span><br><span class="line">  nginx configuration file:   &quot;&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;conf&#x2F;nginx.conf&quot;</span><br><span class="line">  nginx pid file:             &quot;&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;logs&#x2F;nginx.pid&quot;</span><br><span class="line">  nginx error log file:       &quot;&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;logs&#x2F;error.log&quot;</span><br><span class="line">  nginx http access log file: &quot;&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;logs&#x2F;access.log&quot;</span><br><span class="line">  nginx http client request body temporary files: &quot;client_body_temp&quot;</span><br><span class="line">  nginx http proxy temporary files:   &quot;proxy_temp&quot;</span><br><span class="line">  nginx http fastcgi temporary files: &quot;fastcgi_temp&quot;</span><br><span class="line">  nginx http uwsgi temporary files:   &quot;uwsgi_temp&quot;</span><br><span class="line">  nginx http scgi temporary files:    &quot;scgi_temp&quot;</span><br></pre></td></tr></table></figure>
+<h2 id="Nginx-操作命令"><a href="#Nginx-操作命令" class="headerlink" title="Nginx 操作命令"></a>Nginx 操作命令</h2><ul>
+<li>nginx -s reload 重新加载配置文件</li>
+<li>nginx -s reopen 重新打开日志文件</li>
+<li>nginx -t        测试 nginx 配置文件是否正确</li>
+<li>nginx -t -c /path/to/nginx.conf 测试 nginx 配置文件是否正确</li>
+<li>nginx -s stop 快速停止 nginx</li>
+</ul>
+<h2 id="附："><a href="#附：" class="headerlink" title="附："></a>附：</h2><blockquote>
+<ul>
+<li>NGINX 官网      <a href="http://www.nginx.org" target="_blank" rel="noopener">www.nginx.org</a></li>
+<li>NGINX docs      nginx.org/en/docs</li>
+<li>NGINX configure nginx.org/en/docs/configure.html</li>
+<li>tar 命令 man.linuxde.net/tartar</li>
+</ul>
+</blockquote>
+
+<a href="/2018/1108-Eclipse.html">Eclipse</a>
+<a href="/2018/1108-json.html">json</a>
+
+<script type="text/javascript">
+document.write(document.referrer)
+
+document.write(window.location.search.substr(1).split("&"))
+
+// "MicroMessenger"
+// "AlipayClient"
+// "QQ"
+</script>
+
+<script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
+<script type="text/javascript">
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register("/service-worker.js", {scope: '/'})
+    .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
+    .catch(err => console.log('SW Registration Failed! Error: ', err));
+}
+</script>
+</body>
+</html>

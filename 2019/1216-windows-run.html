@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <base target="_blank" />
+    <link rel="manifest" href="manifest.json">
+<style>
+    html{
+        max-width: 100vh;
+        margin: auto;
+    }
+    img{
+        max-width:100%;
+        align:center;
+    }
+    .highlight {
+        background: #2d2d2d;
+        margin:0;
+        padding: 15px 20px;
+        overflow: auto;
+        color: #ccc;
+    }
+</style>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>含义</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>appwiz.cpl</td>
+<td>程序和功能</td>
+<td>常用于卸载软件</td>
+</tr>
+<tr>
+<td>logoff</td>
+<td>注销</td>
+<td>注销计算机</td>
+</tr>
+<tr>
+<td>shutdown</td>
+<td>60秒倒计时关机命令</td>
+<td></td>
+</tr>
+<tr>
+<td>cmd</td>
+<td>cmd</td>
+<td>命令提示符</td>
+</tr>
+<tr>
+<td>calc</td>
+<td>计算器</td>
+<td></td>
+</tr>
+<tr>
+<td>cleanmgr</td>
+<td>磁盘清理</td>
+<td></td>
+</tr>
+<tr>
+<td>msconfig</td>
+<td>系统配置实用程序</td>
+<td></td>
+</tr>
+<tr>
+<td>osk</td>
+<td>屏幕键盘</td>
+<td></td>
+</tr>
+<tr>
+<td>psr</td>
+<td>步骤记录器</td>
+<td></td>
+</tr>
+<tr>
+<td>snippingtool</td>
+<td>截图工具</td>
+<td>已被截图和草图取代</td>
+</tr>
+<tr>
+<td>winver</td>
+<td>关于”Windows”</td>
+<td>查看 Windows 版本</td>
+</tr>
+<tr>
+<td>explorer</td>
+<td>资源管理器</td>
+<td></td>
+</tr>
+<tr>
+<td>regedit</td>
+<td>注册表编辑器</td>
+<td></td>
+</tr>
+<tr>
+<td>taskmgr</td>
+<td>任务管理器</td>
+<td></td>
+</tr>
+<tr>
+<td>compmgmt.msc</td>
+<td>计算机管理</td>
+<td></td>
+</tr>
+<tr>
+<td>devmgmt.msc</td>
+<td>设备管理器</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<a href="/2019/1216-java.html">java</a>
+<a href="/2019/1109-python-wheel.html">python-wheel</a>
+
+<script type="text/javascript">
+document.write(document.referrer)
+
+document.write(window.location.search.substr(1).split("&"))
+
+// "MicroMessenger"
+// "AlipayClient"
+// "QQ"
+</script>
+
+<script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
+<script type="text/javascript">
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register("/service-worker.js", {scope: '/'})
+    .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
+    .catch(err => console.log('SW Registration Failed! Error: ', err));
+}
+</script>
+</body>
+</html>

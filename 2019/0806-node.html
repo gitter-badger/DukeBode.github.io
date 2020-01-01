@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <base target="_blank" />
+    <link rel="manifest" href="manifest.json">
+<style>
+    html{
+        max-width: 100vh;
+        margin: auto;
+    }
+    img{
+        max-width:100%;
+        align:center;
+    }
+    .highlight {
+        background: #2d2d2d;
+        margin:0;
+        padding: 15px 20px;
+        overflow: auto;
+        color: #ccc;
+    }
+</style>
+<p><a href="https://nodejs.org/" target="_blank" rel="noopener">官网</a></p>
+<h2 id="切换-npm-源"><a href="#切换-npm-源" class="headerlink" title="切换 npm 源"></a>切换 npm 源</h2><p>Node 的官方模块仓库网速太慢，模块仓库需要切换到阿里的源。</p>
+<p>不安装 cnpm 只用淘宝镜像，设置 npm 的镜像：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry https://registry.npm.taobao.org/</span><br></pre></td></tr></table></figure>
+
+<p>执行下面的命令，确认是否切换成功。</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config get registry</span><br></pre></td></tr></table></figure>
+
+<h2 id="yarn"><a href="#yarn" class="headerlink" title="yarn"></a>yarn</h2><p><a href="https://yarnpkg.com" target="_blank" rel="noopener">官网</a></p>
+<p><a href="https://mirrors.huaweicloud.com/yarn/v1.19.1/yarn-1.19.1.msi" target="_blank" rel="noopener">https://mirrors.huaweicloud.com/yarn/v1.19.1/yarn-1.19.1.msi</a><br><a href="https://mirrors.huaweicloud.com/yarn/" target="_blank" rel="noopener">https://mirrors.huaweicloud.com/yarn/</a></p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 若经常网络异常，执行此句</span></span><br><span class="line">yarn config <span class="built_in">set</span> registry https://registry.npm.taobao.org/ -g</span><br></pre></td></tr></table></figure>
+<a href="/2019/0807-wordpress.html">wordpress</a>
+<a href="/2019/0731-php-run.html">php Web Server</a>
+
+<script type="text/javascript">
+document.write(document.referrer)
+
+document.write(window.location.search.substr(1).split("&"))
+
+// "MicroMessenger"
+// "AlipayClient"
+// "QQ"
+</script>
+
+<script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
+<script type="text/javascript">
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register("/service-worker.js", {scope: '/'})
+    .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
+    .catch(err => console.log('SW Registration Failed! Error: ', err));
+}
+</script>
+</body>
+</html>

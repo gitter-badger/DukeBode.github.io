@@ -2,154 +2,210 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://dukebode.github.io/2019/1109-python-wheel/</loc>
+    <loc>https://dukebode.github.io/2019/1216-windows-software.html</loc>
     
-    <lastmod>2019-11-09T14:51:47.151Z</lastmod>
+    <lastmod>2019-12-16T06:17:18.135Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2019/1025-python-database/</loc>
+    <loc>https://dukebode.github.io/2019/0813-%25E7%2594%25A8%25E7%2594%25B5%25E8%2584%2591%25E8%25AE%25B0%25E7%25AC%2594%25E8%25AE%25B0.html</loc>
+    
+    <lastmod>2019-12-16T06:08:20.484Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dukebode.github.io/2019/0607-Setting.html</loc>
+    
+    <lastmod>2019-12-16T06:06:04.493Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dukebode.github.io/2019/1216-java.html</loc>
+    
+    <lastmod>2019-12-16T06:05:37.395Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dukebode.github.io/2019/0729-Linux.html</loc>
+    
+    <lastmod>2019-12-16T06:05:06.253Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dukebode.github.io/2019/0716-python-Jupyter.html</loc>
+    
+    <lastmod>2019-12-16T05:59:11.799Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dukebode.github.io/2019/0901-mirrors.html</loc>
+    
+    <lastmod>2019-12-16T05:58:43.957Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dukebode.github.io/2018/1117-python.html</loc>
+    
+    <lastmod>2019-12-16T05:58:01.909Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dukebode.github.io/2018/0718-python-Django.html</loc>
+    
+    <lastmod>2019-12-16T05:57:54.687Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dukebode.github.io/2018/1108-nginx.html</loc>
+    
+    <lastmod>2019-12-16T05:55:54.581Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dukebode.github.io/2019/0806-node.html</loc>
+    
+    <lastmod>2019-12-16T05:48:36.479Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dukebode.github.io/2019/0611-Chrome%25E7%259A%2584%25E4%25BD%25BF%25E7%2594%25A8.html</loc>
+    
+    <lastmod>2019-12-16T05:37:12.642Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dukebode.github.io/2019/1216-windows-run.html</loc>
+    
+    <lastmod>2019-12-16T05:34:03.528Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dukebode.github.io/2018/0611-SSH.html</loc>
+    
+    <lastmod>2019-11-26T06:47:32.231Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dukebode.github.io/2019/1109-python-wheel.html</loc>
+    
+    <lastmod>2019-11-12T05:55:34.975Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dukebode.github.io/2019/1025-python-database.html</loc>
     
     <lastmod>2019-11-09T14:39:11.956Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2018/1117-python3/</loc>
-    
-    <lastmod>2019-11-09T14:38:53.289Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dukebode.github.io/2019/0901-mirrors/</loc>
-    
-    <lastmod>2019-11-06T11:21:19.840Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dukebode.github.io/2019/1021-python-win/</loc>
+    <loc>https://dukebode.github.io/2019/1021-python-win.html</loc>
     
     <lastmod>2019-10-22T13:18:11.654Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2017/0806-note/</loc>
+    <loc>https://dukebode.github.io/2017/0806-note.html</loc>
     
     <lastmod>2019-09-22T13:40:25.546Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2019/0908-blog-env/</loc>
+    <loc>https://dukebode.github.io/2019/0908-blog-env.html</loc>
     
     <lastmod>2019-09-22T13:39:14.192Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2019/0922-hexo/</loc>
+    <loc>https://dukebode.github.io/2019/0922-hexo.html</loc>
     
     <lastmod>2019-09-22T13:37:23.193Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2019/0729-Linux/</loc>
-    
-    <lastmod>2019-09-22T13:36:25.008Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dukebode.github.io/2019/0908-gitpage/</loc>
+    <loc>https://dukebode.github.io/2019/0908-gitpage.html</loc>
     
     <lastmod>2019-09-22T13:05:39.827Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2019/0607-%25E9%259B%25B6%25E5%259F%25BA%25E7%25A1%2580%25E5%25BB%25BA%25E5%258D%259A%25E5%25AE%25A2/</loc>
+    <loc>https://dukebode.github.io/2019/0607-%25E9%259B%25B6%25E5%259F%25BA%25E7%25A1%2580%25E5%25BB%25BA%25E5%258D%259A%25E5%25AE%25A2.html</loc>
     
     <lastmod>2019-09-22T12:52:55.980Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2019/0806-node/</loc>
-    
-    <lastmod>2019-09-22T11:41:56.008Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dukebode.github.io/2019/0716-Jupyter/</loc>
-    
-    <lastmod>2019-09-22T09:47:40.741Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dukebode.github.io/2019/0815-git/</loc>
+    <loc>https://dukebode.github.io/2019/0815-git.html</loc>
     
     <lastmod>2019-09-18T11:04:36.272Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2017/0611-college-app/</loc>
+    <loc>https://dukebode.github.io/2017/0611-college-app.html</loc>
     
     <lastmod>2019-09-07T05:18:50.923Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2019/0607-mariadb/</loc>
+    <loc>https://dukebode.github.io/2019/0607-mariadb.html</loc>
     
     <lastmod>2019-09-07T05:17:40.444Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2018/0822-shell/</loc>
+    <loc>https://dukebode.github.io/2018/0822-shell.html</loc>
     
     <lastmod>2019-09-07T05:16:31.383Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2019/0607-Setting/</loc>
-    
-    <lastmod>2019-09-07T05:14:14.068Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dukebode.github.io/2019/0607-%25E7%25A8%258B%25E5%25BA%258F%25E6%2589%25A7%25E8%25A1%258C%25E7%258E%25AF%25E5%25A2%2583/</loc>
+    <loc>https://dukebode.github.io/2019/0607-%25E7%25A8%258B%25E5%25BA%258F%25E6%2589%25A7%25E8%25A1%258C%25E7%258E%25AF%25E5%25A2%2583.html</loc>
     
     <lastmod>2019-09-07T05:13:06.027Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2018/0607-%25E7%2594%25B5%25E8%2584%2591%25E6%2596%25B0%25E6%2589%258B%25E6%258C%2587%25E5%258D%2597/</loc>
+    <loc>https://dukebode.github.io/2018/0607-%25E7%2594%25B5%25E8%2584%2591%25E6%2596%25B0%25E6%2589%258B%25E6%258C%2587%25E5%258D%2597.html</loc>
     
     <lastmod>2019-09-07T05:12:36.221Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2017/0907-html/</loc>
+    <loc>https://dukebode.github.io/2017/0907-html.html</loc>
     
     <lastmod>2019-09-07T05:04:11.578Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2019/0906-latex/</loc>
+    <loc>https://dukebode.github.io/2019/0906-latex.html</loc>
     
     <lastmod>2019-09-06T07:48:56.665Z</lastmod>
     
@@ -177,175 +233,140 @@
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2018/0611-SSH/</loc>
-    
-    <lastmod>2019-08-31T04:22:36.176Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dukebode.github.io/2018/0526-yiban/</loc>
+    <loc>https://dukebode.github.io/2018/0526-yiban.html</loc>
     
     <lastmod>2019-08-31T04:22:24.024Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2018/0114-%25E9%259B%2586%25E6%2588%2590%25E4%25BC%25A0%25E6%2584%259F%25E5%2599%25A8/1_%25E4%25BB%2580%25E4%25B9%2588%25E6%2598%25AF%25E4%25BC%25A0%25E6%2584%259F%25E5%2599%25A8/</loc>
+    <loc>https://dukebode.github.io/2018/0114-%25E9%259B%2586%25E6%2588%2590%25E4%25BC%25A0%25E6%2584%259F%25E5%2599%25A8/1_%25E4%25BB%2580%25E4%25B9%2588%25E6%2598%25AF%25E4%25BC%25A0%25E6%2584%259F%25E5%2599%25A8.html</loc>
     
     <lastmod>2019-08-31T04:20:18.290Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2018/0114-%25E9%259B%2586%25E6%2588%2590%25E4%25BC%25A0%25E6%2584%259F%25E5%2599%25A8/2_%25E4%25BB%2580%25E4%25B9%2588%25E6%2598%25AF%25E9%259B%2586%25E6%2588%2590%25E4%25BC%25A0%25E6%2584%259F%25E5%2599%25A8/</loc>
+    <loc>https://dukebode.github.io/2018/0114-%25E9%259B%2586%25E6%2588%2590%25E4%25BC%25A0%25E6%2584%259F%25E5%2599%25A8/2_%25E4%25BB%2580%25E4%25B9%2588%25E6%2598%25AF%25E9%259B%2586%25E6%2588%2590%25E4%25BC%25A0%25E6%2584%259F%25E5%2599%25A8.html</loc>
     
     <lastmod>2019-08-31T04:20:16.027Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2019/0813-%25E7%2594%25A8%25E7%2594%25B5%25E8%2584%2591%25E8%25AE%25B0%25E7%25AC%2594%25E8%25AE%25B0/</loc>
-    
-    <lastmod>2019-08-22T08:29:11.953Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dukebode.github.io/2019/0611-Chrome%25E7%259A%2584%25E4%25BD%25BF%25E7%2594%25A8/</loc>
-    
-    <lastmod>2019-08-16T08:37:35.054Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dukebode.github.io/2018/1108-nginx/</loc>
-    
-    <lastmod>2019-08-16T08:34:51.870Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dukebode.github.io/2019/0708-php-env/</loc>
+    <loc>https://dukebode.github.io/2019/0708-php-env.html</loc>
     
     <lastmod>2019-08-16T07:45:05.140Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2019/0807-wordpress/</loc>
+    <loc>https://dukebode.github.io/2019/0807-wordpress.html</loc>
     
     <lastmod>2019-08-07T03:14:14.552Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2018/0718-Django/</loc>
-    
-    <lastmod>2019-07-31T12:14:36.939Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dukebode.github.io/2019/0709-%25E6%25B1%2587%25E7%25BC%2596%25E8%25AF%25AD%25E8%25A8%2580%25E7%258E%25AF%25E5%25A2%2583%25E6%2590%25AD%25E5%25BB%25BA/</loc>
+    <loc>https://dukebode.github.io/2019/0709-%25E6%25B1%2587%25E7%25BC%2596%25E8%25AF%25AD%25E8%25A8%2580%25E7%258E%25AF%25E5%25A2%2583%25E6%2590%25AD%25E5%25BB%25BA.html</loc>
     
     <lastmod>2019-07-31T12:08:49.476Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2018/1110-asm-base/</loc>
+    <loc>https://dukebode.github.io/2018/1110-asm-base.html</loc>
     
     <lastmod>2019-07-31T12:07:08.131Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2018/1110-asm-code/</loc>
+    <loc>https://dukebode.github.io/2018/1110-asm-code.html</loc>
     
     <lastmod>2019-07-31T12:06:59.955Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2019/0731-php-run/</loc>
+    <loc>https://dukebode.github.io/2019/0731-php-run.html</loc>
     
     <lastmod>2019-07-31T12:01:13.450Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2018/1108-Eclipse/</loc>
+    <loc>https://dukebode.github.io/2018/1108-Eclipse.html</loc>
     
     <lastmod>2019-07-29T07:18:07.319Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2019/0708-gvim/</loc>
+    <loc>https://dukebode.github.io/2019/0708-gvim.html</loc>
     
     <lastmod>2019-07-29T07:18:01.040Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2018/0123-BeautifulSoup/</loc>
+    <loc>https://dukebode.github.io/2018/0123-BeautifulSoup.html</loc>
     
     <lastmod>2019-07-29T07:09:51.436Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2019/0607-Docker/</loc>
+    <loc>https://dukebode.github.io/2019/0607-Docker.html</loc>
     
     <lastmod>2019-07-29T07:08:10.243Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2018/0603-powershell/</loc>
+    <loc>https://dukebode.github.io/2018/0603-powershell.html</loc>
     
     <lastmod>2019-07-29T06:55:13.502Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2019/0531-Screenshot/</loc>
+    <loc>https://dukebode.github.io/2019/0531-Screenshot.html</loc>
     
     <lastmod>2019-07-29T06:31:01.192Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2019/0729-vscode/</loc>
+    <loc>https://dukebode.github.io/2019/0729-vscode.html</loc>
     
     <lastmod>2019-07-29T06:29:52.861Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2019/0607-%25E7%25BD%2591%25E9%25A1%25B5%25E7%25BB%2593%25E6%259E%2584/</loc>
+    <loc>https://dukebode.github.io/2019/0607-%25E7%25BD%2591%25E9%25A1%25B5%25E7%25BB%2593%25E6%259E%2584.html</loc>
     
     <lastmod>2019-06-07T05:58:21.508Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2019/0531-markdown/</loc>
+    <loc>https://dukebode.github.io/2019/0531-markdown.html</loc>
     
     <lastmod>2019-05-31T03:47:02.536Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2018/1108-Bash/</loc>
+    <loc>https://dukebode.github.io/2018/1108-Bash.html</loc>
     
     <lastmod>2018-11-08T09:10:49.957Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2018/1108-json/</loc>
+    <loc>https://dukebode.github.io/2018/1108-json.html</loc>
     
     <lastmod>2018-11-08T08:45:57.255Z</lastmod>
     
