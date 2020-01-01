@@ -31,3 +31,5 @@ yarn upgrade-interactive
 - NodeJS & Yarn
 - MinGit
 - HEXO -->
+
+![赞助](img/open/支付宝红包.jpg)
