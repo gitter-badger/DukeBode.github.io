@@ -95,15 +95,17 @@ deploy:
 # 头部菜单，title: link
 # menu:
 #   Whoami: /whoami
-#   Github: https://github.com/DukeBode
-#   Weibo: https://weibo.com/newggbode
-#   QQ/TIM: http://sighttp.qq.com/authd?IDKEY=a4c1ecd1bdaaa9fa13fb4895719e261aec692bac2895dcd9
 
 theme_config:
+  manifest: manifest.json
   TOC: true # 是否显示目录
   music: # 默认音乐
   - 音乐1
   - 音乐2
+  Share:
+    github: https://github.com/DukeBode
+    weibo: https://weibo.com/newggbode
+    qq: http://sighttp.qq.com/authd?IDKEY=a4c1ecd1bdaaa9fa13fb4895719e261aec692bac2895dcd9
 
 # 是否自动播放音乐
 autoplay: false
