@@ -34,135 +34,96 @@
 
 
 <div>
-<a href="/2019/1109-python-wheel.html">1 python-wheel</a>
+    <a href="/2019/1109-python-wheel.html">1 python-wheel</a>
 </div>
 
-
-<ul> 
-    
+<ul>
     <li>1 title Duke Studio</li>
-    
     <li>2 subtitle </li>
-    
     <li>3 description </li>
-    
     <li>4 author Duke Bode</li>
-    
     <li>5 language zh-CN</li>
-    
     <li>6 timezone </li>
-    
     <li>7 url https://dukebode.github.io</li>
-    
     <li>8 root /</li>
-    
     <li>9 permalink :year/:month:day-:title.html</li>
-    
     <li>10 permalink_defaults </li>
-    
     <li>11 pretty_urls [object Object]</li>
-    
     <li>12 source_dir source</li>
-    
     <li>13 public_dir public</li>
-    
     <li>14 tag_dir tags</li>
-    
     <li>15 archive_dir archives</li>
-    
     <li>16 category_dir categories</li>
-    
     <li>17 code_dir downloads/code</li>
-    
     <li>18 i18n_dir :lang</li>
-    
     <li>19 skip_render html/*.html</li>
-    
     <li>20 new_post_name :title.md</li>
-    
     <li>21 default_layout post</li>
-    
     <li>22 titlecase false</li>
-    
-    <li>23 external_link true</li>
-    
+    <li>23 external_link [object Object]</li>
     <li>24 filename_case 0</li>
-    
     <li>25 render_drafts false</li>
-    
     <li>26 post_asset_folder false</li>
-    
     <li>27 relative_link false</li>
-    
     <li>28 future true</li>
-    
     <li>29 highlight [object Object]</li>
-    
     <li>30 default_category uncategorized</li>
-    
     <li>31 category_map </li>
-    
     <li>32 tag_map </li>
-    
     <li>33 date_format YYYY-MM-DD</li>
-    
     <li>34 time_format HH:mm:ss</li>
-    
     <li>35 use_date_for_updated false</li>
-    
     <li>36 per_page 10</li>
-    
     <li>37 pagination_dir page</li>
-    
     <li>38 theme duke</li>
-    
     <li>39 deploy [object Object]</li>
-    
     <li>40 ignore </li>
-    
     <li>41 meta_generator true</li>
-    
     <li>42 keywords </li>
-    
     <li>43 ICP 晋ICP备18006078号</li>
-    
     <li>44 index_generator [object Object]</li>
-    
     <li>45 theme_config [object Object]</li>
-    
     <li>46 autoplay false</li>
-    
     <li>47 archive_generator [object Object]</li>
-    
     <li>48 category_generator [object Object]</li>
-    
     <li>49 feed [object Object]</li>
-    
     <li>50 sitemap [object Object]</li>
-    
     <li>51 tag_generator [object Object]</li>
-    
     <li>52 marked [object Object]</li>
-    
     <li>53 server [object Object]</li>
-    
     <li>54 music 音乐1,音乐2</li>
-    
     <li>55 manifest manifest.json</li>
-    
     <li>56 TOC true</li>
-    
     <li>57 Share [object Object]</li>
-    
 </ul>
 
 <script type="text/javascript">
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker
-    .register("/service-worker.js", {scope: '/'})
-    .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
-    .catch(err => console.log('SW Registration Failed! Error: ', err));
+// if ('serviceWorker' in navigator) {
+//   navigator.serviceWorker
+//     .register("/service-worker.js", {scope: '/'})
+//     .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
+//     .catch(err => console.log('SW Registration Failed! Error: ', err));
+// }
+// This is the "Offline page" service worker
+
+// Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
+
+// Check compatibility for the browser we're running this in
+if ("serviceWorker" in navigator) {
+  if (navigator.serviceWorker.controller) {
+    console.log("[PWA Builder] active service worker found, no need to register");
+  } else {
+    // Register the service worker
+    navigator.serviceWorker
+      .register("pwabuilder-sw.js", {
+        scope: "./"
+      })
+      .then(function (reg) {
+        console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
+      });
+  }
 }
 </script>
+
 </body>
 </html>
