@@ -14,7 +14,6 @@ timezone:
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://dukebode.github.io/
-ICP: 晋ICP备18006078号
 root: /
 # permalink: :year/:month/:day/:title/
 permalink: :year/:month:day-:title.html
@@ -90,13 +89,11 @@ deploy:
 #   repo: git@git.dev.tencent.com:DukeBode/DukeBode.coding.me.git
 #   branch: master
 
-# diaspora
-
-# 头部菜单，title: link
-# menu:
-#   Whoami: /whoami
-
 theme_config:
+  menu:
+    rss: /atom.xml
+  # 备案号
+  ICP: 晋ICP备18006078号
   manifest: manifest.json
   TOC: true # 是否显示目录
   music: # 默认音乐
@@ -106,6 +103,10 @@ theme_config:
     github: https://github.com/DukeBode
     weibo: https://weibo.com/newggbode
     qq: http://sighttp.qq.com/authd?IDKEY=a4c1ecd1bdaaa9fa13fb4895719e261aec692bac2895dcd9
+  app_pay:
+    MicroMessenger: /img/open/微信支付.png,
+    AlipayClient: /img/open/支付宝支付.jpg,
+    QQ: /img/open/
 
 # 是否自动播放音乐
 autoplay: false
@@ -118,28 +119,6 @@ autoplay: false
 
 # # 是否关闭默认滚动条
 # scrollbar: true
-
-# # Gitalk 评论插件（https://github.com/gitalk/gitalk）
-# gitalk:
-#     # 是否自动展开评论框
-#     autoExpand: true
-#     # 应用编号
-#     clientID: 'a8f7c41a1904f1b5e95d'
-#     # 应用秘钥
-#     clientSecret: 'cafc93915ae936fd91c56193bc9101e0e5ad6ca0'
-#     # issue仓库名
-#     repo: 'DukeBode.github.io'
-#     # Github名
-#     owner: 'DukeBode'
-#     # Github名
-#     admin: ['DukeBode']
-#     # Ensure uniqueness and length less than 50
-#     id: location.pathname
-#     # Facebook-like distraction free mode
-#     distractionFreeMode: false
-
-# # 网站关键字
-# keywords: Fechin
 
 # # 要使用google_analytics进行统计的话，这里需要配置ID
 # google_analytics: 

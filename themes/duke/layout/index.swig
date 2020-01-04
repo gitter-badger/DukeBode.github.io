@@ -9,10 +9,12 @@
 
 
 {% for post in page.posts %}
-<div>
+<div class="item">
     <a href="{{ url_for(post.path) }}">{{loop.index}} {{post.title}}</a>
 </div>{% endfor %}
 
+<!--
 <ul>{% for fooa in theme %}
     <li>{{ loop.index }} {{ loop.key }} {{ fooa }}</li>{% endfor %}
 </ul>
+-->
