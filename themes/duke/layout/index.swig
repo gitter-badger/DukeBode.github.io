@@ -8,6 +8,8 @@
 {{page.per_page}}
 
 
+    
+
 {% for post in page.posts %}
 <div class="item">
     <a href="{{ url_for(post.path) }}">{{loop.index}} {{post.title}}</a>
