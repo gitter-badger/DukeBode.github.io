@@ -50,3 +50,5 @@ def combinations(n,m):
         result=result*(n-i)//(i+1)
     return result
 ```
+
+[Python版组合数计算方法优化思路和源码](https://mp.weixin.qq.com/s?__biz=MzI4MzM2MDgyMQ==&mid=2247484700&idx=1&sn=a92cd5b572f3426215c5077edd911566&chksm=eb8aae46dcfd27504c6c32c3c2b7d12756b97b2850354366e7841ca71df38e9590891dea9c5f&mpshare=1&scene=1&srcid=0105CnjEy8AVCvacDDGmaD2l&sharer_sharetime=1578196700974&sharer_shareid=3726fbb92179608ce6915a88bf3209c9&exportkey=AeVJmUCXvaPlGzrSnNstWZE%3D&pass_ticket=BTWnZASExfQ2s44l%2Faa1gGcF8st07sk22Ohh%2BQylaMjuas6mCV6xn8HzMRrOrhta#rd)
