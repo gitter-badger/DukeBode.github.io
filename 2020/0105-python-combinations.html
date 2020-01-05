@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <base target="_blank" />
+    <link rel="manifest" href="manifest.json">
+<style>
+    html{
+        max-width: 100vh;
+        margin: auto;
+    }
+    img{
+        max-width:100%;
+        align:center;
+    }
+    .highlight {
+        background: #2d2d2d;
+        margin:0;
+        padding: 15px 20px;
+        overflow: auto;
+        color: #ccc;
+    }
+    .item{
+
+    }
+</style>
+<p>$$ C_n^m=\frac{A_n^m}{m!}=\frac{n!}{(n-m)!m!}=\frac{\prod_{i=n-m+1}^{n}i}{m!}=C_n^{n-m} \quad (n \geq m \geq 1)$$</p>
+<p>结论：</p>
+<ol>
+<li>从n个不同元素中取出m个元素的组合数即n的阶乘除以除以(n-m)的阶乘与m的阶乘的积的商。</li>
+</ol>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> math <span class="keyword">import</span> factorial</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">combinations</span><span class="params">(n,m)</span>:</span></span><br><span class="line">    <span class="keyword">return</span> factorial(n)//factorial(m)//factorial(n-m)</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>化简可得，从n个不同元素中取出m个元素的组合数即出现一次的偏大整数的积除以出现三次的偏小整数的积的商。</li>
+</ol>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">combinations</span><span class="params">(n,m)</span>:</span></span><br><span class="line">    result = <span class="number">1</span></span><br><span class="line">    min,max=sorted((m,n-m))</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(n,<span class="number">0</span>,<span class="number">-1</span>):</span><br><span class="line">        <span class="keyword">if</span> i&gt;max:</span><br><span class="line">            result *= i</span><br><span class="line">        <span class="keyword">elif</span> i &lt;= min:</span><br><span class="line">            result = result // i</span><br><span class="line">    <span class="keyword">return</span> result</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>n个连续整数的积可被n的阶乘整除。</li>
+</ol>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">combinations</span><span class="params">(n,m)</span>:</span></span><br><span class="line">    result = <span class="number">1</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(m):</span><br><span class="line">        result=result*(n-i)//(i+<span class="number">1</span>)</span><br><span class="line">    <span class="keyword">return</span> result</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>从n个不同元素中取出m个元素的组合数与从n个不同元素中取出(n-m)个元素的组合数相等。</li>
+</ol>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">combinations</span><span class="params">(n,m)</span>:</span></span><br><span class="line">    result = <span class="number">1</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(min(n-m,m)):</span><br><span class="line">        result=result*(n-i)//(i+<span class="number">1</span>)</span><br><span class="line">    <span class="keyword">return</span> result</span><br></pre></td></tr></table></figure>
+<a href="/"></a>
+<a href="/2019/1216-windows-software.html">windows-software</a>
+
+<script type="text/javascript">
+document.write(document.referrer)
+
+document.write(window.location.search.substr(1).split("&"))
+
+// "MicroMessenger"
+// "AlipayClient"
+// "QQ"
+</script>
+
+<script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
+<script src="">
+<script type="text/javascript">
+// if ('serviceWorker' in navigator) {
+//   navigator.serviceWorker
+//     .register("/service-worker.js", {scope: '/'})
+//     .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
+//     .catch(err => console.log('SW Registration Failed! Error: ', err));
+// }
+// This is the "Offline page" service worker
+
+// Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
+
+// Check compatibility for the browser we're running this in
+if ("serviceWorker" in navigator) {
+  if (navigator.serviceWorker.controller) {
+    console.log("[PWA Builder] active service worker found, no need to register");
+  } else {
+    // Register the service worker
+    navigator.serviceWorker
+      .register("pwabuilder-sw.js", {
+        scope: "./"
+      })
+      .then(function (reg) {
+        console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
+      });
+  }
+}
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

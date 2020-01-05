@@ -20,6 +20,9 @@
         overflow: auto;
         color: #ccc;
     }
+    .item{
+
+    }
 </style>
 <p><a href="https://packaging.python.org/" target="_blank" rel="noopener">官方教程</a><br><a href="https://packaging.python.org/overview/" target="_blank" rel="noopener">概述</a><br><a href="https://packaging.python.org/tutorials/" target="_blank" rel="noopener">教程</a><br><a href="https://packaging.python.org/guides/" target="_blank" rel="noopener">指南</a></p>
 <h3 id="打包环境"><a href="#打包环境" class="headerlink" title="打包环境"></a>打包环境</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># bdist</span></span><br><span class="line">pip install --upgrade setuptools</span><br><span class="line"><span class="comment"># bdist_wheel</span></span><br><span class="line">pip install wheel</span><br><span class="line"><span class="comment"># twine upload dist/*</span></span><br><span class="line">pip install twine</span><br></pre></td></tr></table></figure>
@@ -53,6 +56,7 @@ document.write(window.location.search.substr(1).split("&"))
 </script>
 
 <script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
+<script src="">
 <script type="text/javascript">
 // if ('serviceWorker' in navigator) {
 //   navigator.serviceWorker
@@ -80,6 +84,7 @@ if ("serviceWorker" in navigator) {
   }
 }
 </script>
-
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </body>
 </html>
