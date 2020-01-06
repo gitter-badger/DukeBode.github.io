@@ -45,6 +45,9 @@
 <li>从n个不同元素中取出m个元素的组合数与从n个不同元素中取出(n-m)个元素的组合数相等。</li>
 </ol>
 <figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">combinations</span><span class="params">(n,m)</span>:</span></span><br><span class="line">    result = <span class="number">1</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(min(n-m,m)):</span><br><span class="line">        result=result*(n-i)//(i+<span class="number">1</span>)</span><br><span class="line">    <span class="keyword">return</span> result</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzI4MzM2MDgyMQ==&mid=2247484700&idx=1&sn=a92cd5b572f3426215c5077edd911566&chksm=eb8aae46dcfd27504c6c32c3c2b7d12756b97b2850354366e7841ca71df38e9590891dea9c5f&mpshare=1&scene=1&srcid=0105CnjEy8AVCvacDDGmaD2l&sharer_sharetime=1578196700974&sharer_shareid=3726fbb92179608ce6915a88bf3209c9&exportkey=AeVJmUCXvaPlGzrSnNstWZE%3D&pass_ticket=BTWnZASExfQ2s44l%2Faa1gGcF8st07sk22Ohh%2BQylaMjuas6mCV6xn8HzMRrOrhta#rd" target="_blank" rel="noopener">Python版组合数计算方法优化思路和源码</a></p>
+
 <a href="/"></a>
 <a href="/2019/1216-windows-software.html">windows-software</a>
 
