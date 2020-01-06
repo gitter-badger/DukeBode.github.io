@@ -90,6 +90,16 @@ deploy:
 #   branch: master
 
 theme_config:
+  html:
+    head:
+      layout: false
+      index:
+        - <meta name="baidu-site-verification" content="qDoVswL6yu" />
+        - <meta name="msvalidate.01" content="EECB419B3BD7309C048E8C9E4A512F4C" />
+        - <meta name="360-site-verification" content="0da51abd1d385491d30db1469ae30347" />
+        - <meta name="google-site-verification" content="2hXKxigOPaMOnUb0RaDecub4lR-EUVwTcIyvEigcc-E" />
+    body:
+      layout: false
   menu:
     rss: /atom.xml
   # 备案号
