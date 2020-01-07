@@ -103,7 +103,7 @@ theme_config:
       body: false
     layout:
       head:
-      - | # 百度统计
+      - | # 百度统计 https://tongji.baidu.com/
         <script>
         var _hmt = _hmt || [];
         (function() {
@@ -114,11 +114,13 @@ theme_config:
         })();
         </script>
       body:
-      - | # 友盟统计
+      - | # 友盟统计 https://web.umeng.com/
         <script type="text/javascript">
           var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
           document.write(unescape("%3Cspan id='cnzz_stat_icon_1277911231'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "v1.cnzz.com/stat.php%3Fid%3D1277911231' type='text/javascript'%3E%3C/script%3E"));
         </script>
+      - | # 腾讯统计 https://ta.qq.com/
+        <script type="text/javascript" src="http://tajs.qq.com/stats?sId=66461794" charset="UTF-8"></script>
       - | # 360 搜索 自动收录
         <script>
         (function(){
@@ -126,7 +128,7 @@ theme_config:
         document.write('<script src="' + src + '" id="sozz"><\/script>');
         })();
         </script>
-      - | # 360分析
+      - | # 360分析 https://fenxi.360.cn/
         <script>
         (function(b,a,e,h,f,c,g,s){b[h]=b[h]||function(){(b[h].c=b[h].c||[]).push(arguments)};
         b[h].s=!!c;g=a.getElementsByTagName(e)[0];s=a.createElement(e);
@@ -163,11 +165,5 @@ autoplay: false
 # # 是否关闭默认滚动条
 # scrollbar: true
 
-# # 要使用google_analytics进行统计的话，这里需要配置ID
-# google_analytics: 
-
 # # 网站ico
 # favicon: /img/favicon.png
-
-# # rss文件
-# rss: atom.xml
