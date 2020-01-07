@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <base target="_blank" />
+{% if is_home() %}
+    {% for foo in theme.html.index.head %}
+    {{ foo }}{% endfor %}
+    {% set title = theme.title %}
+{% endif %}
+    <title>{{ page.title }}</title>
+{% for foo in theme.html.layout.head %}{{ foo }}{% endfor %}
     {% if theme.manifest %}<link rel="manifest" href="{{ theme.manifest }}">{% endif %}
 <style>
     html{
@@ -53,7 +60,28 @@ if ("serviceWorker" in navigator) {
   }
 }
 </script>
+<!--
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+-->
+{% for foo in theme.html.layout.body %}
+{{ foo }}
+{% endfor %}
+<!-- 百度主动推送 -->
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
 </body>
 </html>
