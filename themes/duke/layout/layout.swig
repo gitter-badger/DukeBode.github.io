@@ -12,6 +12,10 @@
 {% for foo in theme.html.layout.head %}{{ foo }}{% endfor %}
     {% if theme.manifest %}<link rel="manifest" href="{{ theme.manifest }}">{% endif %}
 <style>
+    a {
+        color: black;
+        text-decoration:none;
+    }
     html{
         max-width: 100vh;
         margin: auto;

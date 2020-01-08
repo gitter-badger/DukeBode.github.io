@@ -11,9 +11,6 @@ tags:
 | [git 官网](https://git-scm.com/) 
 | [VScode 官网](https://code.visualstudio.com/)
 
-<script>
-alert("hello")
-</script>
 ```sh
 curl https://mirrors.huaweicloud.com/nodejs/v10.16.3/node-v10.16.3-win-x64.zip
 
@@ -22,14 +19,12 @@ $git='2.23.0';curl ('https://mirrors.huaweicloud.com/git-for-windows/v'+$git+'.w
 ```
 
 - hexo 
+
 - docusaurus
 
-```
+```sh
 yarn global add docusaurus-init
 ```
-
-
-
 
 1. 安装 node、yarn、git、vscode
 1. yarn global add hexo-cli
