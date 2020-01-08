@@ -3,6 +3,7 @@ title: combinations
 date: 2020-01-05 13:28:31
 cover:
 tags:
+TeX: true
 ---
 
 
