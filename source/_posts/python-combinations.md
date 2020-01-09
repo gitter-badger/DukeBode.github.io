@@ -1,12 +1,13 @@
 ---
-title: combinations
+title: python 组合数
 date: 2020-01-05 13:28:31
 cover:
 tags:
 TeX: true
 ---
 
-
+组合数
+<!-- more -->
 $$ C_n^m=\frac{A_n^m}{m!}=\frac{n!}{(n-m)!m!}=\frac{\prod_{i=n-m+1}^{n}i}{m!}=C_n^{n-m} \quad (n \geq m \geq 1)$$
 
 结论：

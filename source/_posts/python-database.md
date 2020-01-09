@@ -1,5 +1,5 @@
 ---
-title: python-database
+title: Python DataBase
 date: 2019-10-25 16:26:41
 cover:
 tags:

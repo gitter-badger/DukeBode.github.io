@@ -1,9 +1,13 @@
 ---
-title: chrome/vimium
+title: vimium
 date: 2020-01-08 19:29:21
 cover:
 tags:
 ---
+
+> Vimium is a Chrome extension that provides keyboard-based navigation and control of the web in the spirit of the Vim editor.
+
+<!-- more -->
 
 ### vimium 
 [官网](https://github.com/philc/vimium)

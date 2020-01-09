@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <base target="_blank" />
+    {{ open_graph() }}
+
 {% if is_home() %}
     {% for foo in theme.html.index.head %}
     {{ foo }}{% endfor %}
-    {% set title = theme.title %}
 {% endif %}
-    <title>{{ page.title }}</title>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{theme.title}}{% endif %}</title>
 {% for foo in theme.html.layout.head %}{{ foo }}{% endfor %}
     {% if theme.manifest %}<link rel="manifest" href="{{ theme.manifest }}">{% endif %}
 <style>

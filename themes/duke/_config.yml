@@ -1,0 +1,3 @@
+truncate:
+  length: 80
+  omission: '...'
