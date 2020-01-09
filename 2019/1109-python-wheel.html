@@ -3,8 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <base target="_blank" />
+    <meta name="description" content="官方教程概述教程指南 打包环境123456# bdistpip install --upgrade setuptools# bdist_wheelpip install wheel# twine upload dist&#x2F;*pip install twine  init.py init.py 文件表明当前文件夹为 Python 模块,模块被导入时实际为此文件，模块方式运行时先执行此文件。  init">
+<meta property="og:type" content="article">
+<meta property="og:title" content="python wheel 打包">
+<meta property="og:url" content="https://dukebode.github.io/2019/1109-python-wheel.html">
+<meta property="og:site_name" content="Duke Studio">
+<meta property="og:description" content="官方教程概述教程指南 打包环境123456# bdistpip install --upgrade setuptools# bdist_wheelpip install wheel# twine upload dist&#x2F;*pip install twine  init.py init.py 文件表明当前文件夹为 Python 模块,模块被导入时实际为此文件，模块方式运行时先执行此文件。  init">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2019-11-09T13:44:03.000Z">
+<meta property="article:modified_time" content="2020-01-09T08:13:42.794Z">
+<meta property="article:author" content="Duke Bode">
+<meta property="article:tag" content="python">
+<meta name="twitter:card" content="summary">
 
-    <title>python-wheel</title>
+
+    <title>python wheel 打包</title>
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -59,7 +72,7 @@ var _hmt = _hmt || [];
 <figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 官方示例</span></span><br><span class="line"><span class="comment"># https://github.com/pypa/sampleproject/blob/master/setup.py</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># read the contents of README file</span></span><br><span class="line"><span class="keyword">with</span> open(<span class="string">"README.md"</span>, <span class="string">"r"</span>, encoding=<span class="string">'utf-8'</span>) <span class="keyword">as</span> fh:</span><br><span class="line">    long_description = fh.read()</span><br><span class="line"></span><br><span class="line">setuptools.setup(</span><br><span class="line">    <span class="comment"># https://packaging.python.org/guides/distributing-packages-using-setuptools/</span></span><br><span class="line">    name=<span class="string">"example-pkg-YOUR-USERNAME-HERE"</span>, <span class="comment"># Replace with your own username</span></span><br><span class="line">    version=<span class="string">"0.0.1"</span>,</span><br><span class="line">    author=<span class="string">"Example Author"</span>,</span><br><span class="line">    author_email=<span class="string">"author@example.com"</span>,</span><br><span class="line">    description=<span class="string">"A small example package"</span>,</span><br><span class="line">    long_description=long_description,</span><br><span class="line">    long_description_content_type=<span class="string">"text/markdown"</span>,</span><br><span class="line">    url=<span class="string">"https://github.com/pypa/sampleproject"</span>,</span><br><span class="line">    packages=setuptools.find_packages(),</span><br><span class="line">    classifiers=[</span><br><span class="line">        <span class="comment"># https://pypi.org/classifiers/</span></span><br><span class="line">        <span class="string">"Programming Language :: Python :: 3"</span>,</span><br><span class="line">        <span class="string">"License :: OSI Approved :: MIT License"</span>,</span><br><span class="line">        <span class="string">"Operating System :: OS Independent"</span>,</span><br><span class="line">    ],</span><br><span class="line">    python_requires=<span class="string">'&gt;=3.6'</span>,</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
 
 <a href="/2019/1216-windows-run.html">Windows 运行中常用命令</a>
-<a href="/2019/1025-python-database.html">python-database</a>
+<a href="/2019/1025-python-database.html">Python DataBase</a>
 
 <script type="text/javascript">
 document.write(document.referrer)
@@ -100,10 +113,9 @@ if ("serviceWorker" in navigator) {
   }
 }
 </script>
-<!--
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
--->
+    
+
+
 
 <script type="text/javascript">
   var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
