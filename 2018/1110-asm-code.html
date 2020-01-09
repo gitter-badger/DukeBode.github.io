@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <base target="_blank" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>asm-code</title>
     <meta name="description" content="程序注释 “;”开头，右边为注释内容  保留字 指令 伪操作 操作符 预定义符号  符号指令系统   指令 说明    ADC 带进位加法(and with carry)   ADD 二进制数加法(add)   DEC 减一(decrease 1)   DIV 无符号数除法(divide)   IDIV 带符号数整数除法(integer divide)   IMUL 带符号数整数乘法(intege">
 <meta property="og:type" content="article">
 <meta property="og:title" content="asm-code">
@@ -17,7 +19,6 @@
 <meta name="twitter:card" content="summary">
 
 
-    <title>asm-code</title>
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -29,31 +30,13 @@ var _hmt = _hmt || [];
 </script>
 
     <link rel="manifest" href="manifest.json">
-<style>
-    a {
-        color: black;
-        text-decoration:none;
-    }
-    html{
-        max-width: 100vh;
-        margin: auto;
-    }
-    img{
-        max-width:100%;
-        align:center;
-    }
-    .highlight {
-        background: #2d2d2d;
-        margin:0;
-        padding: 15px 20px;
-        overflow: auto;
-        color: #ccc;
-    }
-    .item{
+    <!--
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+-->
+    
+<link rel="stylesheet" href="/css/layout.css">
 
-    }
-</style>
-<h2 id="程序注释"><a href="#程序注释" class="headerlink" title="程序注释"></a>程序注释</h2><ul>
+    <h2 id="程序注释"><a href="#程序注释" class="headerlink" title="程序注释"></a>程序注释</h2><ul>
 <li>“;”开头，右边为注释内容</li>
 </ul>
 <h2 id="保留字"><a href="#保留字" class="headerlink" title="保留字"></a>保留字</h2><ul>
@@ -133,36 +116,7 @@ document.write(window.location.search.substr(1).split("&"))
 </script>
 
 <script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
-<script src="">
-<script type="text/javascript">
-// if ('serviceWorker' in navigator) {
-//   navigator.serviceWorker
-//     .register("/service-worker.js", {scope: '/'})
-//     .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
-//     .catch(err => console.log('SW Registration Failed! Error: ', err));
-// }
-// This is the "Offline page" service worker
-
-// Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
-
-// Check compatibility for the browser we're running this in
-if ("serviceWorker" in navigator) {
-  if (navigator.serviceWorker.controller) {
-    console.log("[PWA Builder] active service worker found, no need to register");
-  } else {
-    // Register the service worker
-    navigator.serviceWorker
-      .register("pwabuilder-sw.js", {
-        scope: "./"
-      })
-      .then(function (reg) {
-        console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
-      });
-  }
-}
-</script>
     
-
 
 
 <script type="text/javascript">

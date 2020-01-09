@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <base target="_blank" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>电脑新手指南</title>
     <meta name="description" content="0 系统的选择及安装1 联网，请备好网线2 浏览器的使用3 我的电脑，配置系统文件4 软件安装及卸载5 拒绝广告和病毒6 快捷键及shell基础7 浅谈自学知识8 电脑是工具，不是玩具9 必经之路，交流经验  电脑的保养及维护技巧">
 <meta property="og:type" content="article">
 <meta property="og:title" content="电脑新手指南">
@@ -16,7 +18,6 @@
 <meta name="twitter:card" content="summary">
 
 
-    <title>电脑新手指南</title>
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -28,31 +29,13 @@ var _hmt = _hmt || [];
 </script>
 
     <link rel="manifest" href="manifest.json">
-<style>
-    a {
-        color: black;
-        text-decoration:none;
-    }
-    html{
-        max-width: 100vh;
-        margin: auto;
-    }
-    img{
-        max-width:100%;
-        align:center;
-    }
-    .highlight {
-        background: #2d2d2d;
-        margin:0;
-        padding: 15px 20px;
-        overflow: auto;
-        color: #ccc;
-    }
-    .item{
+    <!--
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+-->
+    
+<link rel="stylesheet" href="/css/layout.css">
 
-    }
-</style>
-<p>0 系统的选择及安装<br>1 联网，请备好网线<br>2 浏览器的使用<br>3 我的电脑，配置系统文件<br>4 软件安装及卸载<br>5 拒绝广告和病毒<br>6 快捷键及shell基础<br>7 浅谈自学知识<br>8 电脑是工具，不是玩具<br>9 必经之路，交流经验</p>
+    <p>0 系统的选择及安装<br>1 联网，请备好网线<br>2 浏览器的使用<br>3 我的电脑，配置系统文件<br>4 软件安装及卸载<br>5 拒绝广告和病毒<br>6 快捷键及shell基础<br>7 浅谈自学知识<br>8 电脑是工具，不是玩具<br>9 必经之路，交流经验</p>
 <ul>
 <li>电脑的保养及维护技巧</li>
 </ul>
@@ -71,36 +54,7 @@ document.write(window.location.search.substr(1).split("&"))
 </script>
 
 <script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
-<script src="">
-<script type="text/javascript">
-// if ('serviceWorker' in navigator) {
-//   navigator.serviceWorker
-//     .register("/service-worker.js", {scope: '/'})
-//     .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
-//     .catch(err => console.log('SW Registration Failed! Error: ', err));
-// }
-// This is the "Offline page" service worker
-
-// Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
-
-// Check compatibility for the browser we're running this in
-if ("serviceWorker" in navigator) {
-  if (navigator.serviceWorker.controller) {
-    console.log("[PWA Builder] active service worker found, no need to register");
-  } else {
-    // Register the service worker
-    navigator.serviceWorker
-      .register("pwabuilder-sw.js", {
-        scope: "./"
-      })
-      .then(function (reg) {
-        console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
-      });
-  }
-}
-</script>
     
-
 
 
 <script type="text/javascript">

@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <base target="_blank" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux</title>
     <meta name="description" content="yum查看yum源Java包yum list java Linux 基础文件目录 https:&#x2F;&#x2F;opsx.alibaba.com&#x2F;mirror&#x2F;search?q&#x3D;dnf&amp;lang&#x3D;zh-CN 文件目录 &#x2F;bin 存放二进制可执行文件(ls,cat,mkdir等)，常用命令 普通用户命令  &#x2F;boot 系统启动相关文件  &#x2F;data  &#x2F;dev 设备文件  &#x2F;etc 存放系统管理和配置文件">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Linux">
@@ -18,7 +20,6 @@
 <meta name="twitter:image" content="https://dukebode.github.io/img/docusaurus.svg">
 
 
-    <title>Linux</title>
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -30,31 +31,13 @@ var _hmt = _hmt || [];
 </script>
 
     <link rel="manifest" href="manifest.json">
-<style>
-    a {
-        color: black;
-        text-decoration:none;
-    }
-    html{
-        max-width: 100vh;
-        margin: auto;
-    }
-    img{
-        max-width:100%;
-        align:center;
-    }
-    .highlight {
-        background: #2d2d2d;
-        margin:0;
-        padding: 15px 20px;
-        overflow: auto;
-        color: #ccc;
-    }
-    .item{
+    <!--
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+-->
+    
+<link rel="stylesheet" href="/css/layout.css">
 
-    }
-</style>
-<h1 id="yum"><a href="#yum" class="headerlink" title="yum"></a>yum</h1><p>查看yum源Java包<br>yum list <em>java</em></p>
+    <h1 id="yum"><a href="#yum" class="headerlink" title="yum"></a>yum</h1><p>查看yum源Java包<br>yum list <em>java</em></p>
 <h2 id="Linux-基础"><a href="#Linux-基础" class="headerlink" title="Linux 基础"></a>Linux 基础</h2><p><a href="#文件目录">文件目录</a><br><img src="/img/docusaurus.svg" alt="tupai"></p>
 <p><a href="https://opsx.alibaba.com/mirror/search?q=dnf&amp;lang=zh-CN" target="_blank" rel="noopener">https://opsx.alibaba.com/mirror/search?q=dnf&amp;lang=zh-CN</a></p>
 <h2 id="文件目录"><a href="#文件目录" class="headerlink" title="文件目录"></a>文件目录</h2><ul>
@@ -141,36 +124,7 @@ document.write(window.location.search.substr(1).split("&"))
 </script>
 
 <script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
-<script src="">
-<script type="text/javascript">
-// if ('serviceWorker' in navigator) {
-//   navigator.serviceWorker
-//     .register("/service-worker.js", {scope: '/'})
-//     .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
-//     .catch(err => console.log('SW Registration Failed! Error: ', err));
-// }
-// This is the "Offline page" service worker
-
-// Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
-
-// Check compatibility for the browser we're running this in
-if ("serviceWorker" in navigator) {
-  if (navigator.serviceWorker.controller) {
-    console.log("[PWA Builder] active service worker found, no need to register");
-  } else {
-    // Register the service worker
-    navigator.serviceWorker
-      .register("pwabuilder-sw.js", {
-        scope: "./"
-      })
-      .then(function (reg) {
-        console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
-      });
-  }
-}
-</script>
     
-
 
 
 <script type="text/javascript">

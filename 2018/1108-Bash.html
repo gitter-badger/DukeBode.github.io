@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <base target="_blank" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bash</title>
     <meta name="description" content="linx date 时间 useradd 用户添加 whoami 当前登录用户 chmod -R 777 dirname 将dirname授权给所有用户 echo $PS1 显示提示符格式 ls 深蓝色：文件夹&#x2F;目录 点开头：隐藏文件 ls -a alias 起别名 type -a 查看本质  ! 调用历史 bash快捷键   按键 含义    ^A 光标移到行首   ^B 光标非破坏退格   ^">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Bash">
@@ -16,7 +18,6 @@
 <meta name="twitter:card" content="summary">
 
 
-    <title>Bash</title>
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -28,31 +29,13 @@ var _hmt = _hmt || [];
 </script>
 
     <link rel="manifest" href="manifest.json">
-<style>
-    a {
-        color: black;
-        text-decoration:none;
-    }
-    html{
-        max-width: 100vh;
-        margin: auto;
-    }
-    img{
-        max-width:100%;
-        align:center;
-    }
-    .highlight {
-        background: #2d2d2d;
-        margin:0;
-        padding: 15px 20px;
-        overflow: auto;
-        color: #ccc;
-    }
-    .item{
+    <!--
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+-->
+    
+<link rel="stylesheet" href="/css/layout.css">
 
-    }
-</style>
-<h1 id="linx"><a href="#linx" class="headerlink" title="linx"></a>linx</h1><ol>
+    <h1 id="linx"><a href="#linx" class="headerlink" title="linx"></a>linx</h1><ol>
 <li>date 时间</li>
 <li>useradd 用户添加</li>
 <li>whoami 当前登录用户</li>
@@ -155,36 +138,7 @@ document.write(window.location.search.substr(1).split("&"))
 </script>
 
 <script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
-<script src="">
-<script type="text/javascript">
-// if ('serviceWorker' in navigator) {
-//   navigator.serviceWorker
-//     .register("/service-worker.js", {scope: '/'})
-//     .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
-//     .catch(err => console.log('SW Registration Failed! Error: ', err));
-// }
-// This is the "Offline page" service worker
-
-// Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
-
-// Check compatibility for the browser we're running this in
-if ("serviceWorker" in navigator) {
-  if (navigator.serviceWorker.controller) {
-    console.log("[PWA Builder] active service worker found, no need to register");
-  } else {
-    // Register the service worker
-    navigator.serviceWorker
-      .register("pwabuilder-sw.js", {
-        scope: "./"
-      })
-      .then(function (reg) {
-        console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
-      });
-  }
-}
-</script>
     
-
 
 
 <script type="text/javascript">

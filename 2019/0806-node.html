@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <base target="_blank" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nodejs</title>
     <meta name="description" content="官网 切换 npm 源Node 的官方模块仓库网速太慢，模块仓库需要切换到阿里的源。 不安装 cnpm 只用淘宝镜像，设置 npm 的镜像： 1npm config set registry https:&#x2F;&#x2F;registry.npm.taobao.org&#x2F;  执行下面的命令，确认是否切换成功。 1npm config get registry  yarn官网 https:&#x2F;&#x2F;mirrors.hua">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Nodejs">
@@ -19,7 +21,6 @@
 <meta name="twitter:card" content="summary">
 
 
-    <title>Nodejs</title>
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -31,31 +32,13 @@ var _hmt = _hmt || [];
 </script>
 
     <link rel="manifest" href="manifest.json">
-<style>
-    a {
-        color: black;
-        text-decoration:none;
-    }
-    html{
-        max-width: 100vh;
-        margin: auto;
-    }
-    img{
-        max-width:100%;
-        align:center;
-    }
-    .highlight {
-        background: #2d2d2d;
-        margin:0;
-        padding: 15px 20px;
-        overflow: auto;
-        color: #ccc;
-    }
-    .item{
+    <!--
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+-->
+    
+<link rel="stylesheet" href="/css/layout.css">
 
-    }
-</style>
-<p><a href="https://nodejs.org/" target="_blank" rel="noopener">官网</a></p>
+    <p><a href="https://nodejs.org/" target="_blank" rel="noopener">官网</a></p>
 <h2 id="切换-npm-源"><a href="#切换-npm-源" class="headerlink" title="切换 npm 源"></a>切换 npm 源</h2><p>Node 的官方模块仓库网速太慢，模块仓库需要切换到阿里的源。</p>
 <p>不安装 cnpm 只用淘宝镜像，设置 npm 的镜像：</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry https://registry.npm.taobao.org/</span><br></pre></td></tr></table></figure>
@@ -80,36 +63,7 @@ document.write(window.location.search.substr(1).split("&"))
 </script>
 
 <script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
-<script src="">
-<script type="text/javascript">
-// if ('serviceWorker' in navigator) {
-//   navigator.serviceWorker
-//     .register("/service-worker.js", {scope: '/'})
-//     .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
-//     .catch(err => console.log('SW Registration Failed! Error: ', err));
-// }
-// This is the "Offline page" service worker
-
-// Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
-
-// Check compatibility for the browser we're running this in
-if ("serviceWorker" in navigator) {
-  if (navigator.serviceWorker.controller) {
-    console.log("[PWA Builder] active service worker found, no need to register");
-  } else {
-    // Register the service worker
-    navigator.serviceWorker
-      .register("pwabuilder-sw.js", {
-        scope: "./"
-      })
-      .then(function (reg) {
-        console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
-      });
-  }
-}
-</script>
     
-
 
 
 <script type="text/javascript">

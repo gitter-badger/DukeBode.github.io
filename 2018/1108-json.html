@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <base target="_blank" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>json</title>
     <meta name="description" content="JSON(JavaScript Object Notation) 是一种轻量级数据交换格式，可以对复杂数据进行表达和存储，易于阅读和理解。 规则 数据保存在键值对中 键值对之间由逗号分割 花括号用于保存键值对数据组成的对象 方括号用于保存键值对数据组成的数组   采用对象、数组方式组织起来的键值对可以表示任何结构的数据 JSON 格式是互联网上主要使用的复杂数据格式之一">
 <meta property="og:type" content="article">
 <meta property="og:title" content="json">
@@ -16,7 +18,6 @@
 <meta name="twitter:card" content="summary">
 
 
-    <title>json</title>
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -28,31 +29,13 @@ var _hmt = _hmt || [];
 </script>
 
     <link rel="manifest" href="manifest.json">
-<style>
-    a {
-        color: black;
-        text-decoration:none;
-    }
-    html{
-        max-width: 100vh;
-        margin: auto;
-    }
-    img{
-        max-width:100%;
-        align:center;
-    }
-    .highlight {
-        background: #2d2d2d;
-        margin:0;
-        padding: 15px 20px;
-        overflow: auto;
-        color: #ccc;
-    }
-    .item{
+    <!--
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+-->
+    
+<link rel="stylesheet" href="/css/layout.css">
 
-    }
-</style>
-<p>JSON(JavaScript Object Notation) 是一种轻量级数据交换格式，可以对复杂数据进行表达和存储，易于阅读和理解。</p>
+    <p>JSON(JavaScript Object Notation) 是一种轻量级数据交换格式，可以对复杂数据进行表达和存储，易于阅读和理解。</p>
 <h1 id="规则"><a href="#规则" class="headerlink" title="规则"></a>规则</h1><ol>
 <li>数据保存在键值对中</li>
 <li>键值对之间由逗号分割</li>
@@ -78,36 +61,7 @@ document.write(window.location.search.substr(1).split("&"))
 </script>
 
 <script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
-<script src="">
-<script type="text/javascript">
-// if ('serviceWorker' in navigator) {
-//   navigator.serviceWorker
-//     .register("/service-worker.js", {scope: '/'})
-//     .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
-//     .catch(err => console.log('SW Registration Failed! Error: ', err));
-// }
-// This is the "Offline page" service worker
-
-// Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
-
-// Check compatibility for the browser we're running this in
-if ("serviceWorker" in navigator) {
-  if (navigator.serviceWorker.controller) {
-    console.log("[PWA Builder] active service worker found, no need to register");
-  } else {
-    // Register the service worker
-    navigator.serviceWorker
-      .register("pwabuilder-sw.js", {
-        scope: "./"
-      })
-      .then(function (reg) {
-        console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
-      });
-  }
-}
-</script>
     
-
 
 
 <script type="text/javascript">

@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <base target="_blank" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeautifulSoup</title>
     <meta name="description" content="1. Beautiful Soup的简介简单来说，Beautiful Soup是python的一个库，最主要的功能是从网页抓取数据。官方解释如下：  Beautiful Soup提供一些简单的、python式的函数用来处理导航、搜索、修改分析树等功能。它是一个工具箱，通过解析文档为用户提供需要抓取的数据，因为简单，所以不需要多少代码就可以写出一个完整的应用程序。Beautiful Soup自动将输">
 <meta property="og:type" content="article">
 <meta property="og:title" content="BeautifulSoup">
@@ -18,7 +20,6 @@
 <meta name="twitter:card" content="summary">
 
 
-    <title>BeautifulSoup</title>
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -30,31 +31,13 @@ var _hmt = _hmt || [];
 </script>
 
     <link rel="manifest" href="manifest.json">
-<style>
-    a {
-        color: black;
-        text-decoration:none;
-    }
-    html{
-        max-width: 100vh;
-        margin: auto;
-    }
-    img{
-        max-width:100%;
-        align:center;
-    }
-    .highlight {
-        background: #2d2d2d;
-        margin:0;
-        padding: 15px 20px;
-        overflow: auto;
-        color: #ccc;
-    }
-    .item{
+    <!--
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+-->
+    
+<link rel="stylesheet" href="/css/layout.css">
 
-    }
-</style>
-<h2 id="1-Beautiful-Soup的简介"><a href="#1-Beautiful-Soup的简介" class="headerlink" title="1. Beautiful Soup的简介"></a>1. Beautiful Soup的简介</h2><p>简单来说，Beautiful Soup是python的一个库，最主要的功能是从网页抓取数据。官方解释如下：</p>
+    <h2 id="1-Beautiful-Soup的简介"><a href="#1-Beautiful-Soup的简介" class="headerlink" title="1. Beautiful Soup的简介"></a>1. Beautiful Soup的简介</h2><p>简单来说，Beautiful Soup是python的一个库，最主要的功能是从网页抓取数据。官方解释如下：</p>
 <blockquote>
 <p>Beautiful Soup提供一些简单的、python式的函数用来处理导航、搜索、修改分析树等功能。它是一个工具箱，通过解析文档为用户提供需要抓取的数据，因为简单，所以不需要多少代码就可以写出一个完整的应用程序。<br>Beautiful Soup自动将输入文档转换为Unicode编码，输出文档转换为utf-8编码。你不需要考虑编码方式，除非文档没有指定一个编码方式，这时，Beautiful Soup就不能自动识别编码方式了。然后，你仅仅需要说明一下原始编码方式就可以了。<br>Beautiful Soup已成为和lxml、html6lib一样出色的python解释器，为用户灵活地提供不同的解析策略或强劲的速度。</p>
 </blockquote>
@@ -263,7 +246,7 @@ var _hmt = _hmt || [];
 <h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>本篇内容比较多，把 Beautiful Soup 的方法进行了大部分整理和总结，不过这还不算完全，仍然有 Beautiful Soup 的修改删除功能，不过这些功能用得比较少，只整理了查找提取的方法，希望对大家有帮助！小伙伴们加油！<br>熟练掌握了 Beautiful Soup，一定会给你带来太多方便，加油吧！</p>
 
 <a href="/2018/0526-yiban.html">易班 APP</a>
-<a href="/2018/0114-%E9%9B%86%E6%88%90%E4%BC%A0%E6%84%9F%E5%99%A8/2_%E4%BB%80%E4%B9%88%E6%98%AF%E9%9B%86%E6%88%90%E4%BC%A0%E6%84%9F%E5%99%A8.html">什么是集成传感器</a>
+<a href="/2018/0114-%E9%9B%86%E6%88%90%E4%BC%A0%E6%84%9F%E5%99%A8/1_%E4%BB%80%E4%B9%88%E6%98%AF%E4%BC%A0%E6%84%9F%E5%99%A8.html">什么是传感器</a>
 
 <script type="text/javascript">
 document.write(document.referrer)
@@ -276,36 +259,7 @@ document.write(window.location.search.substr(1).split("&"))
 </script>
 
 <script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
-<script src="">
-<script type="text/javascript">
-// if ('serviceWorker' in navigator) {
-//   navigator.serviceWorker
-//     .register("/service-worker.js", {scope: '/'})
-//     .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
-//     .catch(err => console.log('SW Registration Failed! Error: ', err));
-// }
-// This is the "Offline page" service worker
-
-// Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
-
-// Check compatibility for the browser we're running this in
-if ("serviceWorker" in navigator) {
-  if (navigator.serviceWorker.controller) {
-    console.log("[PWA Builder] active service worker found, no need to register");
-  } else {
-    // Register the service worker
-    navigator.serviceWorker
-      .register("pwabuilder-sw.js", {
-        scope: "./"
-      })
-      .then(function (reg) {
-        console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
-      });
-  }
-}
-</script>
     
-
 
 
 <script type="text/javascript">

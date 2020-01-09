@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <base target="_blank" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>汇编语言环境搭建</title>
     <meta name="description" content="DOSBOX 配置 12345678910# 挂载程序目录mount c D:\Programs_Add\ASM# 挂载工作目录mount d E:\DukeLab\ASM# 将程序加入 path 环境set path&#x3D;%path%;c:\;# 切换到工作目录d:# 清屏cls  参考文章 DOSBOX 官网">
 <meta property="og:type" content="article">
 <meta property="og:title" content="汇编语言环境搭建">
@@ -17,7 +19,6 @@
 <meta name="twitter:card" content="summary">
 
 
-    <title>汇编语言环境搭建</title>
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -29,31 +30,13 @@ var _hmt = _hmt || [];
 </script>
 
     <link rel="manifest" href="manifest.json">
-<style>
-    a {
-        color: black;
-        text-decoration:none;
-    }
-    html{
-        max-width: 100vh;
-        margin: auto;
-    }
-    img{
-        max-width:100%;
-        align:center;
-    }
-    .highlight {
-        background: #2d2d2d;
-        margin:0;
-        padding: 15px 20px;
-        overflow: auto;
-        color: #ccc;
-    }
-    .item{
+    <!--
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+-->
+    
+<link rel="stylesheet" href="/css/layout.css">
 
-    }
-</style>
-<p>DOSBOX 配置</p>
+    <p>DOSBOX 配置</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"># 挂载程序目录</span><br><span class="line">mount c D:\Programs_Add\ASM</span><br><span class="line"># 挂载工作目录</span><br><span class="line">mount d E:\DukeLab\ASM</span><br><span class="line"># 将程序加入 path 环境</span><br><span class="line">set path&#x3D;%path%;c:\;</span><br><span class="line"># 切换到工作目录</span><br><span class="line">d:</span><br><span class="line"># 清屏</span><br><span class="line">cls</span><br></pre></td></tr></table></figure>
 
 <h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><ul>
@@ -74,36 +57,7 @@ document.write(window.location.search.substr(1).split("&"))
 </script>
 
 <script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
-<script src="">
-<script type="text/javascript">
-// if ('serviceWorker' in navigator) {
-//   navigator.serviceWorker
-//     .register("/service-worker.js", {scope: '/'})
-//     .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
-//     .catch(err => console.log('SW Registration Failed! Error: ', err));
-// }
-// This is the "Offline page" service worker
-
-// Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
-
-// Check compatibility for the browser we're running this in
-if ("serviceWorker" in navigator) {
-  if (navigator.serviceWorker.controller) {
-    console.log("[PWA Builder] active service worker found, no need to register");
-  } else {
-    // Register the service worker
-    navigator.serviceWorker
-      .register("pwabuilder-sw.js", {
-        scope: "./"
-      })
-      .then(function (reg) {
-        console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
-      });
-  }
-}
-</script>
     
-
 
 
 <script type="text/javascript">

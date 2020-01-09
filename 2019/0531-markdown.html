@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <base target="_blank" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown 人人都是程序员</title>
     <meta name="description" content="自人类文明诞生以来，我们便离不开文字记录，笔记一直是人类社会发展的重要指导和载体。随着社会的发展，环境意识的增强，越来越多的人开始尝试数字笔记，但数字笔记不想手写一样自由，在书写、阅读、交流、修改等方面存在着重大问题。Markdown 是一个专门为文档而生的编程语言，其实对新手来讲就是个文档规范，配以 VScode 等软件可实时的生成便于阅读的文档，是现在人人应当去学的一门编程语言。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Markdown 人人都是程序员">
@@ -17,7 +19,6 @@
 <meta name="twitter:card" content="summary">
 
 
-    <title>Markdown 人人都是程序员</title>
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -29,31 +30,13 @@ var _hmt = _hmt || [];
 </script>
 
     <link rel="manifest" href="manifest.json">
-<style>
-    a {
-        color: black;
-        text-decoration:none;
-    }
-    html{
-        max-width: 100vh;
-        margin: auto;
-    }
-    img{
-        max-width:100%;
-        align:center;
-    }
-    .highlight {
-        background: #2d2d2d;
-        margin:0;
-        padding: 15px 20px;
-        overflow: auto;
-        color: #ccc;
-    }
-    .item{
+    <!--
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+-->
+    
+<link rel="stylesheet" href="/css/layout.css">
 
-    }
-</style>
-<blockquote>
+    <blockquote>
 <p>自人类文明诞生以来，我们便离不开文字记录，笔记一直是人类社会发展的重要指导和载体。随着社会的发展，环境意识的增强，越来越多的人开始尝试数字笔记，但数字笔记不想手写一样自由，在书写、阅读、交流、修改等方面存在着重大问题。<br>Markdown 是一个专门为文档而生的编程语言，其实对新手来讲就是个文档规范，配以 VScode 等软件可实时的生成便于阅读的文档，是现在人人应当去学的一门编程语言。</p>
 </blockquote>
 <h3 id=""><a href="#" class="headerlink" title=""></a></h3>
@@ -71,36 +54,7 @@ document.write(window.location.search.substr(1).split("&"))
 </script>
 
 <script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
-<script src="">
-<script type="text/javascript">
-// if ('serviceWorker' in navigator) {
-//   navigator.serviceWorker
-//     .register("/service-worker.js", {scope: '/'})
-//     .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
-//     .catch(err => console.log('SW Registration Failed! Error: ', err));
-// }
-// This is the "Offline page" service worker
-
-// Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
-
-// Check compatibility for the browser we're running this in
-if ("serviceWorker" in navigator) {
-  if (navigator.serviceWorker.controller) {
-    console.log("[PWA Builder] active service worker found, no need to register");
-  } else {
-    // Register the service worker
-    navigator.serviceWorker
-      .register("pwabuilder-sw.js", {
-        scope: "./"
-      })
-      .then(function (reg) {
-        console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
-      });
-  }
-}
-</script>
     
-
 
 
 <script type="text/javascript">

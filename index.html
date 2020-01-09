@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <base target="_blank" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duke Studio</title>
     <meta property="og:type" content="website">
 <meta property="og:title" content="Duke Studio">
 <meta property="og:url" content="https://dukebode.github.io/index.html">
@@ -20,7 +22,6 @@
     <meta name="shenma-site-verification" content="315a34d9fc97b8123a79f6bdd7b88f28_1578289464">
     <meta name="google-site-verification" content="2hXKxigOPaMOnUb0RaDecub4lR-EUVwTcIyvEigcc-E" />
 
-    <title>Duke Studio</title>
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -32,31 +33,13 @@ var _hmt = _hmt || [];
 </script>
 
     <link rel="manifest" href="manifest.json">
-<style>
-    a {
-        color: black;
-        text-decoration:none;
-    }
-    html{
-        max-width: 100vh;
-        margin: auto;
-    }
-    img{
-        max-width:100%;
-        align:center;
-    }
-    .highlight {
-        background: #2d2d2d;
-        margin:0;
-        padding: 15px 20px;
-        overflow: auto;
-        color: #ccc;
-    }
-    .item{
+    <!--
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+-->
+    
+<link rel="stylesheet" href="/css/layout.css">
 
-    }
-</style>
-<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="Duke Studio" type="application/atom+xml">
+    <meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="Duke Studio" type="application/atom+xml">
 </head>
 <body>
 <!--
@@ -362,15 +345,7 @@ Greasy Fork
     <p>Hexo 博客Hexo 不是博客而是快速、简洁且高效的博客框架，适合任何有打字基础的人建立属于自己、完全定制的个人博客，可用于个人生活记录、学习笔记整理、...</p>
 </div>
 <div class="item">
-    <a href="/2019/0607-Setting.html">27 Windows Setting</a>
-        
-        
-        
-    <p>关闭虚拟内存
-</p>
-</div>
-<div class="item">
-    <a href="/2019/0607-Docker.html">28 Docker</a>
+    <a href="/2019/0607-Docker.html">27 Docker</a>
         
         
         
@@ -378,6 +353,14 @@ Greasy Fork
 仓库查找镜像 docker search nginx
 拉取官网镜像 docker pull nginx
 查看本地镜像 docker im...</p>
+</div>
+<div class="item">
+    <a href="/2019/0607-Setting.html">28 Windows Setting</a>
+        
+        
+        
+    <p>关闭虚拟内存
+</p>
 </div>
 <div class="item">
     <a href="/2019/0607-mariadb.html">29 mariadb</a>
@@ -577,19 +560,7 @@ $null（空值）$true（真值为真）$fa...</p>
 Be...</p>
 </div>
 <div class="item">
-    <a href="/2018/0114-%E9%9B%86%E6%88%90%E4%BC%A0%E6%84%9F%E5%99%A8/2_%E4%BB%80%E4%B9%88%E6%98%AF%E9%9B%86%E6%88%90%E4%BC%A0%E6%84%9F%E5%99%A8.html">48 什么是集成传感器</a>
-        
-        
-        
-    <p>集成传感器
-把敏感元件和放大电路、运算电路、补偿电路等模块，集成在一个芯片、或同一个封装上的传感器成为集成传感器。
-
-
-本课程论及范围
-利用微加工和集成工...</p>
-</div>
-<div class="item">
-    <a href="/2018/0114-%E9%9B%86%E6%88%90%E4%BC%A0%E6%84%9F%E5%99%A8/1_%E4%BB%80%E4%B9%88%E6%98%AF%E4%BC%A0%E6%84%9F%E5%99%A8.html">49 什么是传感器</a>
+    <a href="/2018/0114-%E9%9B%86%E6%88%90%E4%BC%A0%E6%84%9F%E5%99%A8/1_%E4%BB%80%E4%B9%88%E6%98%AF%E4%BC%A0%E6%84%9F%E5%99%A8.html">48 什么是传感器</a>
         
         
         
@@ -599,6 +570,18 @@ Be...</p>
 传感器的特点
 传感器是器件或测量装置，能完成检测任务；
 输...</p>
+</div>
+<div class="item">
+    <a href="/2018/0114-%E9%9B%86%E6%88%90%E4%BC%A0%E6%84%9F%E5%99%A8/2_%E4%BB%80%E4%B9%88%E6%98%AF%E9%9B%86%E6%88%90%E4%BC%A0%E6%84%9F%E5%99%A8.html">49 什么是集成传感器</a>
+        
+        
+        
+    <p>集成传感器
+把敏感元件和放大电路、运算电路、补偿电路等模块，集成在一个芯片、或同一个封装上的传感器成为集成传感器。
+
+
+本课程论及范围
+利用微加工和集成工...</p>
 </div>
 <div class="item">
     <a href="/2017/0907-html.html">50 html</a>
@@ -708,36 +691,7 @@ pv改为浏览量，删除创建者ID、应用状态、发布时间等列
 </ul>
 -->
 
-<script src="">
-<script type="text/javascript">
-// if ('serviceWorker' in navigator) {
-//   navigator.serviceWorker
-//     .register("/service-worker.js", {scope: '/'})
-//     .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
-//     .catch(err => console.log('SW Registration Failed! Error: ', err));
-// }
-// This is the "Offline page" service worker
-
-// Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
-
-// Check compatibility for the browser we're running this in
-if ("serviceWorker" in navigator) {
-  if (navigator.serviceWorker.controller) {
-    console.log("[PWA Builder] active service worker found, no need to register");
-  } else {
-    // Register the service worker
-    navigator.serviceWorker
-      .register("pwabuilder-sw.js", {
-        scope: "./"
-      })
-      .then(function (reg) {
-        console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
-      });
-  }
-}
-</script>
     
-
 
 
 <script type="text/javascript">
