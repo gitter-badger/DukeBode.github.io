@@ -1,14 +1,14 @@
-a {
-    color: black;
-    text-decoration:none;
-}
+
 html{
     max-width: 100vh;
     margin: auto;
 }
+a {
+    color: black;
+    text-decoration:none;
+}
 img{
     max-width:100%;
-    align: center;
 } 
 .highlight {
     background: #2d2d2d;
@@ -17,6 +17,29 @@ img{
     overflow: auto;
     color: #ccc;
 }
-.item{
+.nav{
+    display: flex;
+    align-items: center;
+    /* flex-direction: row; */
+}
 
+.tags{
+    overflow-x: auto;
+}
+.home, .tag-list{
+    padding: 0;
+    white-space: nowrap;
+}
+.home, .tag-list-item{
+    display: inline-block;
+    padding: 0 10px;
+}
+.tag-list-count{
+    display: none;
+}
+
+.item{
+    margin-top: 23;
+    border-top: 1px solid #b0bdc5;
+    border-bottom: 1px solid #c4cbd0;
 }
