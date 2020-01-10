@@ -3,74 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <base target="_blank" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{theme.title}}{% endif %}</title>
     {{ open_graph() }}
 
 {% if is_home() %}
     {% for foo in theme.html.index.head %}
     {{ foo }}{% endfor %}
 {% endif %}
-    <title>{% if page.title %}{{ page.title }}{% else %}{{theme.title}}{% endif %}</title>
 {% for foo in theme.html.layout.head %}{{ foo }}{% endfor %}
     {% if theme.manifest %}<link rel="manifest" href="{{ theme.manifest }}">{% endif %}
-<style>
-    a {
-        color: black;
-        text-decoration:none;
-    }
-    html{
-        max-width: 100vh;
-        margin: auto;
-    }
-    img{
-        max-width:100%;
-        align:center;
-    }
-    .highlight {
-        background: #2d2d2d;
-        margin:0;
-        padding: 15px 20px;
-        overflow: auto;
-        color: #ccc;
-    }
-    .item{
-
-    }
-</style>
-{{ body }}
-<script src="">
-<script type="text/javascript">
-// if ('serviceWorker' in navigator) {
-//   navigator.serviceWorker
-//     .register("/service-worker.js", {scope: '/'})
-//     .then(registration => console.log('SW Registration Success！Scope: ', registration.scope))
-//     .catch(err => console.log('SW Registration Failed! Error: ', err));
-// }
-// This is the "Offline page" service worker
-
-// Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
-
-// Check compatibility for the browser we're running this in
-if ("serviceWorker" in navigator) {
-  if (navigator.serviceWorker.controller) {
-    console.log("[PWA Builder] active service worker found, no need to register");
-  } else {
-    // Register the service worker
-    navigator.serviceWorker
-      .register("pwabuilder-sw.js", {
-        scope: "./"
-      })
-      .then(function (reg) {
-        console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
-      });
-  }
-}
-</script>
+    <!--{{ css('https://necolas.github.io/normalize.css/8.0.1/normalize.css') }}-->
+    {{ css('css/layout') }}
+    <div class="nav">
+<div class="home"><a href="/">首页</a></div>
+{% if is_home() %}
+<div class="tags">
+<ul class="tag-list" itemprop="keywords">
+{% for foo in site.tags %}
+    <li class="tag-list-item">{{ foo|first }}</li>{% endfor %}
+</ul>
+</div>
+{% endif %}
+</div>
+    {{ body }}
     {% if page.TeX %}
+
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
     {% endif %}
-
 
 {% for foo in theme.html.layout.body %}
 {{ foo }}
