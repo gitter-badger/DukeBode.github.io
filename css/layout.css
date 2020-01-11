@@ -20,7 +20,6 @@ img{
 .nav{
     display: flex;
     align-items: center;
-    /* flex-direction: row; */
 }
 
 .tags{
