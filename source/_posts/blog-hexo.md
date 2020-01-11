@@ -1,13 +1,15 @@
 ---
-title: HEXO
+title: HEXO 进阶操作
 date: 2019-09-22 14:49:12
 cover:
 tags:
-- blog
-- hexo
+  - blog
+  - hexo
 ---
 
-> Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
+Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
+
+<!-- more -->
 
 ## 初始化博客环境
 
@@ -24,10 +26,16 @@ source 目录下新建 404.md 文件
 location.href="https://dukebode.github.io/";
 </script>
 ```
+
+## CNAME
+
+source/CNAME
+
 ## 主题设置
 
+theme: duke
 
-## git 部署
+## 部署至 GitPage
 
 配置config
 

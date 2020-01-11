@@ -1,8 +1,9 @@
 ---
-title: blog-env
+title: 博客环境，让我们专注写笔记
 date: 2019-09-08 15:22:37
 cover:
 tags:
+  - blog
 ---
 
 
@@ -10,6 +11,8 @@ tags:
 | [yarn 官网](https://yarnpkg.com) 
 | [git 官网](https://git-scm.com/) 
 | [VScode 官网](https://code.visualstudio.com/)
+
+
 
 ```sh
 curl https://mirrors.huaweicloud.com/nodejs/v10.16.3/node-v10.16.3-win-x64.zip
@@ -42,3 +45,19 @@ yarn global add docusaurus-init
 
 
 
+[hexo 官网](https://hexo.io/)
+
+## 软件/插件
+
+[NodeJS 官网](https://nodejs.org) | 
+[VSCode 官网](https://code.visualstudio.com/) | 
+[VSCode 中文插件](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans) |
+[VSCode Hexo 插件](https://marketplace.visualstudio.com/items?itemName=codeyu.vscode-hexo)
+
+- 依次到相应官网下载相应软件并自行安装
+- 插件安装时需要打开 VScode
+- shell 执行 
+`npm install hexo-cli -g` 命令安装  hexo-cli
+
+## 记事本
+首行 .LOG

@@ -1,10 +1,12 @@
 ---
-title: gitpage
+title: gitpage 从笔记到博客
 date: 2019-09-08 13:46:38
 cover:
 tags:
-- blog
+  - blog
 ---
+
+<!-- more -->
 
 ## 读前准备
 - [x] node install
@@ -43,8 +45,6 @@ GitHub
 
 gitpage
 - gitpage 仓库
-
-hexo-theme
 
 analytics
 - confing
