@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://dukebode.github.io/sponsor/index.html</loc>
+    
+    <lastmod>2020-01-11T10:27:10.225Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://dukebode.github.io/2019/0815-git.html</loc>
     
     <lastmod>2020-01-09T08:22:03.912Z</lastmod>
@@ -68,13 +75,6 @@
     <loc>https://dukebode.github.io/2020/0105-python-combinations.html</loc>
     
     <lastmod>2020-01-09T07:25:15.661Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dukebode.github.io/sponsor/index.html</loc>
-    
-    <lastmod>2020-01-09T07:08:39.367Z</lastmod>
     
   </url>
   
