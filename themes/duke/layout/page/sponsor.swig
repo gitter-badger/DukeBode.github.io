@@ -1,5 +1,10 @@
-{% if page.sponsor %}
-    {% for foo in page.sponsor %}
-        <li><a href="{{ foo.url }}">{{ loop.key }}</a></li>
-    {% endfor %}
+{% if page.data %}
+{% for foo in page.data %}
+    {% if foo %}
+    <p>{{loop.key}}</p>
+        {% for item in foo %}
+            <li><a href="{{ item.url }}">{{ loop.key }}</a></li>
+        {% endfor %}
+    {% endif %}
+{% endfor %}
 {% endif %}
