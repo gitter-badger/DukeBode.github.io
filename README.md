@@ -19,8 +19,7 @@
 - [github](https://github.com/DukeBode)
 - [语雀](https://www.yuque.com/dukebode) 
 - [码云](https://gitee.com/DukeBode) 
-- [微博](https://weibo.com/newggbode) 
-- [腾讯 QQ](http://sighttp.qq.com/authd?IDKEY=a4c1ecd1bdaaa9fa13fb4895719e261aec692bac2895dcd9) 
+- [微博](https://weibo.com/newggbode)
 
 #
 ```sh
@@ -32,4 +31,4 @@ yarn upgrade-interactive
 - MinGit
 - HEXO -->
 
-![赞助](source/img/open/支付宝红包.jpg)
+[赞助](https://DukeBode.github.io/sponsor)
