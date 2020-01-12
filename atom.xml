@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://dukebode.github.io/"/>
-  <updated>2020-01-09T07:59:13.839Z</updated>
+  <updated>2020-01-12T04:30:23.817Z</updated>
   <id>https://dukebode.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>books</title>
+    <link href="https://dukebode.github.io/2020/0112-books.html"/>
+    <id>https://dukebode.github.io/2020/0112-books.html</id>
+    <published>2020-01-12T04:17:41.000Z</published>
+    <updated>2020-01-12T04:30:23.817Z</updated>
+    
+    <content type="html"><![CDATA[<p>大学期间在图书馆借的所有书，大一忙的看教科书了，大二没怎么买书，全是图书馆借的看的。每本看完是不可能的，事实是阅读量还没3成。</p><a id="more"></a><ul><li>JAVA从入门到项目实践</li><li>基于C#的桌面端开发技术</li><li>算法设计与分析</li><li>JAVA程序员面试算法宝典</li><li>C#从现象到本质</li><li>PYSPARK实战指南:利用PYTHON和SPARK构建数据密集型应用并规模化部署</li><li>PYTHON标准库</li><li>2020版计算机网络高分笔记</li><li>编译原理</li><li>C程序设计基础</li><li>JENKINS 2.X实践指南</li><li>2019年全国计算机等级考试一本通:三级网络技术</li><li>软件工程</li><li>前端程序员面试笔试真题与解析</li><li>微软办公软件国际认证MOS OFFICE 2016七合一高分必看:办公软件完全实战案例400+:WORD EXCEL PPT ACCESS、OU</li><li>DJANGO 2.0入门与实践</li><li>培养计算机类专业学生解决复杂工程问题的能力</li><li>程序员面试笔试数据结构深度解析</li><li>深入理解MARIADB与MYSQL</li><li>JAVA 9编程参考官方大全</li><li>JAVA系统化项目开发教程</li><li>ALTIUM DESIGNER 18电路设计与仿真:从入门到精通</li><li>算法数论:格、数域、曲线和密码学</li><li>PYTHON项目案例开发从入门到实战:爬虫、游戏和机器学习</li><li>超强大15000英文单词随身带:词根词缀+场景分类记忆法</li><li>JAVA JDK 9学习笔记</li><li>实战GRADLE</li><li>数据结构项目实训</li><li>ANIMATE CC 2017中文版入门与提高实例教程</li><li>深入浅出DOCKER</li><li>操作系统原理</li><li>每天用英语读点管理智慧</li><li>人工智能</li><li>深入理解ANDROID内核设计思想.上册</li><li>JAVA工程师修炼之道</li><li>英语四六级词根词汇巧记忆</li><li>自然拼读背单词:基础英语4000词</li><li>数字电子技术名校考研真题详解</li><li>程序员面试笔记:C/C++、算法、数据结构篇</li><li>ES6标准入门</li><li>大数据分析与计算</li><li>C#应用程序设计教程</li><li>PYTHON并行编程手册</li><li>中国文化汉英读本</li><li>数据挖掘与机器学习:WEKA应用技术与实践</li><li>直击招聘:程序员面试笔试C语言深度解析</li><li>ALTIUM DESIGNER原理图与PCB设计精讲教程</li><li>PYTHON高性能</li><li>SPRING BOOT 2企业应用实战</li><li>汇编语言:基于LINUX环境</li><li>MARIADB从零开始学:视频教学版</li><li>动手学深度学习</li><li>PYTHON设计模式</li><li>ANDROID嵌入式编程</li><li>考研专业课真题必练 (含关键考点点评),操作系统</li><li>运维工程师成长之路</li><li>面试英语口语大典</li><li>CENTOS LINUX系统管理与运维</li><li>KOTLIN语言实例精解</li><li>SPRING BOOT开发实战</li><li>操作系统:精髓与设计原理</li><li>软件架构:PYTHON语言实现</li><li>JAVA程序设计基础</li><li>完全学会GIT GITHUB GITSERVER的24堂课</li><li>横扫OFFER:程序员招聘真题详解700题</li><li>PYTHON 3.6编程实践指南:计算机科学入门</li><li>C++编程规范:101条规则、准则与最佳实践</li><li>编译原理及实践教程</li><li>汇编语言程序设计</li><li>程序员面试算法宝典</li><li>PHP精粹:编写高效PHP代码</li><li>KOTLIN从零到精通ANDROID开发</li><li>KOTLIN极简教程</li><li>KOTLIN核心编程</li><li>深度学习技术图像处理入门</li><li>DJANGO开发宝典</li><li>PYTHON从菜鸟到高手</li><li>高性能JAVASCRIPT</li><li>KOTLIN从入门到进阶实战</li><li>PYTHON数据可视化之MATPLOTLIB实践</li><li>微机原理与接口技术</li><li>365天最动人英文情诗放口袋:英汉对照</li><li>OPENCV轻松入门:面向PYTHON</li><li>JAVA程序设计经典300例</li><li>计算机网络技术</li><li>JAVA从入门到精通</li><li>C语言解惑:指针、数组、函数和多文件编程</li><li>全国计算机等级考试二级教程:2017年版,JAVA语言程序设计</li><li>深入浅出WEBASSEMBLY</li><li>GO语言高级编程</li><li>HTML5+CSS3+JAVASCRIPT+JQUERY程序设计基础教程</li><li>NGINX完全开发指南:使用C、C++和OPENRESTY</li><li>数据库原理及应用:SQL SERVER 2016</li><li>JQUERY从零开始学</li><li>POSTGRESQL修炼之道:从小工到专家</li><li>一个64位操作系统的设计与实现</li><li>操作系统之编程观察</li><li>嵌入式系统开发:基于ARM CORTEX A8系统</li><li>ORACLE数据库技术基础教程</li><li>ACM大学生程序设计竞赛在线题库最新精选题解</li><li>ARM嵌入式系统原理与开发</li><li>HTML5+CSS3从入门到精通:标准版</li><li>MYSQL从入门到精通</li><li>软件工程习题解答</li><li>数据库原理实验指导:SQL SERVER 2016</li><li>JAVA高并发编程详解:多线程与架构设计</li><li>JAVA程序设计与应用开发</li><li>数据库系统原理</li><li>数据结构课程设计案例教程</li><li>计算机组成原理</li><li>JULIA语言程序设计</li><li>ACCESS 2016数据库应用与开发</li><li>直击招聘:程序员面试笔试C++语言深度解析</li><li>PHP 7编程实战</li><li>现代JAVASCRIPT编程:经典范例与实践技巧</li><li>老蒋带你8天搞定英二真题必考词汇:2020版</li><li>HTML 5精粹:利用HTML 5开发令人惊奇的WEB站点和革命性应用</li><li>图解数据结构:使用PYTHON</li><li>深入浅出SSD:固态存储核心技术、原理与实战</li><li>程序员面试笔试真题库</li><li>人工智能与大数据技术导论</li><li>数学分析讲义.第一册</li><li>大学英语四级考试晨读美文</li><li>编程的乐趣:用PYTHON解算法谜题</li><li>JAVA程序设计案例教程</li><li>数据结构与算法分析:C++语言版</li><li>编码:隐匿在计算机软硬件背后的语言</li><li>C++语法详解</li><li>DJANGO企业开发实战</li><li>信息安全原理与技术</li><li>看《老友记》.第七季</li><li>15天学会素描,风景篇</li><li>UML基础与建模实用教程</li><li>简明数学史.第四卷,近代数学</li><li>NOSQL实践指南:基本原则、设计准则及实用技巧</li><li>PHP 7从入门到精通:视频教学版</li><li>ARM嵌入式LINUX系统开发技术详解</li><li>计算机组成原理答疑解惑与典型题解</li><li>JULIA数据科学应用</li><li>数据结构:用C++语言描述</li><li>JAVA EE基础实用教程</li><li>数学分析讲义.第二册</li><li>KOTLIN程序员面试算法宝典</li><li>BLENDER 权威指南</li><li>X86 PC 汇编语言、设计与接口:ASSEMBLY LANGUAGE, DESIGN, AND INTERFACING</li><li>深度学习实践:计算机视觉</li><li>操作系统</li><li>JAVA从小白到大牛</li><li>信息安全工程</li><li>JAVA语言程序设计</li><li>深入理解计算机网络</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;大学期间在图书馆借的所有书，大一忙的看教科书了，大二没怎么买书，全是图书馆借的看的。每本看完是不可能的，事实是阅读量还没3成。&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>vimium</title>
@@ -234,23 +253,17 @@
   </entry>
   
   <entry>
-    <title>HEXO</title>
-    <link href="https://dukebode.github.io/2019/0922-hexo.html"/>
-    <id>https://dukebode.github.io/2019/0922-hexo.html</id>
+    <title>HEXO 进阶操作</title>
+    <link href="https://dukebode.github.io/2019/0922-blog-hexo.html"/>
+    <id>https://dukebode.github.io/2019/0922-blog-hexo.html</id>
     <published>2019-09-22T06:49:12.000Z</published>
-    <updated>2019-09-22T13:37:23.193Z</updated>
+    <updated>2020-01-11T13:48:27.748Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p></blockquote><h2 id="初始化博客环境"><a href="#初始化博客环境" class="headerlink" title="初始化博客环境"></a>初始化博客环境</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog</span><br></pre></td></tr></table></figure><h2 id="404-页面"><a href="#404-页面" class="headerlink" title="404 页面"></a>404 页面</h2><p>source 目录下新建 404.md 文件</p><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">script</span>&gt;</span></span></span><br><span class="line">location.href="https://dukebode.github.io/";</span><br><span class="line"><span class="xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br></pre></td></tr></table></figure><h2 id="主题设置"><a href="#主题设置" class="headerlink" title="主题设置"></a>主题设置</h2><h2 id="git-部署"><a href="#git-部署" class="headerlink" title="git 部署"></a>git 部署</h2><p>配置config</p><figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">_config.yml</span><br><span class="line"><span class="deletion">- type</span></span><br><span class="line"><span class="addition">+ - type: git</span></span><br><span class="line"><span class="addition">+   repo: git@github.com:DukeBode/DukeBode.github.io.git</span></span><br><span class="line"><span class="addition">+   branch: master</span></span><br></pre></td></tr></table></figure><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 安装插件</span></span><br><span class="line">yarn add hexo-deployer-git</span><br><span class="line"><span class="comment"># 部署</span></span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><h2 id="git-备份"><a href="#git-备份" class="headerlink" title="git 备份"></a>git 备份</h2><p>我们将采用 gitpage 的 backup 分支来备份</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># git 仓库</span></span><br><span class="line">git init</span><br><span class="line"><span class="comment"># 添加文件</span></span><br><span class="line">git add *</span><br><span class="line"><span class="comment"># 提交至版本库</span></span><br><span class="line">git commit -m <span class="string">"hexo backup"</span></span><br><span class="line"><span class="comment"># 添加远程仓库</span></span><br><span class="line">git remote add origin git@github.com:DukeBode/DukeBode.github.io.git</span><br><span class="line"><span class="comment"># 创建 backup 分支</span></span><br><span class="line">git branch backup</span><br><span class="line"><span class="comment"># 切换 backup 分支</span></span><br><span class="line">git checkout backup</span><br><span class="line"><span class="comment"># 删除 master 分支</span></span><br><span class="line">git branch -d master</span><br><span class="line"><span class="comment"># 推送 backup 分支</span></span><br><span class="line">git push -u origin backup</span><br></pre></td></tr></table></figure><h2 id="git-恢复"><a href="#git-恢复" class="headerlink" title="git 恢复"></a>git 恢复</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> -b backup git@github.com:DukeBode/DukeBode.github.io.git blog</span><br></pre></td></tr></table></figure><h2 id="多机编写"><a href="#多机编写" class="headerlink" title="多机编写"></a>多机编写</h2><h2 id="网站地图"><a href="#网站地图" class="headerlink" title="网站地图"></a>网站地图</h2><blockquote><p>为搜索引擎提供搜索依据</p></blockquote><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yarn add hexo-generator-sitemap</span><br></pre></td></tr></table></figure><h2 id="RSS-订阅"><a href="#RSS-订阅" class="headerlink" title="RSS 订阅"></a>RSS 订阅</h2><blockquote><p>方便用户订阅</p></blockquote><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yarn add hexo-generator-feed</span><br></pre></td></tr></table></figure><h2 id="评论"><a href="#评论" class="headerlink" title="评论"></a>评论</h2><ul><li>gitalk</li></ul>]]></content>
+    <content type="html"><![CDATA[<p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p><a id="more"></a><h2 id="初始化博客环境"><a href="#初始化博客环境" class="headerlink" title="初始化博客环境"></a>初始化博客环境</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog</span><br></pre></td></tr></table></figure><h2 id="404-页面"><a href="#404-页面" class="headerlink" title="404 页面"></a>404 页面</h2><p>source 目录下新建 404.md 文件</p><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">script</span>&gt;</span></span></span><br><span class="line">location.href="https://dukebode.github.io/";</span><br><span class="line"><span class="xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br></pre></td></tr></table></figure><h2 id="CNAME"><a href="#CNAME" class="headerlink" title="CNAME"></a>CNAME</h2><p>source/CNAME</p><h2 id="主题设置"><a href="#主题设置" class="headerlink" title="主题设置"></a>主题设置</h2><p>theme: duke</p><h2 id="部署至-GitPage"><a href="#部署至-GitPage" class="headerlink" title="部署至 GitPage"></a>部署至 GitPage</h2><p>配置config</p><figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">_config.yml</span><br><span class="line"><span class="deletion">- type</span></span><br><span class="line"><span class="addition">+ - type: git</span></span><br><span class="line"><span class="addition">+   repo: git@github.com:DukeBode/DukeBode.github.io.git</span></span><br><span class="line"><span class="addition">+   branch: master</span></span><br></pre></td></tr></table></figure><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 安装插件</span></span><br><span class="line">yarn add hexo-deployer-git</span><br><span class="line"><span class="comment"># 部署</span></span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><h2 id="git-备份"><a href="#git-备份" class="headerlink" title="git 备份"></a>git 备份</h2><p>我们将采用 gitpage 的 backup 分支来备份</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># git 仓库</span></span><br><span class="line">git init</span><br><span class="line"><span class="comment"># 添加文件</span></span><br><span class="line">git add *</span><br><span class="line"><span class="comment"># 提交至版本库</span></span><br><span class="line">git commit -m <span class="string">"hexo backup"</span></span><br><span class="line"><span class="comment"># 添加远程仓库</span></span><br><span class="line">git remote add origin git@github.com:DukeBode/DukeBode.github.io.git</span><br><span class="line"><span class="comment"># 创建 backup 分支</span></span><br><span class="line">git branch backup</span><br><span class="line"><span class="comment"># 切换 backup 分支</span></span><br><span class="line">git checkout backup</span><br><span class="line"><span class="comment"># 删除 master 分支</span></span><br><span class="line">git branch -d master</span><br><span class="line"><span class="comment"># 推送 backup 分支</span></span><br><span class="line">git push -u origin backup</span><br></pre></td></tr></table></figure><h2 id="git-恢复"><a href="#git-恢复" class="headerlink" title="git 恢复"></a>git 恢复</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> -b backup git@github.com:DukeBode/DukeBode.github.io.git blog</span><br></pre></td></tr></table></figure><h2 id="多机编写"><a href="#多机编写" class="headerlink" title="多机编写"></a>多机编写</h2><h2 id="网站地图"><a href="#网站地图" class="headerlink" title="网站地图"></a>网站地图</h2><blockquote><p>为搜索引擎提供搜索依据</p></blockquote><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yarn add hexo-generator-sitemap</span><br></pre></td></tr></table></figure><h2 id="RSS-订阅"><a href="#RSS-订阅" class="headerlink" title="RSS 订阅"></a>RSS 订阅</h2><blockquote><p>方便用户订阅</p></blockquote><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yarn add hexo-generator-feed</span><br></pre></td></tr></table></figure><h2 id="评论"><a href="#评论" class="headerlink" title="评论"></a>评论</h2><ul><li>gitalk</li></ul>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;blockquote&gt;
-&lt;p&gt;Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;初始化博客环境&quot;&gt;&lt;a href=&quot;#初始化博客
-      
+      &lt;p&gt;Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。&lt;/p&gt;
     
     </summary>
     
@@ -263,13 +276,13 @@
   </entry>
   
   <entry>
-    <title>blog-env</title>
+    <title>博客环境，让我们专注写笔记</title>
     <link href="https://dukebode.github.io/2019/0908-blog-env.html"/>
     <id>https://dukebode.github.io/2019/0908-blog-env.html</id>
     <published>2019-09-08T07:22:37.000Z</published>
-    <updated>2020-01-08T11:31:54.873Z</updated>
+    <updated>2020-01-11T14:02:56.300Z</updated>
     
-    <content type="html"><![CDATA[<p>| <a href="https://nodejs.org" target="_blank" rel="noopener">NodeJS 官网</a><br>| <a href="https://yarnpkg.com" target="_blank" rel="noopener">yarn 官网</a><br>| <a href="https://git-scm.com/" target="_blank" rel="noopener">git 官网</a><br>| <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VScode 官网</a></p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">curl https://mirrors.huaweicloud.com/nodejs/v10.16.3/node-v10.16.3-win-x64.zip</span><br><span class="line"></span><br><span class="line">https://mirrors.huaweicloud.com/yarn/v1.17.3/yarn-1.17.3.msi</span><br><span class="line"><span class="variable">$git</span>=<span class="string">'2.23.0'</span>;curl (<span class="string">'https://mirrors.huaweicloud.com/git-for-windows/v'</span>+<span class="variable">$git</span>+<span class="string">'.windows.1/MinGit-'</span>+<span class="variable">$git</span>+<span class="string">'-64-bit.zip'</span>) -o (<span class="string">'MinGit-'</span>+<span class="variable">$git</span>+<span class="string">'-64-bit.zip'</span>)</span><br></pre></td></tr></table></figure><ul><li><p>hexo </p></li><li><p>docusaurus</p></li></ul><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yarn global add docusaurus-init</span><br></pre></td></tr></table></figure><ol><li><p>安装 node、yarn、git、vscode</p></li><li><p>yarn global add hexo-cli</p></li><li><p>hexo init blog</p></li><li><p>配置 git 本地配置</p></li><li><p>配置 github 用户 ssh</p></li><li><p>ssh -T <a href="mailto:git@github.com">git@github.com</a></p></li><li><p>创建<code>用户名.github.io</code>仓库</p></li><li><p>git clone <code>git@github.com:用户名/用户名.github.io.git</code></p></li><li><p>将 blog 中所有文件移动至 <code>用户名.github.io</code>文件夹中</p></li><li><p>配置 config 中的 deploy 参数</p></li><li><p>hexo -d</p></li><li><p>git pull</p></li></ol>]]></content>
+    <content type="html"><![CDATA[<p>| <a href="https://nodejs.org" target="_blank" rel="noopener">NodeJS 官网</a><br>| <a href="https://yarnpkg.com" target="_blank" rel="noopener">yarn 官网</a><br>| <a href="https://git-scm.com/" target="_blank" rel="noopener">git 官网</a><br>| <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VScode 官网</a></p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">curl https://mirrors.huaweicloud.com/nodejs/v10.16.3/node-v10.16.3-win-x64.zip</span><br><span class="line"></span><br><span class="line">https://mirrors.huaweicloud.com/yarn/v1.17.3/yarn-1.17.3.msi</span><br><span class="line"><span class="variable">$git</span>=<span class="string">'2.23.0'</span>;curl (<span class="string">'https://mirrors.huaweicloud.com/git-for-windows/v'</span>+<span class="variable">$git</span>+<span class="string">'.windows.1/MinGit-'</span>+<span class="variable">$git</span>+<span class="string">'-64-bit.zip'</span>) -o (<span class="string">'MinGit-'</span>+<span class="variable">$git</span>+<span class="string">'-64-bit.zip'</span>)</span><br></pre></td></tr></table></figure><ul><li><p>hexo </p></li><li><p>docusaurus</p></li></ul><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yarn global add docusaurus-init</span><br></pre></td></tr></table></figure><ol><li><p>安装 node、yarn、git、vscode</p></li><li><p>yarn global add hexo-cli</p></li><li><p>hexo init blog</p></li><li><p>配置 git 本地配置</p></li><li><p>配置 github 用户 ssh</p></li><li><p>ssh -T <a href="mailto:git@github.com">git@github.com</a></p></li><li><p>创建<code>用户名.github.io</code>仓库</p></li><li><p>git clone <code>git@github.com:用户名/用户名.github.io.git</code></p></li><li><p>将 blog 中所有文件移动至 <code>用户名.github.io</code>文件夹中</p></li><li><p>配置 config 中的 deploy 参数</p></li><li><p>hexo -d</p></li><li><p>git pull</p></li></ol><p><a href="https://hexo.io/" target="_blank" rel="noopener">hexo 官网</a></p><h2 id="软件-插件"><a href="#软件-插件" class="headerlink" title="软件/插件"></a>软件/插件</h2><p><a href="https://nodejs.org" target="_blank" rel="noopener">NodeJS 官网</a> |<br><a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VSCode 官网</a> |<br><a href="https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans" target="_blank" rel="noopener">VSCode 中文插件</a> |<br><a href="https://marketplace.visualstudio.com/items?itemName=codeyu.vscode-hexo" target="_blank" rel="noopener">VSCode Hexo 插件</a></p><ul><li>依次到相应官网下载相应软件并自行安装</li><li>插件安装时需要打开 VScode</li><li>shell 执行<br><code>npm install hexo-cli -g</code> 命令安装  hexo-cli</li></ul><h2 id="记事本"><a href="#记事本" class="headerlink" title="记事本"></a>记事本</h2><p>首行 .LOG</p>]]></content>
     
     <summary type="html">
     
@@ -282,23 +295,27 @@
     
     
     
+      <category term="blog" scheme="https://dukebode.github.io/tags/blog/"/>
+    
   </entry>
   
   <entry>
-    <title>gitpage</title>
-    <link href="https://dukebode.github.io/2019/0908-gitpage.html"/>
-    <id>https://dukebode.github.io/2019/0908-gitpage.html</id>
+    <title>gitpage 从笔记到博客</title>
+    <link href="https://dukebode.github.io/2019/0908-blog-gitpage.html"/>
+    <id>https://dukebode.github.io/2019/0908-blog-gitpage.html</id>
     <published>2019-09-08T05:46:38.000Z</published>
-    <updated>2019-09-22T13:05:39.827Z</updated>
+    <updated>2020-01-11T13:49:33.314Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="读前准备"><a href="#读前准备" class="headerlink" title="读前准备"></a>读前准备</h2><ul><li><input checked="" disabled="" type="checkbox"> node install</li><li><input checked="" disabled="" type="checkbox"> hexo project</li><li><input disabled="" type="checkbox"> hexo-generator-feed</li><li><input checked="" disabled="" type="checkbox"> hexo-deployer-git</li></ul><h3 id="创建-GitPage-仓库"><a href="#创建-GitPage-仓库" class="headerlink" title="创建 GitPage 仓库"></a>创建 GitPage 仓库</h3><p>登录 GitHub,在相关位置输入上文记录的内容。<a href="https://github.com/login" target="_blank" rel="noopener">登录地址</a></p><p><img src="/img/blog/2.png" alt="GitHub 登录界面"></p><p>如图所示，新建仓库，输入相关信息。仓库名（用户名.github.io）为 GitPage 固定写法。<a href="https://github.com/new" target="_blank" rel="noopener">新建仓库地址</a></p><p><img src="/img/gitpage/2.png" alt="仓库创建界面"></p><h3 id="配置config"><a href="#配置config" class="headerlink" title="配置config"></a>配置config</h3><figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># _config.yml</span><br><span class="line"><span class="deletion">- type</span></span><br><span class="line"><span class="addition">+ - type: git</span></span><br><span class="line"><span class="addition">+   repo: git@github.com:DukeBode/DukeBode.github.io.git</span></span><br><span class="line"><span class="addition">+   branch: master</span></span><br></pre></td></tr></table></figure><p><img src="/img/gitpage/4.png" alt="config配置"></p><p>git</p><ul><li>install</li></ul><p>GitHub</p><ul><li>账户</li><li>ssh 免密访问</li></ul><p>gitpage</p><ul><li>gitpage 仓库</li></ul><p>hexo-theme</p><p>analytics</p><ul><li>confing</li></ul><p>search</p>]]></content>
+    <content type="html"><![CDATA[<a id="more"></a><h2 id="读前准备"><a href="#读前准备" class="headerlink" title="读前准备"></a>读前准备</h2><ul><li><input checked="" disabled="" type="checkbox"> node install</li><li><input checked="" disabled="" type="checkbox"> hexo project</li><li><input disabled="" type="checkbox"> hexo-generator-feed</li><li><input checked="" disabled="" type="checkbox"> hexo-deployer-git</li></ul><h3 id="创建-GitPage-仓库"><a href="#创建-GitPage-仓库" class="headerlink" title="创建 GitPage 仓库"></a>创建 GitPage 仓库</h3><p>登录 GitHub,在相关位置输入上文记录的内容。<a href="https://github.com/login" target="_blank" rel="noopener">登录地址</a></p><p><img src="/img/blog/2.png" alt="GitHub 登录界面"></p><p>如图所示，新建仓库，输入相关信息。仓库名（用户名.github.io）为 GitPage 固定写法。<a href="https://github.com/new" target="_blank" rel="noopener">新建仓库地址</a></p><p><img src="/img/gitpage/2.png" alt="仓库创建界面"></p><h3 id="配置config"><a href="#配置config" class="headerlink" title="配置config"></a>配置config</h3><figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># _config.yml</span><br><span class="line"><span class="deletion">- type</span></span><br><span class="line"><span class="addition">+ - type: git</span></span><br><span class="line"><span class="addition">+   repo: git@github.com:DukeBode/DukeBode.github.io.git</span></span><br><span class="line"><span class="addition">+   branch: master</span></span><br></pre></td></tr></table></figure><p><img src="/img/gitpage/4.png" alt="config配置"></p><p>git</p><ul><li>install</li></ul><p>GitHub</p><ul><li>账户</li><li>ssh 免密访问</li></ul><p>gitpage</p><ul><li>gitpage 仓库</li></ul><p>analytics</p><ul><li>confing</li></ul><p>search</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;读前准备&quot;&gt;&lt;a href=&quot;#读前准备&quot; class=&quot;headerlink&quot; title=&quot;读前准备&quot;&gt;&lt;/a&gt;读前准备&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&quot;&quot; disabled=&quot;&quot; type=&quot;checkbox&quot;&gt; node inst
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+
+&lt;h2 id=&quot;读前准备&quot;&gt;&lt;a href=&quot;#读前准备&quot; class=&quot;headerlink&quot; title=&quot;读前准备&quot;&gt;&lt;/a&gt;读前准备&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&quot;&quot; disabled=&quot;&quot; type=&quot;c
       
     
     </summary>
@@ -366,33 +383,6 @@
     
     
       <category term="git" scheme="https://dukebode.github.io/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>用电脑记笔记</title>
-    <link href="https://dukebode.github.io/2019/0813-%E7%94%A8%E7%94%B5%E8%84%91%E8%AE%B0%E7%AC%94%E8%AE%B0.html"/>
-    <id>https://dukebode.github.io/2019/0813-%E7%94%A8%E7%94%B5%E8%84%91%E8%AE%B0%E7%AC%94%E8%AE%B0.html</id>
-    <published>2019-08-13T14:36:11.000Z</published>
-    <updated>2019-12-16T06:08:20.484Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://hexo.io/" target="_blank" rel="noopener">hexo 官网</a></p><h2 id="软件-插件"><a href="#软件-插件" class="headerlink" title="软件/插件"></a>软件/插件</h2><p><a href="https://nodejs.org" target="_blank" rel="noopener">NodeJS 官网</a> |<br><a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VSCode 官网</a> |<br><a href="https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans" target="_blank" rel="noopener">VSCode 中文插件</a> |<br><a href="https://marketplace.visualstudio.com/items?itemName=codeyu.vscode-hexo" target="_blank" rel="noopener">VSCode Hexo 插件</a></p><ul><li>依次到相应官网下载相应软件并自行安装</li><li>插件安装时需要打开 VScode</li><li>shell 执行<br><code>npm install hexo-cli -g</code> 命令安装  hexo-cli</li></ul><h2 id="记事本"><a href="#记事本" class="headerlink" title="记事本"></a>记事本</h2><p>首行 .LOG</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;hexo 官网&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;软件-插件&quot;&gt;&lt;a href=&quot;#软件-插件&quot; class=&quot;headerlink&quot; title=&quot;软件/插件
-      
-    
-    </summary>
-    
-    
-    
-      <category term="Markdown" scheme="https://dukebode.github.io/tags/Markdown/"/>
-    
-      <category term="Blog" scheme="https://dukebode.github.io/tags/Blog/"/>
     
   </entry>
   
