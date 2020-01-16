@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <base target="_blank" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>开源镜像站</title>
-    <meta name="description" content="清华大学开源软件镜像站 网易开源镜像站 腾讯云软件源站 华为开源镜像站 阿里巴巴开源镜像站 中国科学技术大学开源软件镜像 东软信息学院开源镜像站 北京交通大学自由与开源软件镜像站 浙江大学开源镜像站">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="清华大学开源软件镜像站 网易开源镜像站 腾讯云软件源站 华为开源镜像站 阿里巴巴开源镜像站 中国科学技术大学开源软件镜像 东软信息学院开源镜像站 北京交通大学自由与开源软件镜像站 浙江大学开源镜像站">
 <meta property="og:type" content="article">
 <meta property="og:title" content="开源镜像站">
 <meta property="og:url" content="https://dukebode.github.io/2019/0901-mirrors.html">
@@ -16,8 +14,12 @@
 <meta property="article:modified_time" content="2019-12-16T05:58:43.957Z">
 <meta property="article:author" content="Duke Bode">
 <meta name="twitter:card" content="summary">
+<title>开源镜像站</title>
 
-
+<!--
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+-->
+<link rel="manifest" href="manifest.json">
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -28,15 +30,30 @@ var _hmt = _hmt || [];
 })();
 </script>
 
-    <link rel="manifest" href="manifest.json">
-    <!--
-<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
--->
     
 <link rel="stylesheet" href="/css/layout.css">
 
-    <div class="nav">
-<div class="home"><a href="/">首页</a></div>
+<script>
+window.onclick = console.log(window.location.hash.substr(1));
+</script>
+<script>
+function tag(){
+document.getElementById(`home-tags`);
+}
+</script>
+<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="Duke Studio" type="application/atom+xml">
+</head>
+<body>
+    <div id="menu">
+    <nav>
+    <li><a href="/">首页</a></li>
+    
+        <li class="flex-auto"></li>
+    
+    <li><a href="/sponsor">赞助</a></li>
+    </nav>
+
+
 
 </div>
     <ul>
@@ -66,7 +83,7 @@ document.write(window.location.search.substr(1).split("&"))
 
 <script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
     
-
+<div>
 
 <script type="text/javascript">
   var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
@@ -108,6 +125,6 @@ s.src="//s.union.360.cn/"+f+".js";s.defer=!0;s.async=!0;g.parentNode.insertBefor
     s.parentNode.insertBefore(bp, s);
 })();
 </script>
-
+</div>
 </body>
 </html>

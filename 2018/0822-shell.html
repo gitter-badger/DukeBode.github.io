@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <base target="_blank" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>shell</title>
-    <meta name="description" content="命令.profile 记录了 bash 会在哪些目录查找命令。 bash 会根据 PATH 变量的设置自动寻找输入的命令。如果有同名的命令，按照路径顺序找到后返回执行，不再继续寻找。有同名的指令可以输入路径运行。 默认的路径： 12345678910~&#x2F;bin~&#x2F;.local&#x2F;bin&#x2F;usr&#x2F;local&#x2F;sbin&#x2F;usr&amp;#x2">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="命令.profile 记录了 bash 会在哪些目录查找命令。 bash 会根据 PATH 变量的设置自动寻找输入的命令。如果有同名的命令，按照路径顺序找到后返回执行，不再继续寻找。有同名的指令可以输入路径运行。 默认的路径： 12345678910~&#x2F;bin~&#x2F;.local&#x2F;bin&#x2F;usr&#x2F;local&#x2F;sbin&#x2F;usr&amp;#x2">
 <meta property="og:type" content="article">
 <meta property="og:title" content="shell">
 <meta property="og:url" content="https://dukebode.github.io/2018/0822-shell.html">
@@ -16,8 +14,12 @@
 <meta property="article:modified_time" content="2019-09-07T05:16:31.383Z">
 <meta property="article:author" content="Duke Bode">
 <meta name="twitter:card" content="summary">
+<title>shell</title>
 
-
+<!--
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+-->
+<link rel="manifest" href="manifest.json">
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -28,15 +30,30 @@ var _hmt = _hmt || [];
 })();
 </script>
 
-    <link rel="manifest" href="manifest.json">
-    <!--
-<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
--->
     
 <link rel="stylesheet" href="/css/layout.css">
 
-    <div class="nav">
-<div class="home"><a href="/">首页</a></div>
+<script>
+window.onclick = console.log(window.location.hash.substr(1));
+</script>
+<script>
+function tag(){
+document.getElementById(`home-tags`);
+}
+</script>
+<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="Duke Studio" type="application/atom+xml">
+</head>
+<body>
+    <div id="menu">
+    <nav>
+    <li><a href="/">首页</a></li>
+    
+        <li class="flex-auto"></li>
+    
+    <li><a href="/sponsor">赞助</a></li>
+    </nav>
+
+
 
 </div>
     <h2 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h2><p><code>.profile</code> 记录了 bash 会在哪些目录查找命令。 bash 会根据 PATH 变量的设置自动寻找输入的命令。如果有同名的命令，按照路径顺序找到后返回执行，不再继续寻找。有同名的指令可以输入路径运行。</p>
@@ -106,7 +123,7 @@ document.write(window.location.search.substr(1).split("&"))
 
 <script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
     
-
+<div>
 
 <script type="text/javascript">
   var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
@@ -148,6 +165,6 @@ s.src="//s.union.360.cn/"+f+".js";s.defer=!0;s.async=!0;g.parentNode.insertBefor
     s.parentNode.insertBefore(bp, s);
 })();
 </script>
-
+</div>
 </body>
 </html>

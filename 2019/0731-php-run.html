@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <base target="_blank" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>php Web Server</title>
-    <meta name="description" content="php Web Server PHP 5.4.0起， CLI SAPI 提供了一个内置的Web服务器。主要用于本地开发使用，不可用于线上产品环境。  123456# 方式一，仅配置端口启动，以当前目录为服务器根目录php -S localhost:8000# 方式二，配置端口，并指定根目录php -S localhost:8000 -t foo&#x2F;# 方式三，配置端口，调用路由（router）脚本p">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="php Web Server PHP 5.4.0起， CLI SAPI 提供了一个内置的Web服务器。主要用于本地开发使用，不可用于线上产品环境。  123456# 方式一，仅配置端口启动，以当前目录为服务器根目录php -S localhost:8000# 方式二，配置端口，并指定根目录php -S localhost:8000 -t foo&#x2F;# 方式三，配置端口，调用路由（router）脚本p">
 <meta property="og:type" content="article">
 <meta property="og:title" content="php Web Server">
 <meta property="og:url" content="https://dukebode.github.io/2019/0731-php-run.html">
@@ -17,8 +15,12 @@
 <meta property="article:author" content="Duke Bode">
 <meta property="article:tag" content="php">
 <meta name="twitter:card" content="summary">
+<title>php Web Server</title>
 
-
+<!--
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+-->
+<link rel="manifest" href="manifest.json">
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -29,15 +31,30 @@ var _hmt = _hmt || [];
 })();
 </script>
 
-    <link rel="manifest" href="manifest.json">
-    <!--
-<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
--->
     
 <link rel="stylesheet" href="/css/layout.css">
 
-    <div class="nav">
-<div class="home"><a href="/">首页</a></div>
+<script>
+window.onclick = console.log(window.location.hash.substr(1));
+</script>
+<script>
+function tag(){
+document.getElementById(`home-tags`);
+}
+</script>
+<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="Duke Studio" type="application/atom+xml">
+</head>
+<body>
+    <div id="menu">
+    <nav>
+    <li><a href="/">首页</a></li>
+    
+        <li class="flex-auto"></li>
+    
+    <li><a href="/sponsor">赞助</a></li>
+    </nav>
+
+
 
 </div>
     <h2 id="php-Web-Server"><a href="#php-Web-Server" class="headerlink" title="php Web Server"></a>php Web Server</h2><blockquote>
@@ -73,7 +90,7 @@ document.write(window.location.search.substr(1).split("&"))
 
 <script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
     
-
+<div>
 
 <script type="text/javascript">
   var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
@@ -115,6 +132,6 @@ s.src="//s.union.360.cn/"+f+".js";s.defer=!0;s.async=!0;g.parentNode.insertBefor
     s.parentNode.insertBefore(bp, s);
 })();
 </script>
-
+</div>
 </body>
 </html>

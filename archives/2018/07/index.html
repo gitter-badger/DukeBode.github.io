@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <base target="_blank" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Duke Studio</title>
-    <meta name="description" content="博德蝈蝈的个人博客">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="博德蝈蝈的个人博客">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Duke Studio">
 <meta property="og:url" content="https://dukebode.github.io/archives/2018/07/index.html">
@@ -14,8 +12,12 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="Duke Bode">
 <meta name="twitter:card" content="summary">
+<title>Duke Studio</title>
 
-
+<!--
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+-->
+<link rel="manifest" href="manifest.json">
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -26,20 +28,35 @@ var _hmt = _hmt || [];
 })();
 </script>
 
-    <link rel="manifest" href="manifest.json">
-    <!--
-<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
--->
     
 <link rel="stylesheet" href="/css/layout.css">
 
-    <div class="nav">
-<div class="home"><a href="/">首页</a></div>
+<script>
+window.onclick = console.log(window.location.hash.substr(1));
+</script>
+<script>
+function tag(){
+document.getElementById(`home-tags`);
+}
+</script>
+<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="Duke Studio" type="application/atom+xml">
+</head>
+<body>
+    <div id="menu">
+    <nav>
+    <li><a href="/">首页</a></li>
+    
+        <li class="flex-auto"></li>
+    
+    <li><a href="/sponsor">赞助</a></li>
+    </nav>
+
+
 
 </div>
     
     
-
+<div>
 
 <script type="text/javascript">
   var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
@@ -81,6 +98,6 @@ s.src="//s.union.360.cn/"+f+".js";s.defer=!0;s.async=!0;g.parentNode.insertBefor
     s.parentNode.insertBefore(bp, s);
 })();
 </script>
-
+</div>
 </body>
 </html>

@@ -1,7 +1,12 @@
+.hm-t-container{
+    display: none;
+}
+
 
 html{
     max-width: 100vh;
     margin: auto;
+    position: relative;
 }
 a {
     color: black;
@@ -17,13 +22,48 @@ img{
     overflow: auto;
     color: #ccc;
 }
-.nav{
+.flex-auto{
+    flex:auto;
+    
+}
+nav{
     display: flex;
-    align-items: center;
+    list-style: none;
+}
+nav > li {
+    flex: initial;
 }
 
+#tags{
+    display: flex;
+    justify-content: center;
+}
+
+#home-tags{
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    background-color: white;
+    padding: auto;
+}
+
+.tag-list-item{
+    margin: .4rem .5rem;
+    width: 4.1rem;
+    line-height: 1.5rem;
+    font-size: .5rem;
+    border:solid .1rem black;
+    border-radius: 3rem;
+    text-align: center;
+    /* width:33%; */
+
+    /* display: inline-block; */
+}/* 
 .tags{
     overflow-x: auto;
+}
+.tags::-webkit-scrollbar{
+    display: none;
 }
 .home, .tag-list{
     padding: 0;
@@ -35,7 +75,7 @@ img{
 }
 .tag-list-count{
     display: none;
-}
+} */
 
 .item{
     margin-top: 23;

@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <base target="_blank" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>汇编语言环境搭建</title>
-    <meta name="description" content="DOSBOX 配置 12345678910# 挂载程序目录mount c D:\Programs_Add\ASM# 挂载工作目录mount d E:\DukeLab\ASM# 将程序加入 path 环境set path&#x3D;%path%;c:\;# 切换到工作目录d:# 清屏cls  参考文章 DOSBOX 官网">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="DOSBOX 配置 12345678910# 挂载程序目录mount c D:\Programs_Add\ASM# 挂载工作目录mount d E:\DukeLab\ASM# 将程序加入 path 环境set path&#x3D;%path%;c:\;# 切换到工作目录d:# 清屏cls  参考文章 DOSBOX 官网">
 <meta property="og:type" content="article">
 <meta property="og:title" content="汇编语言环境搭建">
 <meta property="og:url" content="https://dukebode.github.io/2019/0709-asm-env.html">
@@ -17,8 +15,12 @@
 <meta property="article:author" content="Duke Bode">
 <meta property="article:tag" content="Assembly">
 <meta name="twitter:card" content="summary">
+<title>汇编语言环境搭建</title>
 
-
+<!--
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+-->
+<link rel="manifest" href="manifest.json">
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -29,15 +31,30 @@ var _hmt = _hmt || [];
 })();
 </script>
 
-    <link rel="manifest" href="manifest.json">
-    <!--
-<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
--->
     
 <link rel="stylesheet" href="/css/layout.css">
 
-    <div class="nav">
-<div class="home"><a href="/">首页</a></div>
+<script>
+window.onclick = console.log(window.location.hash.substr(1));
+</script>
+<script>
+function tag(){
+document.getElementById(`home-tags`);
+}
+</script>
+<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="Duke Studio" type="application/atom+xml">
+</head>
+<body>
+    <div id="menu">
+    <nav>
+    <li><a href="/">首页</a></li>
+    
+        <li class="flex-auto"></li>
+    
+    <li><a href="/sponsor">赞助</a></li>
+    </nav>
+
+
 
 </div>
     <p>DOSBOX 配置</p>
@@ -62,7 +79,7 @@ document.write(window.location.search.substr(1).split("&"))
 
 <script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
     
-
+<div>
 
 <script type="text/javascript">
   var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
@@ -104,6 +121,6 @@ s.src="//s.union.360.cn/"+f+".js";s.defer=!0;s.async=!0;g.parentNode.insertBefor
     s.parentNode.insertBefore(bp, s);
 })();
 </script>
-
+</div>
 </body>
 </html>

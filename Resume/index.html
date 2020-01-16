@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <base target="_blank" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Duke Studio</title>
-    <meta name="description" content="简历-宋智勇                                                                                                      博德蝈蝈 | Duke Bode">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="简历-宋智勇                                                                                                      博德蝈蝈 | Duke Bode">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Duke Studio">
 <meta property="og:url" content="https://dukebode.github.io/Resume/index.html">
@@ -35,8 +33,12 @@
 <meta property="article:author" content="Duke Bode">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://dukebode.github.io/Resume/img/github.png">
+<title>Duke Studio</title>
 
-
+<!--
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+-->
+<link rel="manifest" href="manifest.json">
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -47,15 +49,29 @@ var _hmt = _hmt || [];
 })();
 </script>
 
-    <link rel="manifest" href="manifest.json">
-    <!--
-<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
--->
     
 <link rel="stylesheet" href="/css/layout.css">
 
-    <div class="nav">
-<div class="home"><a href="/">首页</a></div>
+<script>
+window.onclick = console.log(window.location.hash.substr(1));
+</script>
+<script>
+function tag(){
+document.getElementById(`home-tags`);
+}
+</script>
+</head>
+<body>
+    <div id="menu">
+    <nav>
+    <li><a href="/">首页</a></li>
+    
+        <li class="flex-auto"></li>
+    
+    <li><a href="/sponsor">赞助</a></li>
+    </nav>
+
+
 
 </div>
     <!DOCTYPE html>
@@ -186,7 +202,7 @@ document.write(window.location.search.substr(1).split("&"))
 
 <script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
     
-
+<div>
 
 <script type="text/javascript">
   var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
@@ -228,6 +244,6 @@ s.src="//s.union.360.cn/"+f+".js";s.defer=!0;s.async=!0;g.parentNode.insertBefor
     s.parentNode.insertBefore(bp, s);
 })();
 </script>
-
+</div>
 </body>
 </html>

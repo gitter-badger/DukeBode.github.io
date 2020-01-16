@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <base target="_blank" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SSH 配置</title>
-    <meta name="description" content="口令登录1ssh [-p 22] [user@]host  说明：  默认端口22可省略 用户名与本地用户名相同时可省略  公钥登录1. 生成公钥123# 格式 # ssh-keygen -t rsa -C &quot;通常为邮箱&quot; -f &quot;私钥文件绝对路径&quot;ssh-keygen  说明：  私钥口令 passphrase，若担心私钥的安全，设置一个 公钥 id_rsa.pub，私约 id_rsa 复制公钥">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="口令登录1ssh [-p 22] [user@]host  说明：  默认端口22可省略 用户名与本地用户名相同时可省略  公钥登录1. 生成公钥123# 格式 # ssh-keygen -t rsa -C &quot;通常为邮箱&quot; -f &quot;私钥文件绝对路径&quot;ssh-keygen  说明：  私钥口令 passphrase，若担心私钥的安全，设置一个 公钥 id_rsa.pub，私约 id_rsa 复制公钥">
 <meta property="og:type" content="article">
 <meta property="og:title" content="SSH 配置">
 <meta property="og:url" content="https://dukebode.github.io/2018/0611-SSH.html">
@@ -16,8 +14,12 @@
 <meta property="article:modified_time" content="2019-11-26T06:47:32.231Z">
 <meta property="article:author" content="Duke Bode">
 <meta name="twitter:card" content="summary">
+<title>SSH 配置</title>
 
-
+<!--
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+-->
+<link rel="manifest" href="manifest.json">
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -28,15 +30,30 @@ var _hmt = _hmt || [];
 })();
 </script>
 
-    <link rel="manifest" href="manifest.json">
-    <!--
-<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
--->
     
 <link rel="stylesheet" href="/css/layout.css">
 
-    <div class="nav">
-<div class="home"><a href="/">首页</a></div>
+<script>
+window.onclick = console.log(window.location.hash.substr(1));
+</script>
+<script>
+function tag(){
+document.getElementById(`home-tags`);
+}
+</script>
+<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="Duke Studio" type="application/atom+xml">
+</head>
+<body>
+    <div id="menu">
+    <nav>
+    <li><a href="/">首页</a></li>
+    
+        <li class="flex-auto"></li>
+    
+    <li><a href="/sponsor">赞助</a></li>
+    </nav>
+
+
 
 </div>
     <h2 id="口令登录"><a href="#口令登录" class="headerlink" title="口令登录"></a>口令登录</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh [-p 22] [user@]host</span><br></pre></td></tr></table></figure>
@@ -76,7 +93,7 @@ document.write(window.location.search.substr(1).split("&"))
 
 <script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
     
-
+<div>
 
 <script type="text/javascript">
   var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
@@ -118,6 +135,6 @@ s.src="//s.union.360.cn/"+f+".js";s.defer=!0;s.async=!0;g.parentNode.insertBefor
     s.parentNode.insertBefore(bp, s);
 })();
 </script>
-
+</div>
 </body>
 </html>
