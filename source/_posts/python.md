@@ -7,9 +7,6 @@ tags:
 - 框架
 ---
 
-| []() 
-| []() 
-
 ## Python 3 安装
 
 [官网](https://www.python.org/) | [文档](https://docs.python.org) | [包管理工具 pip](https://pip.pypa.io/)

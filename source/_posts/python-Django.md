@@ -2,7 +2,7 @@
 title: Django 部署
 date: 2018-07-18 16:34:30
 tags:
-- Python
+- python
 - Django
 - 框架
 ---

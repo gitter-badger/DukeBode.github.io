@@ -9,3 +9,5 @@ yum install java-latest-openjdk
 
 java 中文显示不正常
 > JAVA_TOOL_OPTIONS -Dfile.encoding=UTF-8
+
+jlink 部署

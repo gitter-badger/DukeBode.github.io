@@ -1,1 +1,3 @@
-书库
+{% if page.data %}
+    书库
+{% endif %}

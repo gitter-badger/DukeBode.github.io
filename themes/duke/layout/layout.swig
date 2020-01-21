@@ -1,38 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <base target="_blank" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{theme.title}}{% endif %}</title>
-    {{ open_graph() }}
+{% include "partial/head.swig" %}
+<script>
+window.onclick = console.log(window.location.hash.substr(1));
+</script>
+<script>
+function tag(){
+document.getElementById(`home-tags`);
+}
+</script>
+</head>
+<body>
+    <div id="menu">
+    <nav>
+    <li><a href="/">首页</a></li>
+    {% if is_home() %}
+        <li id="tags" class="flex-auto">标签</li>
+    {% else %}
+        <li class="flex-auto"></li>
+    {% endif %}
+    <li><a href="/sponsor">赞助</a></li>
+    </nav>
 
 {% if is_home() %}
-    {% for foo in theme.html.index.head %}
-    {{ foo }}{% endfor %}
-{% endif %}
-{% for foo in theme.html.layout.head %}{{ foo }}{% endfor %}
-    {% if theme.manifest %}<link rel="manifest" href="{{ theme.manifest }}">{% endif %}
-    <!--{{ css('https://necolas.github.io/normalize.css/8.0.1/normalize.css') }}-->
-    {{ css('css/layout') }}
-    <div class="nav">
-<div class="home"><a href="/">首页</a></div>
-{% if is_home() %}
-<div class="tags">
-<ul class="tag-list" itemprop="keywords">
+<div id="home-tags" class="tag-list">
 {% for foo in site.tags %}
-    <li class="tag-list-item">{{ foo|first }}</li>{% endfor %}
-</ul>
+<li class="tag-list-item">
+<a href="#{{ foo|first }}">{{ foo|first }}</a>
+</li>{% endfor %}
 </div>
 {% endif %}
+
 </div>
     {{ body }}
     {% if page.TeX %}
-
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     {% endif %}
-
+<div>
 {% for foo in theme.html.layout.body %}
 {{ foo }}
 {% endfor %}
@@ -51,6 +57,6 @@
     s.parentNode.insertBefore(bp, s);
 })();
 </script>
-
+</div>
 </body>
 </html>
