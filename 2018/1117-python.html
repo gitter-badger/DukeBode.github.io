@@ -3,19 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="| |   Python 3 安装官网 | 文档 | 包管理工具 pip 源码安装（推荐）1234567891011121314# 下载安装包wget https:&#x2F;&#x2F;www.python.org&#x2F;ftp&#x2F;python&#x2F;3.7.1&#x2F;Python-3.7.1.tgz# 解压tar -xzvf Python-3.7.1.tgz# 切换目录cd Python-3.7.1# 生成 makefile 文件.">
+<meta name="description" content="Python 3 安装官网 | 文档 | 包管理工具 pip 源码安装（推荐）1234567891011121314# 下载安装包wget https:&#x2F;&#x2F;www.python.org&#x2F;ftp&#x2F;python&#x2F;3.7.1&#x2F;Python-3.7.1.tgz# 解压tar -xzvf Python-3.7.1.tgz# 切换目录cd Python-3.7.1# 生成 makefile 文件.&#x2F;confi">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Python 3.x">
 <meta property="og:url" content="https://dukebode.github.io/2018/1117-python.html">
 <meta property="og:site_name" content="Duke Studio">
-<meta property="og:description" content="| |   Python 3 安装官网 | 文档 | 包管理工具 pip 源码安装（推荐）1234567891011121314# 下载安装包wget https:&#x2F;&#x2F;www.python.org&#x2F;ftp&#x2F;python&#x2F;3.7.1&#x2F;Python-3.7.1.tgz# 解压tar -xzvf Python-3.7.1.tgz# 切换目录cd Python-3.7.1# 生成 makefile 文件.">
+<meta property="og:description" content="Python 3 安装官网 | 文档 | 包管理工具 pip 源码安装（推荐）1234567891011121314# 下载安装包wget https:&#x2F;&#x2F;www.python.org&#x2F;ftp&#x2F;python&#x2F;3.7.1&#x2F;Python-3.7.1.tgz# 解压tar -xzvf Python-3.7.1.tgz# 切换目录cd Python-3.7.1# 生成 makefile 文件.&#x2F;confi">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2018-11-17T13:29:32.000Z">
-<meta property="article:modified_time" content="2019-12-16T05:58:01.909Z">
+<meta property="article:modified_time" content="2020-01-21T14:52:39.811Z">
 <meta property="article:author" content="Duke Bode">
+<meta property="article:tag" content="python">
 <meta property="article:tag" content="Django">
 <meta property="article:tag" content="框架">
-<meta property="article:tag" content="python">
 <meta name="twitter:card" content="summary">
 <title>Python 3.x</title>
 
@@ -33,6 +33,9 @@ var _hmt = _hmt || [];
 })();
 </script>
 
+<link rel="stylesheet"
+      href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/default.min.css">
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
     
 <link rel="stylesheet" href="/css/layout.css">
 
@@ -59,8 +62,7 @@ document.getElementById(`home-tags`);
 
 
 </div>
-    <p>| <a href=""></a><br>| <a href=""></a> </p>
-<h2 id="Python-3-安装"><a href="#Python-3-安装" class="headerlink" title="Python 3 安装"></a>Python 3 安装</h2><p><a href="https://www.python.org/" target="_blank" rel="noopener">官网</a> | <a href="https://docs.python.org" target="_blank" rel="noopener">文档</a> | <a href="https://pip.pypa.io/" target="_blank" rel="noopener">包管理工具 pip</a></p>
+    <h2 id="Python-3-安装"><a href="#Python-3-安装" class="headerlink" title="Python 3 安装"></a>Python 3 安装</h2><p><a href="https://www.python.org/" target="_blank" rel="noopener">官网</a> | <a href="https://docs.python.org" target="_blank" rel="noopener">文档</a> | <a href="https://pip.pypa.io/" target="_blank" rel="noopener">包管理工具 pip</a></p>
 <h3 id="源码安装（推荐）"><a href="#源码安装（推荐）" class="headerlink" title="源码安装（推荐）"></a>源码安装（推荐）</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 下载安装包</span></span><br><span class="line">wget https://www.python.org/ftp/python/3.7.1/Python-3.7.1.tgz</span><br><span class="line"><span class="comment"># 解压</span></span><br><span class="line">tar -xzvf Python-3.7.1.tgz</span><br><span class="line"><span class="comment"># 切换目录</span></span><br><span class="line"><span class="built_in">cd</span> Python-3.7.1</span><br><span class="line"><span class="comment"># 生成 makefile 文件</span></span><br><span class="line">./configure --prefix=/usr/<span class="built_in">local</span>/Python --<span class="built_in">enable</span>-optimizations</span><br><span class="line"><span class="comment"># 编译安装</span></span><br><span class="line">make</span><br><span class="line">make install</span><br><span class="line"><span class="built_in">hash</span> -r</span><br><span class="line">ln -s /usr/<span class="built_in">local</span>/Python/bin/python3.7 /usr/bin/python3</span><br><span class="line">ln -s /usr/<span class="built_in">local</span>/Python/bin/pip /usr/bin/pip3</span><br></pre></td></tr></table></figure>
 
 <h3 id="CentOS-软件包方式安装"><a href="#CentOS-软件包方式安装" class="headerlink" title="CentOS 软件包方式安装"></a>CentOS 软件包方式安装</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 安装 python3</span></span><br><span class="line">yum install python36</span><br><span class="line"><span class="comment"># 安装 pip3</span></span><br><span class="line">python36 get-pip.py</span><br></pre></td></tr></table></figure>

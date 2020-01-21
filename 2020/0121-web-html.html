@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="超⽂文本标记语⾔言">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hyper Text Markup Language">
+<meta property="og:url" content="https://dukebode.github.io/2020/0121-web-html.html">
+<meta property="og:site_name" content="Duke Studio">
+<meta property="og:description" content="超⽂文本标记语⾔言">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-01-21T13:41:54.000Z">
+<meta property="article:modified_time" content="2020-01-21T14:53:50.453Z">
+<meta property="article:author" content="Duke Bode">
+<meta property="article:tag" content="前端">
+<meta name="twitter:card" content="summary">
+<title>Hyper Text Markup Language</title>
+
+<!--
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+-->
+<link rel="manifest" href="manifest.json">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?97779506b515b3e6a2cae140e3a4f2b0";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<link rel="stylesheet"
+      href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/default.min.css">
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+    
+<link rel="stylesheet" href="/css/layout.css">
+
+<script>
+window.onclick = console.log(window.location.hash.substr(1));
+</script>
+<script>
+function tag(){
+document.getElementById(`home-tags`);
+}
+</script>
+<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="Duke Studio" type="application/atom+xml">
+</head>
+<body>
+    <div id="menu">
+    <nav>
+    <li><a href="/">首页</a></li>
+    
+        <li class="flex-auto"></li>
+    
+    <li><a href="/sponsor">赞助</a></li>
+    </nav>
+
+
+
+</div>
+    <p>超⽂文本标记语⾔言</p>
+<a id="more"></a>
+
+<p>预格式化：</p>
+<p><code>&lt;pre&gt;......&lt;/pre&gt;</code> </p>
+<p>浏览是效果和编写是效果格式一样</p>
+<p>列表</p>
+<p>1无序列表又称符号列表</p>
+<p>语法格式：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">ul</span> <span class="attr">type</span>=<span class="string">""</span>&gt;</span>type的属性可选直disc实心圆点,clrcle空心圆点,square实心方框</span><br><span class="line"><span class="tag">&lt;<span class="name">li</span>&gt;</span>文字<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">li</span>&gt;</span>文字<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>2有序列表</p>
+<p>语法格式：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">ol</span> <span class="attr">type</span>=<span class="string">"?"</span> <span class="attr">start</span>"?"&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">li</span>&gt;</span>文字<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">li</span>&gt;</span>文字<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ol</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>type的值是编号字符可选的有1…,a…,A…,i… ,I…</li>
+<li>start为起始值例：如果start为3是那么将从3开始，而且必须是数字。</li>
+</ul>
+<p>3定义列表<br><code>&lt;dl&gt;</code>定义列表标记<br><code>&lt;dt&gt;</code>标示定义条目<br><code>&lt;dd&gt;</code>标示定义内容<br>语法格式：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dl</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dt</span>&gt;</span>文字<span class="tag">&lt;/<span class="name">dt</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dd</span>&gt;</span>文字内容<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dl</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>连接和图像<br>语法格式：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"url"</span> <span class="attr">name</span>=<span class="string">"?"</span> <span class="attr">target</span>=<span class="string">"?"</span> <span class="attr">title</span>=<span class="string">"?"</span>&gt;</span>....<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>属性：href 连接目标 值可以是url地址也可以是连接锚点<br><code>&lt;a href=&quot;url&quot;&gt;...&lt;/a&gt;</code>或者<br><code>&lt;a href=&quot;锚点&quot;&gt;...&lt;/a&gt;</code></p>
+<p>name 连接名称<br>语法格式：<code>&lt;a name=&quot;锚点名称&quot;&gt;...&lt;/a&gt;</code><br>例：<br><code>&lt;a name=&quot;abcdcf&quot;&gt;...&lt;/a&gt;</code><br>连接到该锚点的连接则应是：<br><code>&lt;a name=&quot;#abcdef&quot;&gt;....&lt;/a&gt;</code><br>target目标窗口语法格式：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"url"</span><span class="attr">target</span>=<span class="string">"_blank|_self|_farent|_top|windowname"</span>&gt;</span>....<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>-blank打开新窗口</li>
+<li>_self当前窗口打开<br>一下两个仅在框架叶面中应用</li>
+<li>_parent当前窗口的父级窗口（上一级）打开</li>
+<li>_top在最高一级的窗口打开</li>
+<li>windowname已命名的窗口或框架中打开连接<br>title连接提示</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://www.jcwcn.com"</span> <span class="attr">title</span>=<span class="string">"打开中国教程网的首页"</span>&gt;</span>中国教程网<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>图像<code>&lt;img&gt;</code><br>语法格式：<br><code>&lt;img src=&quot;url&quot; alt=&quot;?&quot; width=&quot;?&quot; height=&quot;?&quot; border=&quot;?&quot; align=&quot;?&quot;&gt;</code></p>
+<ul>
+<li>border属性定义图片边框的宽度，默认值为0</li>
+<li>align属性设置图片旁边文字的位置</li>
+</ul>
+<p>语法格式：<code>&lt;img src=&quot;&quot; align&quot;&quot;&gt;</code><br>可选值有：</p>
+<ul>
+<li>top图片和文字顶部对齐</li>
+<li>middle图片和文字居中对齐</li>
+<li>bottom图片和文字底边对齐（默认）</li>
+<li>left图片居左对齐，文字沿图片绕排</li>
+<li>right图片居右对齐，文字沿图片绕排</li>
+<li>absmiddle图片对齐到目前文字行绝对中央</li>
+<li>absbottom图片对齐到目前文字行绝对底部<br>文字的排版<br>不换行空白标记</li>
+</ul>
+<p>font元素<br>语法格式：<br><code>&lt;font face=&quot;字体名称&quot; size=&quot;字体大小&quot; color=&quot;字体颜色&quot;&gt;</code><br>字体大小可选值为1——7，默认为3<br>例：<code>&lt;font face=&quot;黑体&quot; size=&quot;4&quot; color=&quot;#ff00ff&quot;&gt;....&lt;/font&gt;</code></p>
+<p>水平线<code>&lt;hr&gt;</code><br>语法格式：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">hr</span> <span class="attr">width</span>=<span class="string">"宽度"</span> <span class="attr">align</span>=<span class="string">"对齐方式默认居中center"</span> <span class="attr">size</span>=<span class="string">"水平线厚度默认为2"</span> <span class="attr">color</span>=<span class="string">"颜色"</span> <span class="attr">noshade</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>noshade无阴影，既实线层<div><span>两种元素<div>是块级元素，和段落元素相似，不同的是两个<div>元素之间不会产生两个元素之间的空行，<code>&lt;span&gt;</code>是行内元素，可以定义段落中部分文字的属性<br>语法格式：<br><code>&lt;div align=&quot;&quot; style=&quot;&quot;&gt;...&lt;/div&gt;</code><br>align设置层中元素的水平对齐方式<br>stule设置元素应用css规范的属性<br><code>&lt;div&gt;兼容性比&lt;span&gt;要好一点，最好使用&lt;div&gt;</code><br>表格语法格式：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">table</span> <span class="attr">width</span>=<span class="string">""</span> <span class="attr">bgcolor</span>=<span class="string">""</span> <span class="attr">background</span>=<span class="string">""</span> <span class="attr">border</span>=<span class="string">""</span> <span class="attr">cellspacing</span>=<span class="string">""</span> <span class="attr">cellpadding</span>=<span class="string">""</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">tr</span>&gt;</span>...<span class="tag">&lt;<span class="name">td</span>&gt;</span>....<span class="tag">&lt;/<span class="name">td</span>&gt;</span>....<span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>border边框宽度默认值为0，既没有边框</li>
+<li>cellspacing表格中单元格的边距大小，默认值为两个像素</li>
+<li>cellpadding表格中单元格之间的间距大小，默认值为两个像素</li>
+</ul>
+<p>tr元素<br>语法格式：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">tr</span> <span class="attr">align</span>=<span class="string">""</span> <span class="attr">bgcolor</span>=<span class="string">""</span>&gt;</span>....<span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>align属性对齐方式可选值如下：left,center,tight,默认为left<br>bgcolor指定该行的背景颜色<br>td元素<br>语法格式：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">td</span> <span class="attr">width</span>=<span class="string">"宽度"</span> <span class="attr">height</span>=<span class="string">"高度"</span> <span class="attr">align</span>=<span class="string">"水平对齐方式"</span> <span class="attr">valign</span>=<span class="string">"垂直对齐方式"</span> <span class="attr">bgcolor</span>=<span class="string">""</span> <span class="attr">background</span>=<span class="string">""</span> <span class="attr">rowspan</span>=<span class="string">"单元格的行跨度"</span> <span class="attr">colapan</span>=<span class="string">"单元格的列跨度"</span>&gt;</span>.....<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>align属性的可选值有：left,center,right<br>valign属性的可选值有：top,middle,bottom<br>rowspan和colapan跨行和跨列的数量，默认为1</p>
+<p>input元素 语法格式：<br><code>&lt;input type=&quot;&quot;&gt;</code></p>
+<p>type属性的可选值有：</p>
+<ul>
+<li>text 单行文本框</li>
+</ul>
+<p>属性：name 文本框名称</p>
+<ul>
+<li>value 文本框的初始值</li>
+<li>size 文本框的长度</li>
+<li>maxlength 可输入字符串最大的长度</li>
+<li>radio 单选框</li>
+</ul>
+<p>属性：name 单选框名称</p>
+<ul>
+<li>value 内部值</li>
+<li>checked 默认选定</li>
+<li>checkbox 复选框</li>
+</ul>
+<p>属性：name 复选框名称</p>
+<ul>
+<li>value 内部值</li>
+<li>checked 默认选定</li>
+<li>reset 重置按钮</li>
+<li>submit 确定按钮</li>
+</ul>
+<p>属性：name 按钮名称</p>
+<ul>
+<li>value 显示在按钮上的文字</li>
+<li>password 密码框<br>属性与文本框的属性完全相同<br>file 文件域</li>
+</ul>
+<p>属性：name文件域名称</p>
+<ul>
+<li>size 文件域的长度</li>
+<li>maxlength 文件域可接受的字符数量的上限</li>
+<li>hidden 隐藏域</li>
+</ul>
+<p>属性：name 隐藏域名称</p>
+<ul>
+<li>value 内定值</li>
+<li>image 图片域</li>
+</ul>
+<p>属性：name 所要代表的按钮，可以是submit,reset,或其他.<br>src 按钮图片的url 地址</p>
+<p>列表框 <code>&lt;select&gt;</code><br>语法格式：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">select</span>&gt;</span></span><br><span class="line">.....</span><br><span class="line"><span class="tag">&lt;<span class="name">option</span>&gt;</span>....<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">.....</span><br><span class="line"><span class="tag">&lt;/<span class="name">select</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>select元素<br>语法格式：<code>&lt;select name=&quot;&quot; size=&quot;&quot;multiple&gt;&lt;/select&gt;</code></p>
+<ul>
+<li>name 指定列表框的名字</li>
+<li>size 指定列表框显示列表项的条数，如果指定了该参数，select元素是个列表，否则是一个下拉列表框</li>
+<li>multiple 指定了这个参数，则表示该列表框可选择多项，否则只可选择一项</li>
+</ul>
+<p>option属性</p>
+<p>语法格式：<br><code>&lt;option value=&quot;&quot; selected&gt;&lt;/option&gt;</code></p>
+<ul>
+<li>value 该列表项的值</li>
+<li>selected 如果设定了这个参数，默认为选定这一项</li>
+</ul>
+<p>多行文本框<code>&lt;textarea&gt;</code></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">textarea</span> <span class="attr">name</span>=<span class="string">""</span> <span class="attr">cols</span>=<span class="string">""</span> <span class="attr">rows</span>=<span class="string">""</span> <span class="attr">wrap</span>=<span class="string">"off/physical/virtual"</span>&gt;</span><span class="tag">&lt;/<span class="name">textarea</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>属性：</p>
+<ul>
+<li>name文本框的名称</li>
+<li>cols文本框的宽度</li>
+<li>rows文本框的高度</li>
+<li>wrap文本框的折行方式可选值有：</li>
+<li>off不保存换行信息</li>
+<li>physical强迫浏览器在发送信息到web服务器端时必须将多行文本框的文字一行一行的送出，</li>
+<li>virtual送出连续成串的字除非使用者按回车。</li>
+</ul>
+<p>虚线</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">textarea</span> <span class="attr">STYLE</span>=<span class="string">"border:1px dashed pink"</span>&gt;</span><span class="tag">&lt;/<span class="name">textarea</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>实线</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">textarea</span> <span class="attr">STYLE</span>=<span class="string">"border:1px solid pink"</span>&gt;</span><span class="tag">&lt;/<span class="name">textarea</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+<p>网页结构一般都包含文档声明DOCTYPE，并且在head中的meta应该包含编码格式、关键字、网页描述信息。</p>
+<h3 id="网页结构"><a href="#网页结构" class="headerlink" title="网页结构"></a>网页结构</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Hello World<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>（1）结构化元素包括：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt; <span class="attr">header</span> &gt;</span>, <span class="tag">&lt; <span class="attr">nav</span> &gt;</span>, <span class="tag">&lt; <span class="attr">article</span> &gt;</span>, <span class="tag">&lt; <span class="attr">section</span> &gt;</span>, <span class="tag">&lt; <span class="attr">aside</span> &gt;</span>, <span class="tag">&lt; <span class="attr">footer</span> &gt;</span>。</span><br></pre></td></tr></table></figure>
+
+<p>（2）元素级别：都是block级别元素，不包含样式，只用于结构化，每个页面可多次使用。<br>（3）元素说明：</p>
+<blockquote>
+<p>header描述头部信息，<br>nav用于导航模块，<br>article用于可重新覆盖的新闻类内容块，section模块化，<br>aside页面左或右模块，<br>footer底脚模块。</p>
+</blockquote>
+<h2 id="常用布局元素"><a href="#常用布局元素" class="headerlink" title="常用布局元素"></a>常用布局元素</h2><p>div：流布局使用；</p>
+<p>span：文字块使用。</p>
+<p>JD首页的meta声明包含：</p>
+<ul>
+<li>charset 编码格式</li>
+<li>description网站描述</li>
+<li>Keywords关键字</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt; <span class="attr">meta</span> <span class="attr">charset</span>=<span class="string">"gbk"</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt; <span class="attr">meta</span> <span class="attr">name</span>=<span class="string">"description"</span> <span class="attr">content</span>=<span class="string">"京东JD.COM-专业的综合网上购物商城,销售家电等数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物体验!"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt; <span class="attr">meta</span> <span class="attr">name</span>=<span class="string">"Keywords"</span> <span class="attr">content</span>=<span class="string">"网上购物,网上商城,手机,笔记本,电脑"</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="文字类元素"><a href="#文字类元素" class="headerlink" title="文字类元素"></a>文字类元素</h2><p>（1）加粗元素：strong、b。例如：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt; <span class="attr">p</span>&gt;</span><span class="tag">&lt; <span class="attr">strong</span>&gt;</span>Caution:<span class="tag">&lt; /<span class="attr">strong</span>&gt;</span> Falling rocks.<span class="tag">&lt; /<span class="attr">p</span>&gt;</span><span class="tag">&lt; <span class="attr">p</span>&gt;</span>This recipe calls for <span class="tag">&lt; <span class="attr">b</span>&gt;</span>bacon<span class="tag">&lt; /<span class="attr">b</span>&gt;</span> and <span class="tag">&lt; <span class="attr">b</span>&gt;</span>baconnaise<span class="tag">&lt; /<span class="attr">b</span>&gt;</span>.<span class="tag">&lt; /<span class="attr">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>（2）倾斜元素：和。例如：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt; !<span class="attr">--</span> <span class="attr">Stressed</span> <span class="attr">emphasis</span> <span class="attr">--</span> &gt;</span></span><br><span class="line"><span class="tag">&lt; <span class="attr">p</span>&gt;</span>I <span class="tag">&lt; <span class="attr">em</span>&gt;</span>love<span class="tag">&lt; /<span class="attr">em</span>&gt;</span> Chicago!<span class="tag">&lt; /<span class="attr">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt; !<span class="attr">--</span> <span class="attr">Alternative</span> <span class="attr">voice</span> <span class="attr">or</span> <span class="attr">tone</span> <span class="attr">--</span>&gt;</span></span><br><span class="line"><span class="tag">&lt; <span class="attr">p</span>&gt;</span>The name <span class="tag">&lt; <span class="attr">i</span>&gt;</span>Shay<span class="tag">&lt; /<span class="attr">i</span>&gt;</span> means a gift.<span class="tag">&lt; /<span class="attr">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="自关闭元素"><a href="#自关闭元素" class="headerlink" title="自关闭元素"></a>自关闭元素</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt; <span class="attr">br</span>&gt;</span></span><br><span class="line"><span class="tag">&lt; <span class="attr">embed</span>&gt;</span></span><br><span class="line"><span class="tag">&lt; <span class="attr">hr</span>&gt;</span></span><br><span class="line"><span class="tag">&lt; <span class="attr">img</span>&gt;</span></span><br><span class="line"><span class="tag">&lt; <span class="attr">input</span>&gt;</span></span><br><span class="line"><span class="tag">&lt; <span class="attr">link</span>&gt;</span></span><br><span class="line"><span class="tag">&lt; <span class="attr">meta</span>&gt;</span></span><br><span class="line"><span class="tag">&lt; <span class="attr">param</span>&gt;</span></span><br><span class="line"><span class="tag">&lt; <span class="attr">source</span>&gt;</span></span><br><span class="line"><span class="tag">&lt; <span class="attr">wbr</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="页面内跳转"><a href="#页面内跳转" class="headerlink" title="页面内跳转"></a>页面内跳转</h2><p>如果需要跳转到页面指定的位置，可在该位置设置元素的id属性，然后为链接添加href=”#id”。例如：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt; <span class="attr">body</span> <span class="attr">id</span>=<span class="string">"top"</span> &gt;</span></span><br><span class="line">...</span><br><span class="line"><span class="tag">&lt; <span class="attr">a</span> <span class="attr">href</span>=<span class="string">"#top"</span> &gt;</span>Back to top<span class="tag">&lt; /<span class="attr">a</span> &gt;</span></span><br><span class="line">...</span><br><span class="line"><span class="tag">&lt; /<span class="attr">body</span> &gt;</span></span><br></pre></td></tr></table></figure>
+
+<a href="/2020/0121-web-css.html">Cascading Style Sheets</a>
+<a href="/2020/0112-books.html">books</a>
+
+<script type="text/javascript">
+document.write(document.referrer)
+
+document.write(window.location.search.substr(1).split("&"))
+
+// "MicroMessenger"
+// "AlipayClient"
+// "QQ"
+</script>
+
+<script src="//lib.baomitu.com/qrcode-generator/latest/qrcode.min.js"></script>
+    
+<div>
+
+<script type="text/javascript">
+  var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+  document.write(unescape("%3Cspan id='cnzz_stat_icon_1277911231'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "v1.cnzz.com/stat.php%3Fid%3D1277911231' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+<script type="text/javascript" src="http://tajs.qq.com/stats?sId=66461794" charset="UTF-8"></script>
+
+
+<script>
+(function(){
+var src = "https://jspassport.ssl.qhimg.com/11.0.1.js?d182b3f28525f2db83acfaaf6e696dba";
+document.write('<script src="' + src + '" id="sozz"><\/script>');
+})();
+</script>
+
+
+<script>
+(function(b,a,e,h,f,c,g,s){b[h]=b[h]||function(){(b[h].c=b[h].c||[]).push(arguments)};
+b[h].s=!!c;g=a.getElementsByTagName(e)[0];s=a.createElement(e);
+s.src="//s.union.360.cn/"+f+".js";s.defer=!0;s.async=!0;g.parentNode.insertBefore(s,g)
+})(window,document,"script","_qha",335532,false);
+</script>
+
+
+<!-- 百度主动推送 -->
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+</div>
+</body>
+</html>
