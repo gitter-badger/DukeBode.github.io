@@ -37,10 +37,14 @@ nav > li {
 #tags{
     display: flex;
     justify-content: center;
+    margin: auto;
+    border-style: none;
+    background: none;
 }
 
 #home-tags{
-    display: flex;
+    /* display: flex; */
+    display: none;
     flex-flow: row wrap;
     list-style: none;
     background-color: white;

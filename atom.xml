@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://dukebode.github.io/"/>
-  <updated>2020-01-21T14:59:37.045Z</updated>
+  <updated>2020-01-22T03:03:38.170Z</updated>
   <id>https://dukebode.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>web-html-meta</title>
+    <link href="https://dukebode.github.io/2020/0122-web-html-meta.html"/>
+    <id>https://dukebode.github.io/2020/0122-web-html-meta.html</id>
+    <published>2020-01-22T02:46:48.000Z</published>
+    <updated>2020-01-22T03:03:38.170Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a><p>viewport </p><p>使用元视口代码控制浏览器视口的宽度和缩放比例。</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"viewport"</span> <span class="attr">content</span>=<span class="string">"width=device-width, initial-scale=1.0"</span>&gt;</span></span><br></pre></td></tr></table></figure><ul><li>添加 width=device-width 以便与屏幕宽度（以设备无关像素为单位）进行匹配。</li><li>添加 initial-scale=1 以便将 CSS 像素与设备无关像素的比例设为 1:1。</li><li>确保在不停用用户缩放功能的情况下，您的网页也可以访问。</li></ul><p>除了设置 initial-scale 外，您还可以在视口上设置以下属性：</p><ul><li>minimum-scale</li><li>maximum-scale</li><li>user-scalable</li></ul><p>但是，设置后，这些属性可以停用用户缩放视口的功能，可能会造成网页访问方面的问题。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+
+&lt;p&gt;viewport &lt;/p&gt;
+&lt;p&gt;使用元视口代码控制浏览器视口的宽度和缩放比例。&lt;/p&gt;
+&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span c
+      
+    
+    </summary>
+    
+    
+    
+      <category term="前端" scheme="https://dukebode.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>Cascading Style Sheets</title>
@@ -478,31 +506,6 @@
       <category term="yarn" scheme="https://dukebode.github.io/tags/yarn/"/>
     
       <category term="npm" scheme="https://dukebode.github.io/tags/npm/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>php Web Server</title>
-    <link href="https://dukebode.github.io/2019/0731-php-run.html"/>
-    <id>https://dukebode.github.io/2019/0731-php-run.html</id>
-    <published>2019-07-31T10:26:44.000Z</published>
-    <updated>2019-07-31T12:01:13.450Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="php-Web-Server"><a href="#php-Web-Server" class="headerlink" title="php Web Server"></a>php Web Server</h2><blockquote><p>PHP 5.4.0起， CLI SAPI 提供了一个内置的Web服务器。主要用于本地开发使用，不可用于线上产品环境。</p></blockquote><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 方式一，仅配置端口启动，以当前目录为服务器根目录</span></span><br><span class="line">php -S localhost:8000</span><br><span class="line"><span class="comment"># 方式二，配置端口，并指定根目录</span></span><br><span class="line">php -S localhost:8000 -t foo/</span><br><span class="line"><span class="comment"># 方式三，配置端口，调用路由（router）脚本</span></span><br><span class="line">php -S localhost:8000 router.php</span><br></pre></td></tr></table></figure><p>URI请求会被发送到PHP所在的的工作目录（Working Directory）进行处理，除非你使用了-t参数来自定义不同的目录。</p><p>如果请求未指定执行哪个PHP文件，则默认执行目录内的index.php 或者 index.html。如果这两个文件都不存在，服务器会返回404错误。</p><p>当你在命令行启动这个Web Server时，如果指定了一个PHP文件，则这个文件会作为一个“路由”脚本，意味着每次请求都会先执行这个脚本。如果这个脚本返回 FALSE ，那么直接返回请求的文件（例如请求静态文件不作任何处理）。否则会把输出返回到浏览器。</p><h3 id="router-php-示例代码"><a href="#router-php-示例代码" class="headerlink" title="router.php 示例代码"></a>router.php 示例代码</h3><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="comment">// router.php</span></span><br><span class="line"><span class="comment">// 请求图片直接显示图片，请求HTML则显示“Welcome to PHP”</span></span><br><span class="line"><span class="keyword">if</span> (preg_match(<span class="string">'/\.(?:png|jpg|jpeg|gif)$/'</span>, $_SERVER[<span class="string">"REQUEST_URI"</span>]))</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">false</span>;    <span class="comment">// 直接返回请求的文件</span></span><br><span class="line"><span class="keyword">else</span> &#123; </span><br><span class="line">    <span class="keyword">echo</span> <span class="string">"&lt;p&gt;Welcome to PHP&lt;/p&gt;"</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure><blockquote><p>参考文章 </p></blockquote><ul><li><a href="https://www.php.net/manual/zh/features.commandline.webserver.php" target="_blank" rel="noopener">内置Web Server</a></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;php-Web-Server&quot;&gt;&lt;a href=&quot;#php-Web-Server&quot; class=&quot;headerlink&quot; title=&quot;php Web Server&quot;&gt;&lt;/a&gt;php Web Server&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;PHP 5.4.0
-      
-    
-    </summary>
-    
-    
-    
-      <category term="php" scheme="https://dukebode.github.io/tags/php/"/>
     
   </entry>
   
