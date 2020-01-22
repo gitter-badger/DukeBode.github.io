@@ -2,32 +2,22 @@
 <html>
 <head>
 {% include "partial/head.swig" %}
-<script>
-window.onclick = console.log(window.location.hash.substr(1));
-</script>
-<script>
-function tag(){
-document.getElementById(`home-tags`);
-}
-</script>
 </head>
 <body>
     <div id="menu">
     <nav>
     <li><a href="/">首页</a></li>
-    {% if is_home() %}
-        <li id="tags" class="flex-auto">标签</li>
-    {% else %}
-        <li class="flex-auto"></li>
-    {% endif %}
+    <li class="flex-auto">{% if is_home() %}
+        <button id="tags" type="button" >标签</button>
+    {% endif %}</li>
     <li><a href="/sponsor">赞助</a></li>
     </nav>
 
 {% if is_home() %}
 <div id="home-tags" class="tag-list">
 {% for foo in site.tags %}
-<li class="tag-list-item">
-<a href="#{{ foo|first }}">{{ foo|first }}</a>
+<li class="tag-list-item" >
+<a href="#{{ foo|first }}" href="javascript:;" onclick="change(this)">{{ foo|first }}</a>
 </li>{% endfor %}
 </div>
 {% endif %}

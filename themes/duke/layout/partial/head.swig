@@ -13,3 +13,4 @@
       href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/default.min.css">
 <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
     {{ css('css/layout') }}
+    {{ js('js/script') }}
