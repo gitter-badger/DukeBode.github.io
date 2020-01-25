@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://dukebode.github.io/2018/0123-BeautifulSoup.html</loc>
+    
+    <lastmod>2020-01-25T08:07:35.924Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://dukebode.github.io/2020/0122-web-html-meta.html</loc>
     
     <lastmod>2020-01-22T03:03:38.170Z</lastmod>
@@ -383,13 +390,6 @@
     <loc>https://dukebode.github.io/2018/1108-Eclipse.html</loc>
     
     <lastmod>2019-07-29T07:18:07.319Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dukebode.github.io/2018/0123-BeautifulSoup.html</loc>
-    
-    <lastmod>2019-07-29T07:09:51.436Z</lastmod>
     
   </url>
   
