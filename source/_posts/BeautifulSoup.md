@@ -2,7 +2,7 @@
 title: BeautifulSoup
 date: 2018-01-23 16:26:48
 tags: 
-- Python
+- python
 - 爬虫
 ---
 

@@ -6,6 +6,10 @@ tags:
   - 前端
 ---
 
+
+
+<!-- more -->
+
 跑马灯
 ```html
 <marquee>...</marquee>普通卷动

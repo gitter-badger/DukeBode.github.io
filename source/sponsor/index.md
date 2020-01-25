@@ -1,5 +1,5 @@
 ---
-title: Sponsor
+title: Donate or Sponsor
 date: 2020-01-09 15:06:49
 layout: page/sponsor
 excerpt: 每日点一点，用行动支持开源

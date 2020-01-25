@@ -1,10 +1,12 @@
 ---
-title: python_win
+title: Python Windows
 date: 2019-10-21 20:52:43
 cover:
 tags:
 - python
 ---
+
+
 
 ### Window 下 Python 多版本问题
 
