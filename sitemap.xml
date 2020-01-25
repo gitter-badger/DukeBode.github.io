@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://dukebode.github.io/sponsor/index.html</loc>
+    
+    <lastmod>2020-01-25T11:21:56.884Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dukebode.github.io/links/index.html</loc>
+    
+    <lastmod>2020-01-25T11:21:05.019Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://dukebode.github.io/2017/0907-html.html</loc>
     
     <lastmod>2020-01-25T09:42:51.203Z</lastmod>
@@ -33,13 +47,6 @@
     <loc>https://dukebode.github.io/Resume/index.html</loc>
     
     <lastmod>2020-01-21T15:37:41.841Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dukebode.github.io/links/index.html</loc>
-    
-    <lastmod>2020-01-21T15:18:25.540Z</lastmod>
     
   </url>
   
@@ -145,13 +152,6 @@
     <loc>https://dukebode.github.io/2019/0922-blog-hexo.html</loc>
     
     <lastmod>2020-01-11T13:48:27.748Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dukebode.github.io/sponsor/index.html</loc>
-    
-    <lastmod>2020-01-11T10:27:10.225Z</lastmod>
     
   </url>
   
