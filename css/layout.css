@@ -13,12 +13,11 @@
 
 html {
     background-color: rgba(64, 255, 73, 0.418);
-    margin: auto;
     position: relative;
 }
 
 body {
-    margin: 0;
+    margin: auto;
 }
 
 a,
@@ -69,6 +68,7 @@ nav a {
     display: flex;
     justify-content: center;
     font-weight: bold;
+    /* font-size: 1em; */
 }
 
 #tags {
@@ -89,7 +89,7 @@ nav a {
 
 .tag-list-item {
     margin: .4rem .5rem;
-    width: auto;
+    width: 4.5rem;
     line-height: 1.5rem;
     font-size: .5rem;
     border: solid .1rem black;
