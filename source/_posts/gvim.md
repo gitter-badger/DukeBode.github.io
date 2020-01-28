@@ -1,5 +1,5 @@
 ---
-title: gvim
+title: gVim
 date: 2019-07-08 15:54:31
 tags:
 - IDE

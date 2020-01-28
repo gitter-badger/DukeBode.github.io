@@ -1,0 +1,60 @@
+# 
+# QQ IDKEY https://shang.qq.com/v3/widget.html (每次点击可能重置)
+# weibo uid https://weibo.com/ 博主主页打开控制台执行 $CONFIG.uid 
+# 
+social:
+  # http://sighttp.qq.com/authd?IDKEY=17e3e594c9f47240cbd3fd23c0b4aab256f50f9d61d28995
+  qq: 17e3e594c9f47240cbd3fd23c0b4aab256f50f9d61d28995
+  # mailto:Duke123@aliyun.com
+  mail: Duke123@aliyun.com
+  # https://rsshub.app/weibo/user/2190042072/1
+  # https://weibo.com/2190042072
+  weibo: 2190042072
+  # https://github.com/DukeBode
+  # https://dukebode.github.io/
+  github: DukeBode
+  gitee: DukeBode
+  twitter:
+
+# 首页 html 标记验证
+index_head:
+  # 搜狗、百度、微软、360、神马、谷歌 HTML 标记验证
+  - <meta name="sogou_site_verification" content="fZpDhj24Zh"/>
+  - <meta name="baidu-site-verification" content="qDoVswL6yu" />
+  - <meta name="msvalidate.01" content="EECB419B3BD7309C048E8C9E4A512F4C" />
+  - <meta name="360-site-verification" content="0da51abd1d385491d30db1469ae30347" />
+  - <meta name="shenma-site-verification" content="315a34d9fc97b8123a79f6bdd7b88f28_1578289464">
+  - <meta name="google-site-verification" content="2hXKxigOPaMOnUb0RaDecub4lR-EUVwTcIyvEigcc-E" />
+
+# 
+layout_script_dir: js/user_layout.html
+
+# 
+pages:
+
+
+# 备案号
+# Internet Content Provider
+icp: 晋ICP备18006078号
+
+# 公安备案
+# Public Security Bureau for the record
+beian:
+
+# 知识共享许可协议
+# creative commons 
+## site: https://creativecommons.org/choose/
+## demo: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh
+cc_licenses: by-nc-sa/4.0/deed.zh
+
+# Progressive Web App
+pwa:
+
+# 背景音乐
+# Background music
+music:
+  - https://link.hhtjim.com/163/1326987218.mp3 # This Feeling
+  - https://link.hhtjim.com/xiami/xNdI9T105df.mp3 # Lost & Found
+
+# https://rsshub.app/12306/zxdt
+# https://rsshub.app/shanbay/footprints

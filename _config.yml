@@ -90,6 +90,8 @@ deploy:
 #   branch: master
 
 theme_config:
+  site1:
+  site2:
   html:
     index:
       head:
@@ -137,17 +139,8 @@ theme_config:
         </script>
   menu:
     rss: /atom.xml
-  # 备案号
-  ICP: 晋ICP备18006078号
   manifest: manifest.json
   TOC: true # 是否显示目录
-  music: # 默认音乐
-  - 音乐1
-  - 音乐2
-  Share:
-    github: https://github.com/DukeBode
-    weibo: https://weibo.com/newggbode
-    qq: http://sighttp.qq.com/authd?IDKEY=a4c1ecd1bdaaa9fa13fb4895719e261aec692bac2895dcd9
   app_pay:
     MicroMessenger: /img/open/微信支付.png,
     AlipayClient: /img/open/支付宝支付.jpg,
