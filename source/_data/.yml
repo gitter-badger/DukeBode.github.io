@@ -1,7 +1,6 @@
 # 
 # QQ IDKEY https://shang.qq.com/v3/widget.html (每次点击可能重置)
 # weibo uid https://weibo.com/ 博主主页打开控制台执行 $CONFIG.uid 
-# 
 social:
   # http://sighttp.qq.com/authd?IDKEY=17e3e594c9f47240cbd3fd23c0b4aab256f50f9d61d28995
   qq: 17e3e594c9f47240cbd3fd23c0b4aab256f50f9d61d28995
@@ -13,6 +12,10 @@ social:
   # https://github.com/DukeBode
   # https://dukebode.github.io/
   github: DukeBode
+  # linkedin Personalize the URL for your profile.
+  # https://www.linkedin.com/public-profile/settings
+  # https://www.linkedin.com/in/DukeBode/
+  linkedin: DukeBode
   gitee: DukeBode
   twitter:
 

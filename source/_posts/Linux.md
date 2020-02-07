@@ -19,6 +19,28 @@ yum list *java*
 https://opsx.alibaba.com/mirror/search?q=dnf&lang=zh-CN
 
 ## 文件目录
+
+根目录|-|-
+-|-|-
+bin -> usr/bin
+boot
+dev
+etc
+home
+lib -> usr/lib
+lib64 -> usr/lib64
+media
+mnt
+proc
+root
+run
+sbin -> usr/sbin
+srv
+sys
+tmp
+usr
+var
+
 - /bin 存放二进制可执行文件(ls,cat,mkdir等)，常用命令 普通用户命令
 - /boot 系统启动相关文件
 - /data

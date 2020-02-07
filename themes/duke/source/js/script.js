@@ -19,13 +19,13 @@ function getUrlParam() {
 }
 
 function change(that) {
-    document.getElementById("tags").innerHTML=that.innerHTML
+    document.getElementById("tags").innerHTML = that.innerHTML
     document.getElementById("home-tags").style.display = "none";
-    var aa = document.getElementsByClassName("item");//获取到的是一个类数组
+    var aa = document.getElementsByClassName("item"); //获取到的是一个类数组
     for (var i = 0; i < aa.length; i++) {
         aa[i].style.display = "none"
     }
-    var bb = document.getElementsByClassName(that.innerHTML);//获取到的是一个类数组
+    var bb = document.getElementsByClassName(that.innerHTML); //获取到的是一个类数组
     for (var i = 0; i < bb.length; i++) {
         bb[i].style.display = "block"
     }
@@ -36,26 +36,25 @@ function change(that) {
 //     get D()
 // }
 var hashdata;
-window.addEventListener('hashchange', function () {
+window.addEventListener('hashchange', function() {
     console.log(decodeURI(window.location.hash.substr(1)));
 });
 
-window.onclick = function () {
-}
+window.onclick = function() {}
 
-window.onload = function () {
+window.onload = function() {
     let h = decodeURI(window.location.hash.substr(1));
     let t = document.getElementById("tags");
     if (h != "" && h != t.innerHTML) {
         t.innerHTML = h;
-    }else{
+    } else {
         h = "item";
     }
-    let bb = document.getElementsByClassName(h);//获取到的是一个类数组
+    let bb = document.getElementsByClassName(h); //获取到的是一个类数组
     for (var i = 0; i < bb.length; i++) {
         bb[i].style.display = "block";
     }
-    document.getElementById('tags').onclick = function () {
+    document.getElementById('tags').onclick = function() {
         document.getElementById("home-tags").style.display = `flex`;
     }
 }
