@@ -8,11 +8,12 @@ tags:
 
 DATABASE | Python DB-API | INSTALL 
 -|-|-
-SQLite |
-MongoDB | [PyMongo](https://api.mongodb.com/python/current) | pip install pymongo
-Oracle | [cx-Oracle](https://oracle.github.io/python-cx_Oracle/) | pip install cx-Oracle
-DB2 | [ibm-db](https://github.com/ibmdb/python-ibmdb) | pip install ibm-db
-SQL Server | [pymssql](https://github.com/pymssql/pymssql) | pip install pymssql
-MySQL | [mysql-connector-python](https://dev.mysql.com/doc/connector-python/en/) | pip install mysql-connector-python
-PostgreSQL | [psycopg2](http://initd.org/psycopg/docs/) | pip install psycopg2
-PostgreSQL | [PyGreSQL](http://www.pygresql.org/contents/index.html) | pip install PyGreSQL
+DB2 | [import ibm_db_dbi](https://github.com/ibmdb/python-ibmdb) | pip install ibm-db
+MariaDB | [import mariadb](https://github.com/mariadb-corporation/mariadb-connector-python/wiki)| pip install mariadb
+MongoDB | [import pymongo](https://api.mongodb.com/python/current) | pip install pymongo
+MySQL | [import mysql.connector](https://dev.mysql.com/doc/connector-python/en/) | pip install mysql-connector-python
+Oracle | [import cx_Oracle](https://oracle.github.io/python-cx_Oracle/) | pip install cx-Oracle
+PostgreSQL | [import psycopg2](http://initd.org/psycopg/docs/) | pip install psycopg2
+PostgreSQL | [from pg import DB](http://www.pygresql.org/contents/index.html) | pip install PyGreSQL
+SQL Server | [import pymssql](https://pymssql.readthedocs.io/en/latest/) | pip install pymssql
+SQLite | [import sqlite3](https://docs.python.org/3/library/sqlite3.html) | installed

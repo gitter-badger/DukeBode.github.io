@@ -16,6 +16,13 @@ yum list *java*
 ![tupai](/img/docusaurus.svg)
 
 
+使用nohup 和 & 让命令后台执行
+---
+- https://www.cnblogs.com/jinxiao-pu/p/9131057.html
+- [Linux nohup实现后台运行程序及查看（nohup与&）](https://www.jb51.net/article/169783.htm)
+
+[在RHEL 8/CentOS 8上安装LEMP（Nginx、MariaDB、PHP7.2）的方法](https://ywnz.com/linuxyffq/4544.html)
+
 https://opsx.alibaba.com/mirror/search?q=dnf&lang=zh-CN
 
 ## 文件目录
