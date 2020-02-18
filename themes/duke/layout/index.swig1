@@ -1,4 +1,3 @@
-
 {% for post in page.posts %}
 <div class="item{% if post.tags %}{% for foo in post.tags %}{% if foo %} {{ foo|first }}{% endif %}{% endfor %}{% endif %}">
     

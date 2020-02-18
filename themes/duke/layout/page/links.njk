@@ -1,0 +1,17 @@
+{% if page.data %}
+{% for foo in page.data %}
+{% if foo %}
+    <li><a href="{{ foo.url }}">{{ loop.key }}</a></li>
+{% endif %}
+{% endfor %}
+{% endif %}
+
+{% if config.theme_config %}
+    {% for foo in config.theme_config %}
+    {% if site.data[foo] %}
+        {{ site.data[foo].a }}
+    {% endif %}
+    {% endfor %}
+{% endif %}
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+{{ linkedin(1) }}

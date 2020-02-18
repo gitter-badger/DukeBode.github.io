@@ -1,3 +1,4 @@
+a: 1
 # 
 # QQ IDKEY https://shang.qq.com/v3/widget.html (每次点击可能重置)
 # weibo uid https://weibo.com/ 博主主页打开控制台执行 $CONFIG.uid 
@@ -42,7 +43,7 @@ icp: 晋ICP备18006078号
 
 # 公安备案
 # Public Security Bureau for the record
-beian:
+psb:
 
 # 知识共享许可协议
 # creative commons 
