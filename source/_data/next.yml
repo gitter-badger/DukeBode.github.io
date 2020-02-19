@@ -268,13 +268,15 @@ tag_icon: false
 # Front-matter variable (unsupport animation).
 reward_settings:
   # If true, reward will be displayed in every article by default.
-  enable: false
-  animation: false
+  enable: true
+  animation: flase
   #comment: Donate comment here.
 
 reward:
-  wechatpay: /img/open/微信支付.png
-  alipay: /img/open/支付宝支付.jpg,
+  wechatpay: /img/open/wepay.png#20200219
+  云闪付: /img/open/yunpay.jpg#20200219
+  alipay: /img/open/alipay.png#20200219
+  QQ: /img/open/qqpay.png#20200219
   #paypal: /images/paypal.png
   #bitcoin: /images/bitcoin.png
 
@@ -283,7 +285,7 @@ reward:
 follow_me:
   #Twitter: https://twitter.com/username || twitter
   #Telegram: https://t.me/channel_name || telegram
-  #WeChat: /images/wechat_channel.jpg || wechat
+  WeChat: /img/open/weixinmp.jpg || wechat
   RSS: /atom.xml || rss
 
 # Related popular posts
