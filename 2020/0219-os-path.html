@@ -23,19 +23,19 @@
     var CONFIG = {"hostname":"dukebode.github.io","root":"/","scheme":"Muse","version":"7.7.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="设置搜索引擎  vimium官网 油猴（Tampermonkey）官网  https:&#x2F;&#x2F;greasyfork.org&#x2F;  Greasy Fork   图片助手（ImageAssistant）官网">
+  <meta name="description" content="The PATH variable makes it easy to run commonly used programs located in their own folders. If used unwisely, however, the value of the PATH variable can slow down the operating system by searching to">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Chrome的使用">
-<meta property="og:url" content="https://dukebode.github.io/2019/0611-Chrome%E7%9A%84%E4%BD%BF%E7%94%A8.html">
+<meta property="og:title" content="System Variables Path">
+<meta property="og:url" content="https://dukebode.github.io/2020/0219-os-path.html">
 <meta property="og:site_name" content="Duke Studio">
-<meta property="og:description" content="设置搜索引擎  vimium官网 油猴（Tampermonkey）官网  https:&#x2F;&#x2F;greasyfork.org&#x2F;  Greasy Fork   图片助手（ImageAssistant）官网">
+<meta property="og:description" content="The PATH variable makes it easy to run commonly used programs located in their own folders. If used unwisely, however, the value of the PATH variable can slow down the operating system by searching to">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2019-06-11T03:17:59.000Z">
-<meta property="article:modified_time" content="2020-01-08T11:33:01.952Z">
+<meta property="article:published_time" content="2020-02-19T04:25:32.000Z">
+<meta property="article:modified_time" content="2020-02-19T05:34:40.383Z">
 <meta property="article:author" content="Duke Bode">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://dukebode.github.io/2019/0611-Chrome%E7%9A%84%E4%BD%BF%E7%94%A8.html">
+<link rel="canonical" href="https://dukebode.github.io/2020/0219-os-path.html">
 
 
 <script id="page-configurations">
@@ -47,8 +47,17 @@
   };
 </script>
 
-  <title>Chrome的使用 | Duke Studio</title>
+  <title>System Variables Path | Duke Studio</title>
   
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158749101-1"></script>
+    <script>
+      if (CONFIG.hostname === location.hostname) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-158749101-1');
+      }
+    </script>
 
 
   <script>
@@ -153,6 +162,7 @@
     <i class="fa fa-arrow-up"></i>
     <span>0%</span>
   </div>
+  <div class="reading-progress-bar"></div>
 
 
     <main class="main">
@@ -168,7 +178,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://dukebode.github.io/2019/0611-Chrome%E7%9A%84%E4%BD%BF%E7%94%A8.html">
+    <link itemprop="mainEntityOfPage" href="https://dukebode.github.io/2020/0219-os-path.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -181,7 +191,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Chrome的使用
+          System Variables Path
         </h1>
 
         <div class="post-meta">
@@ -190,16 +200,10 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2019-06-11 11:17:59" itemprop="dateCreated datePublished" datetime="2019-06-11T11:17:59+08:00">2019-06-11</time>
+              <time title="创建时间：2020-02-19 12:25:32 / 修改时间：13:34:40" itemprop="dateCreated datePublished" datetime="2020-02-19T12:25:32+08:00">2020-02-19</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-01-08 19:33:01" itemprop="dateModified" datetime="2020-01-08T19:33:01+08:00">2020-01-08</time>
-              </span>
 
           
 
@@ -212,18 +216,115 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <ol>
-<li>设置搜索引擎</li>
+        <p>The PATH variable makes it easy to run commonly used programs located in their own folders. If used unwisely, however, the value of the PATH variable can slow down the operating system by searching too many locations, or invalid locations.</p>
+<a id="more"></a>
+
+<h2 id="Linux-命令"><a href="#Linux-命令" class="headerlink" title="Linux 命令"></a>Linux 命令</h2><ol>
+<li>date 时间</li>
+<li>useradd 用户添加</li>
+<li>whoami 当前登录用户</li>
+<li>chmod -R 777 dirname 将dirname授权给所有用户</li>
+<li>echo $PS1 显示提示符格式</li>
+<li>ls 深蓝色：文件夹/目录 点开头：隐藏文件</li>
+<li>ls -a</li>
+<li>alias 起别名</li>
+<li>type -a 查看本质</li>
 </ol>
-<h3 id="vimium"><a href="#vimium" class="headerlink" title="vimium"></a>vimium</h3><p><a href="https://github.com/philc/vimium" target="_blank" rel="noopener">官网</a></p>
-<h3 id="油猴（Tampermonkey）"><a href="#油猴（Tampermonkey）" class="headerlink" title="油猴（Tampermonkey）"></a>油猴（Tampermonkey）</h3><p><a href="http://www.tampermonkey.net/" target="_blank" rel="noopener">官网</a></p>
-<ul>
-<li><p><a href="https://greasyfork.org/" target="_blank" rel="noopener">https://greasyfork.org/</a></p>
-</li>
-<li><p><a href="https://greasyfork.org/zh-CN" target="_blank" rel="noopener">Greasy Fork</a></p>
-</li>
-</ul>
-<h3 id="图片助手（ImageAssistant）"><a href="#图片助手（ImageAssistant）" class="headerlink" title="图片助手（ImageAssistant）"></a>图片助手（ImageAssistant）</h3><p><a href="https://www.pullywood.com/ImageAssistant/" target="_blank" rel="noopener">官网</a></p>
+<p>! 调用历史</p>
+<h3 id="设置-path"><a href="#设置-path" class="headerlink" title="设置 path"></a>设置 path</h3><p><code>.profile</code> 记录了 bash 会在哪些目录查找命令。 bash 会根据 PATH 变量的设置自动寻找输入的命令。如果有同名的命令，按照路径顺序找到后返回执行，不再继续寻找。有同名的指令可以输入路径运行。</p>
+<p>默认的路径：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">~&#x2F;bin</span><br><span class="line">~&#x2F;.local&#x2F;bin</span><br><span class="line">&#x2F;usr&#x2F;local&#x2F;sbin</span><br><span class="line">&#x2F;usr&#x2F;local&#x2F;bin</span><br><span class="line">&#x2F;usr&#x2F;sbin</span><br><span class="line">&#x2F;usr&#x2F;bin</span><br><span class="line">&#x2F;sbin</span><br><span class="line">&#x2F;bin</span><br><span class="line">&#x2F;usr&#x2F;games</span><br><span class="line">&#x2F;usr&#x2F;local&#x2F;games</span><br></pre></td></tr></table></figure>
+
+<h2 id="Windows-运行常用的命令"><a href="#Windows-运行常用的命令" class="headerlink" title="Windows 运行常用的命令"></a>Windows 运行常用的命令</h2><table>
+<thead>
+<tr>
+<th>命令</th>
+<th>含义</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>appwiz.cpl</td>
+<td>程序和功能</td>
+<td>常用于卸载软件</td>
+</tr>
+<tr>
+<td>logoff</td>
+<td>注销</td>
+<td>注销计算机</td>
+</tr>
+<tr>
+<td>shutdown</td>
+<td>60秒倒计时关机命令</td>
+<td></td>
+</tr>
+<tr>
+<td>cmd</td>
+<td>cmd</td>
+<td>命令提示符</td>
+</tr>
+<tr>
+<td>calc</td>
+<td>计算器</td>
+<td></td>
+</tr>
+<tr>
+<td>cleanmgr</td>
+<td>磁盘清理</td>
+<td></td>
+</tr>
+<tr>
+<td>msconfig</td>
+<td>系统配置实用程序</td>
+<td></td>
+</tr>
+<tr>
+<td>osk</td>
+<td>屏幕键盘</td>
+<td></td>
+</tr>
+<tr>
+<td>psr</td>
+<td>步骤记录器</td>
+<td></td>
+</tr>
+<tr>
+<td>snippingtool</td>
+<td>截图工具</td>
+<td>已被截图和草图取代</td>
+</tr>
+<tr>
+<td>winver</td>
+<td>关于”Windows”</td>
+<td>查看 Windows 版本</td>
+</tr>
+<tr>
+<td>explorer</td>
+<td>资源管理器</td>
+<td></td>
+</tr>
+<tr>
+<td>regedit</td>
+<td>注册表编辑器</td>
+<td></td>
+</tr>
+<tr>
+<td>taskmgr</td>
+<td>任务管理器</td>
+<td></td>
+</tr>
+<tr>
+<td>compmgmt.msc</td>
+<td>计算机管理</td>
+<td></td>
+</tr>
+<tr>
+<td>devmgmt.msc</td>
+<td>设备管理器</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="设置-path-1"><a href="#设置-path-1" class="headerlink" title="设置 path"></a>设置 path</h3><p>$Env:path=”./.venv/Scripts/;”+$Env:path</p>
 
     </div>
 
@@ -239,7 +340,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://dukebode.github.io/2019/0611-Chrome%E7%9A%84%E4%BD%BF%E7%94%A8.html" title="Chrome的使用">https://dukebode.github.io/2019/0611-Chrome的使用.html</a>
+    <a href="https://dukebode.github.io/2020/0219-os-path.html" title="System Variables Path">https://dukebode.github.io/2020/0219-os-path.html</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -275,13 +376,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2019/0607-blog.html" rel="prev" title="零基础建博客">
-      <i class="fa fa-chevron-left"></i> 零基础建博客
+    <a href="/2020/0206-python-web.html" rel="prev" title="Python Web">
+      <i class="fa fa-chevron-left"></i> Python Web
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2019/0708-php-env.html" rel="next" title="CentOS 下安装 PHP7">
-      CentOS 下安装 PHP7 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -341,7 +439,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#vimium"><span class="nav-number">1.</span> <span class="nav-text">vimium</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#油猴（Tampermonkey）"><span class="nav-number">2.</span> <span class="nav-text">油猴（Tampermonkey）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#图片助手（ImageAssistant）"><span class="nav-number">3.</span> <span class="nav-text">图片助手（ImageAssistant）</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Linux-命令"><span class="nav-number">1.</span> <span class="nav-text">Linux 命令</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#设置-path"><span class="nav-number">1.1.</span> <span class="nav-text">设置 path</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Windows-运行常用的命令"><span class="nav-number">2.</span> <span class="nav-text">Windows 运行常用的命令</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#设置-path-1"><span class="nav-number">2.1.</span> <span class="nav-text">设置 path</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -355,12 +453,12 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">56</span>
+          <span class="site-state-item-count">55</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">26</span>
+        <span class="site-state-item-count">27</span>
         <span class="site-state-item-name">标签</span>
       </div>
   </nav>
@@ -370,10 +468,13 @@
         <a href="https://github.com/DukeBode" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;DukeBode" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
       </span>
       <span class="links-of-author-item">
+        <a href="https://gitee.com/DukeBode" title="Gitee → https:&#x2F;&#x2F;gitee.com&#x2F;DukeBode" rel="noopener" target="_blank"><i class="fa fa-fw fa-gitee"></i>Gitee</a>
+      </span>
+      <span class="links-of-author-item">
         <a href="mailto:duke123@aliyun.com" title="E-Mail → mailto:duke123@aliyun.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
       </span>
       <span class="links-of-author-item">
-        <a href="https://weibo.com/2190042072" title="Weibo → https:&#x2F;&#x2F;weibo.com&#x2F;2190042072" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i>Weibo</a>
+        <a href="https://weibo.com/2190042072" title="Weibo → https:&#x2F;&#x2F;weibo.com&#x2F;2190042072" rel="noopener" target="_blank"><i class="fa fa-fw fa-gitee"></i>Weibo</a>
       </span>
   </div>
   <div class="cc-license motion-element" itemprop="license">
@@ -475,6 +576,16 @@
   
 
   
+  <script src="//cdn.jsdelivr.net/npm/quicklink@1/dist/quicklink.umd.js"></script>
+  <script>
+      window.addEventListener('load', () => {
+      quicklink({
+        timeout: 3000,
+        priority: true,
+        ignores: [uri => uri.includes('#'),uri => uri == 'https://dukebode.github.io/2020/0219-os-path.html',]
+      });
+      });
+  </script>
 
 </body>
 </html>

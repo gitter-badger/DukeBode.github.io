@@ -31,7 +31,7 @@
 <meta property="og:description" content="DOSBOX 配置 12345678910# 挂载程序目录mount c D:\Programs_Add\ASM# 挂载工作目录mount d E:\DukeLab\ASM# 将程序加入 path 环境set path&#x3D;%path%;c:\;# 切换到工作目录d:# 清屏cls  参考文章 DOSBOX 官网">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2019-07-09T09:53:47.000Z">
-<meta property="article:modified_time" content="2020-01-11T14:17:59.457Z">
+<meta property="article:modified_time" content="2020-02-19T05:19:53.430Z">
 <meta property="article:author" content="Duke Bode">
 <meta property="article:tag" content="Assembly">
 <meta name="twitter:card" content="summary">
@@ -50,6 +50,15 @@
 
   <title>汇编语言环境搭建 | Duke Studio</title>
   
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158749101-1"></script>
+    <script>
+      if (CONFIG.hostname === location.hostname) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-158749101-1');
+      }
+    </script>
 
 
   <script>
@@ -154,6 +163,7 @@
     <i class="fa fa-arrow-up"></i>
     <span>0%</span>
   </div>
+  <div class="reading-progress-bar"></div>
 
 
     <main class="main">
@@ -199,7 +209,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-01-11 22:17:59" itemprop="dateModified" datetime="2020-01-11T22:17:59+08:00">2020-01-11</time>
+                <time title="修改时间：2020-02-19 13:19:53" itemprop="dateModified" datetime="2020-02-19T13:19:53+08:00">2020-02-19</time>
               </span>
 
           
@@ -213,7 +223,9 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>DOSBOX 配置</p>
+        <a id="more"></a>
+
+<p>DOSBOX 配置</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"># 挂载程序目录</span><br><span class="line">mount c D:\Programs_Add\ASM</span><br><span class="line"># 挂载工作目录</span><br><span class="line">mount d E:\DukeLab\ASM</span><br><span class="line"># 将程序加入 path 环境</span><br><span class="line">set path&#x3D;%path%;c:\;</span><br><span class="line"># 切换到工作目录</span><br><span class="line">d:</span><br><span class="line"># 清屏</span><br><span class="line">cls</span><br></pre></td></tr></table></figure>
 
 <h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><ul>
@@ -353,12 +365,12 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">56</span>
+          <span class="site-state-item-count">55</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">26</span>
+        <span class="site-state-item-count">27</span>
         <span class="site-state-item-name">标签</span>
       </div>
   </nav>
@@ -368,10 +380,13 @@
         <a href="https://github.com/DukeBode" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;DukeBode" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
       </span>
       <span class="links-of-author-item">
+        <a href="https://gitee.com/DukeBode" title="Gitee → https:&#x2F;&#x2F;gitee.com&#x2F;DukeBode" rel="noopener" target="_blank"><i class="fa fa-fw fa-gitee"></i>Gitee</a>
+      </span>
+      <span class="links-of-author-item">
         <a href="mailto:duke123@aliyun.com" title="E-Mail → mailto:duke123@aliyun.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
       </span>
       <span class="links-of-author-item">
-        <a href="https://weibo.com/2190042072" title="Weibo → https:&#x2F;&#x2F;weibo.com&#x2F;2190042072" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i>Weibo</a>
+        <a href="https://weibo.com/2190042072" title="Weibo → https:&#x2F;&#x2F;weibo.com&#x2F;2190042072" rel="noopener" target="_blank"><i class="fa fa-fw fa-gitee"></i>Weibo</a>
       </span>
   </div>
   <div class="cc-license motion-element" itemprop="license">
@@ -473,6 +488,16 @@
   
 
   
+  <script src="//cdn.jsdelivr.net/npm/quicklink@1/dist/quicklink.umd.js"></script>
+  <script>
+      window.addEventListener('load', () => {
+      quicklink({
+        timeout: 3000,
+        priority: true,
+        ignores: [uri => uri.includes('#'),uri => uri == 'https://dukebode.github.io/2019/0709-asm-env.html',]
+      });
+      });
+  </script>
 
 </body>
 </html>
