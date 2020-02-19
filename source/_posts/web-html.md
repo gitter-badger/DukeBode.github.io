@@ -6,7 +6,8 @@ tags:
   - 前端
 ---
 
-超⽂文本标记语⾔言
+HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content.
+
 <!-- more -->
 
 预格式化：

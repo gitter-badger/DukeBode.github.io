@@ -6,13 +6,13 @@ tags:
   - blog
 ---
 
-<!-- more -->
-
 ## 读前准备
 - [x] node install
 - [x] hexo project
 - [ ] hexo-generator-feed
 - [x] hexo-deployer-git
+
+<!-- more -->
 
 ### 创建 GitPage 仓库
 

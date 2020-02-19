@@ -5,9 +5,9 @@ cover:
 tags:
 ---
 
-<!-- more -->
-
 /usr/src
+
+<!-- more -->
 
 - php [download](https://www.php.net/downloads)
 

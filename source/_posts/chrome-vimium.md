@@ -5,7 +5,7 @@ cover:
 tags:
 ---
 
-> Vimium is a Chrome extension that provides keyboard-based navigation and control of the web in the spirit of the Vim editor.
+Vimium is a Chrome extension that provides keyboard-based navigation and control of the web in the spirit of the Vim editor.
 
 <!-- more -->
 
