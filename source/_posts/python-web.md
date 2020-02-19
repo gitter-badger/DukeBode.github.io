@@ -5,7 +5,10 @@ cover:
 tags:
 ---
 
+python web 常见问题解决方案
+
 <!-- more -->
+
 flask 基础操作
 ---
 - [Flask中request请求、make_response响应、redirect跳转](https://www.jianshu.com/p/44d88abb9515)

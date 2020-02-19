@@ -11,6 +11,8 @@ tags:
 [教程](https://packaging.python.org/tutorials/)
 [指南](https://packaging.python.org/guides/)
 
+<!-- more -->
+
 ### 打包环境
 
 ```sh

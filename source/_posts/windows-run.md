@@ -5,6 +5,10 @@ cover:
 tags:
 ---
 
+Windows 运行常用的命令
+
+<!-- more -->
+
 命令|含义|备注
 -|-|-
 appwiz.cpl|程序和功能|常用于卸载软件
