@@ -5,6 +5,10 @@ tags:
 - php
 ---
 
+PHP Frequently Asked Questions
+
+<!-- more -->
+
 ## 环境说明
 
 - CentOS 7

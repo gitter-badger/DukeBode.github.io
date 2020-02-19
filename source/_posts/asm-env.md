@@ -6,6 +6,8 @@ tags:
 - Assembly
 ---
 
+<!-- more -->
+
 DOSBOX 配置
 ```conf
 # 挂载程序目录

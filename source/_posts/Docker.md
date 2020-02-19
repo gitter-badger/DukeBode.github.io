@@ -5,6 +5,8 @@ tags:
 - 软件
 ---
 
+<!-- more -->
+
 # 部署 nginx
 - 仓库查找镜像 `docker search nginx`
 - 拉取官网镜像 `docker pull nginx`

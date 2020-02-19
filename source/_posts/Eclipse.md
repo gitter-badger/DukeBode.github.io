@@ -6,6 +6,8 @@ tags:
 - 软件
 ---
 
+<!-- more -->
+
 ## JAVA SE 下载（Eclipse 需要1.8）
 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 

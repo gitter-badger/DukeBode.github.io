@@ -8,6 +8,8 @@ tags:
 - npm
 ---
 
+<!-- more -->
+
 [官网](https://nodejs.org/)
 
 ## 切换 npm 源

@@ -1,11 +1,11 @@
 ---
-title: python-web
+title: Python Web
 date: 2020-02-06 12:55:04
 cover:
-tags:
+tags: FAQ
 ---
 
-python web 常见问题解决方案
+Python Web Frequently Asked Questions
 
 <!-- more -->
 

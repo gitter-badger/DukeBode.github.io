@@ -6,9 +6,11 @@ tags:
 - php
 ---
 
-## php Web Server
-
 > PHP 5.4.0起， CLI SAPI 提供了一个内置的Web服务器。主要用于本地开发使用，不可用于线上产品环境。
+
+<!-- more -->
+
+## php Web Server
 
 ```sh
 # 方式一，仅配置端口启动，以当前目录为服务器根目录

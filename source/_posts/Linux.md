@@ -2,8 +2,12 @@
 title: Linux
 date: 2019-07-29 15:13:22
 cover:
-tags:
+tags: FAQ
 ---
+
+Linux Frequently Asked Questions
+
+<!-- more -->
 
 # yum
 
@@ -13,7 +17,6 @@ yum list *java*
 ## Linux 基础
 
 [文件目录](#文件目录)
-![tupai](/img/docusaurus.svg)
 
 
 使用nohup 和 & 让命令后台执行
@@ -27,57 +30,37 @@ https://opsx.alibaba.com/mirror/search?q=dnf&lang=zh-CN
 
 ## 文件目录
 
+![目录结构](/img/linux/目录结构.png)
+
 根目录|-|-
 -|-|-
-bin -> usr/bin
-boot
-dev
-etc
-home
-lib -> usr/lib
-lib64 -> usr/lib64
-media
-mnt
-proc
-root
-run
-sbin -> usr/sbin
-srv
-sys
-tmp
-usr
-var
+bin -> usr/bin | 存放二进制可执行文件(ls,cat,mkdir等)，常用命令 普通用户命令
+boot | 系统启动相关文件
+dev | 设备文件
+etc | 存放系统管理和配置文件
+home | 普通用户家目录 存放所有用户文件的根目录，是用户主目录的基点
+lib -> usr/lib | 系统库文件 存放着和系统运行相关的库文件
+lib64 -> usr/lib64 | 
+media | 媒介目录
+mnt | 临时挂载目录 系统管理员安装临时文件系统的安装点，系统提供这个目录是让用户临时挂载其他的文件系统；
+proc | 虚拟文件系统目录，是系统内存的映射。可直接访问这个目录来获取系统信息；
+root | root的Home
+run | 临时文件
+sbin -> usr/sbin | root用户命令
+srv | 服务产生文件
+sys | 系统内核
+tmp | 临时目录，用于存放各种临时文件，是公用的临时文件存储点；
+usr | 程序目录
+var | 存放日志 用于存放运行时需要改变数据的文件，也是某些大文件的溢出区，比方说各种服务的日志文件（系统启动日志等。）等
 
-- /bin 存放二进制可执行文件(ls,cat,mkdir等)，常用命令 普通用户命令
-- /boot 系统启动相关文件
-- /data
-- /dev 设备文件
-- /etc 存放系统管理和配置文件
-- /home 普通用户家目录 存放所有用户文件的根目录，是用户主目录的基点，比如用户user的主目录就是/home/user，可以用~user表示；
-- /lib 系统库文件 存放着和系统运行相关的库文件 ；
-- /lib64
 - /lost+found 这个目录平时是空的，系统非正常关机而留下“无家可归”的文件（windows下叫什么.chk）就在这里。
-- /media 媒介目录
-- /mnt 临时挂载目录 系统管理员安装临时文件系统的安装点，系统提供这个目录是让用户临时挂载其他的文件系统；
 - /opt 额外安装的可选应用程序包所放置的位置。一般情况下，我们可以把tomcat等都安装到这里；
 - /proc 系统启动的进程文件
   - Linux 内核的窗口，只存在于内存中，并不占用磁盘空间
   - 进程信息：进程项、进程参数列表、进程环境、进程可执行文件、进程文件描述符、进程内存统计信息等
   - 硬件信息：CPU信息、设备信息、PCI总线信息、串口信息等
   - 内核信息：版本信息、主机名与与域名信息、内存使用等
-  - 设备、挂载点与文件系统
-- /root root的Home
-- /run 临时文件
-- /sbin root用户命令
-- /srv 服务产生文件
-- /sys 系统内核
-- /tmp 临时目录
-- /usr 程序目录
-- /var 存放日志 用于存放运行时需要改变数据的文件，也是某些大文件的溢出区，比方说各种服务的日志文件（系统启动日志等。）等
-
-- /proc： 虚拟文件系统目录，是系统内存的映射。可直接访问这个目录来获取系统信息；
-- /boot： 存放用于系统引导时使用的各种文件；
-- /tmp： 用于存放各种临时文件，是公用的临时文件存储点；
+  - 设备、挂载点与文件系统 
 
 ## Linux Setting
 

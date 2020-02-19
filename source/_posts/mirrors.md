@@ -5,6 +5,8 @@ cover:
 tags:
 ---
 
+<!-- more -->
+
 - [清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/)
 - [网易开源镜像站](http://mirrors.163.com/)
 - [腾讯云软件源站](https://mirrors.cloud.tencent.com/)

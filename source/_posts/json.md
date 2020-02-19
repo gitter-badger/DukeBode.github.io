@@ -5,6 +5,8 @@ tags:
 ---
 JSON(JavaScript Object Notation) 是一种轻量级数据交换格式，可以对复杂数据进行表达和存储，易于阅读和理解。
 
+<!-- more -->
+
 # 规则
 
 1. 数据保存在键值对中

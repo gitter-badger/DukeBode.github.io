@@ -7,6 +7,8 @@ tags:
 - 框架
 ---
 
+<!-- more -->
+
 ## 阅读基础
 - [Python3 安装](Python3.md)
 

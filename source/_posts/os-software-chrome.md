@@ -1,8 +1,14 @@
 ---
 title: Chrome的使用
 date: 2019-06-11 11:17:59
+cover:
 tags:
 ---
+
+
+
+<!-- more -->
+
 1. 设置搜索引擎
 
 ### vimium 

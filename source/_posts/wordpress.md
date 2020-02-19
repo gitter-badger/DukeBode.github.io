@@ -5,6 +5,8 @@ cover:
 tags:
 ---
 
+<!-- more -->
+
 - [官方教程-安装 WordPress](https://codex.wordpress.org/zh-cn:%E5%AE%89%E8%A3%85_WordPress)
 
 ```sh

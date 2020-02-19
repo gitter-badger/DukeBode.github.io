@@ -5,6 +5,8 @@ cover:
 tags:
 ---
 
+<!-- more -->
+
 yum install java-latest-openjdk
 
 java 中文显示不正常

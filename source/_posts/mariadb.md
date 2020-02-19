@@ -4,8 +4,7 @@ date: 2019-06-07 14:04:29
 tags:
 ---
 
-
- 
+<!-- more -->
 
 ```shell
 dnf install MariaDB-server MariaDB-client

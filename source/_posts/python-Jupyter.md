@@ -7,6 +7,8 @@ tags:
 - IDE
 ---
 
+<!-- more -->
+
 ## 配置内核
 [Jupyter kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
 

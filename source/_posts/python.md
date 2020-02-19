@@ -11,6 +11,8 @@ tags:
 
 [官网](https://www.python.org/) | [文档](https://docs.python.org) | [包管理工具 pip](https://pip.pypa.io/)
 
+<!-- more -->
+
 ### 源码安装（推荐）
 
 ```sh

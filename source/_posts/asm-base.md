@@ -5,6 +5,8 @@ tags:
 - Assembly
 ---
 
+<!-- more -->
+
 # PC 硬件的基本特征
 
 
