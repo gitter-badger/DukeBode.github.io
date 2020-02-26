@@ -14,3 +14,16 @@ tags:
 1. 不干就不胁迫
     1. 微信链接及二维码
         - 不是每个浏览器都认微信，但微信可以打开所有浏览器
+
+
+- kvm
+- xen
+
+http://support-it.huawei.com/solution-sds-gw/#/home?product=FusionSphere
+
+- cna compute node agent
+- vrm virtual resource
+
+ha 高可用集群
+lbc 负载均衡集群
+hpc 高性能计算

@@ -5,6 +5,8 @@ cover:
 tags:
 ---
 
+Mirror sites or mirrors are replicas of other websites or any network node. Such sites have different URLs than the original site, but host identical or near-identical content. Mirror sites are often located in a different geographic region than the original, or upstream site. The purpose of mirrors is to reduce network traffic, improve access speed, ensure availability of the original site for technical or political reasons, or provide a real-time backup of the original site. 
+
 <!-- more -->
 
 - [清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/)

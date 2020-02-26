@@ -9,6 +9,17 @@ Python Web Frequently Asked Questions
 
 <!-- more -->
 
+
+- [weppy](https://weppy.org/)
+
+## 模板
+
+模板|pip|page
+-|-|-
+[Mako](https://www.makotemplates.org/)|`pip install Mako` |[Docs](https://docs.makotemplates.org/en/latest/)
+[mustache](https://mustache.github.io/)||
+
+
 flask 基础操作
 ---
 - [Flask中request请求、make_response响应、redirect跳转](https://www.jianshu.com/p/44d88abb9515)
