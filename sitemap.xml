@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://dukebode.github.io/2020/0226-2019-nCoV.html</loc>
+    
+    <lastmod>2020-02-26T11:38:25.004Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dukebode.github.io/2020/0206-python-web.html</loc>
+    
+    <lastmod>2020-02-24T08:13:14.238Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dukebode.github.io/2020/0224-os-host.html</loc>
+    
+    <lastmod>2020-02-24T04:34:05.943Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dukebode.github.io/2019/0901-os-mirror.html</loc>
+    
+    <lastmod>2020-02-24T04:21:09.894Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://dukebode.github.io/2018/0526-yiban.html</loc>
     
     <lastmod>2020-02-19T05:35:19.239Z</lastmod>
@@ -93,13 +121,6 @@
   </url>
   
   <url>
-    <loc>https://dukebode.github.io/2017/0806-note.html</loc>
-    
-    <lastmod>2020-02-19T05:22:33.070Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://dukebode.github.io/2019/0806-node.html</loc>
     
     <lastmod>2020-02-19T05:22:26.033Z</lastmod>
@@ -110,13 +131,6 @@
     <loc>https://dukebode.github.io/2018/1108-nginx.html</loc>
     
     <lastmod>2020-02-19T05:22:17.862Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dukebode.github.io/2019/0901-mirrors.html</loc>
-    
-    <lastmod>2020-02-19T05:22:10.601Z</lastmod>
     
   </url>
   
@@ -243,13 +257,6 @@
     <loc>https://dukebode.github.io/2020/0121-web-css.html</loc>
     
     <lastmod>2020-02-19T04:37:54.955Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dukebode.github.io/2020/0206-python-web.html</loc>
-    
-    <lastmod>2020-02-19T04:35:39.194Z</lastmod>
     
   </url>
   

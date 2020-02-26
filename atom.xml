@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://dukebode.github.io/"/>
-  <updated>2020-02-19T05:34:40.383Z</updated>
+  <updated>2020-02-26T11:38:25.004Z</updated>
   <id>https://dukebode.github.io/</id>
   
   <author>
@@ -15,6 +15,44 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-nCoV</title>
+    <link href="https://dukebode.github.io/2020/0226-2019-nCoV.html"/>
+    <id>https://dukebode.github.io/2020/0226-2019-nCoV.html</id>
+    <published>2020-02-26T10:34:30.000Z</published>
+    <updated>2020-02-26T11:38:25.004Z</updated>
+    
+    <content type="html"><![CDATA[<p>疫情下，总结下问题。</p><a id="more"></a><ol><li><p>学生票不能买半程票，必须全程！！！学校附近旅游比回家消费还高！！！</p><p> 答：学生票应该改为免费里程计算，根据家校距离免费里程。每次最多抵消一半里程。</p></li><li><p>火车明明有座位，非要搞个续票，多收好几块钱！！！</p><p> 答：铁路局应该先购票，再分配座位。长途优先排座，短途打车也不贵。</p></li><li><p>网课、社团都喜欢用各种APP，手机都装卡了！！！</p><p> 答：系统厂商应该丰富接口，避免安装重复功能，原装功能应当可取代。用户有权利阻止某些app的冗余功能。系统应当考虑到流畅问题。</p></li><li><p>招聘网站注册账户好烦啊！！！有些公司用的还不是第三方招聘网站，然后只能选一个工作！！！</p><p> 答：人社部应该统一就业账户，用户授权即可，数据由企业管理。境内的所有企业应当接入服务。</p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;疫情下，总结下问题。&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>os-host</title>
+    <link href="https://dukebode.github.io/2020/0224-os-host.html"/>
+    <id>https://dukebode.github.io/2020/0224-os-host.html</id>
+    <published>2020-02-24T02:48:19.000Z</published>
+    <updated>2020-02-24T04:34:05.943Z</updated>
+    
+    <content type="html"><![CDATA[<p>The hosts file is one of several system facilities that assists in addressing network nodes in a computer network. It is a common part of an operating system’s Internet Protocol (IP) implementation, and serves the function of translating human-friendly hostnames into numeric protocol addresses, called IP addresses, that identify and locate a host in an IP network.</p><a id="more"></a><table><thead><tr><th>系统</th><th>host 文件路径</th></tr></thead><tbody><tr><td>Windows</td><td>C:\Windows\System32\drivers\etc\hosts</td></tr><tr><td>Linux/Mac</td><td>/etc/hosts</td></tr></tbody></table><h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><ul><li>加快域名解析</li><li>重定向恶意域名</li><li>虚拟域名</li></ul><p><a href="https://github.com/googlehosts/hosts" target="_blank" rel="noopener">https://github.com/googlehosts/hosts</a></p><p>添加下面两行内容到hosts文件中</p><p>151.101.72.249 github.global.ssl.fastly.net</p><p>192.30.253.112 github.com</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;The hosts file is one of several system facilities that assists in addressing network nodes in a computer network. It is a common part of an operating system’s Internet Protocol (IP) implementation, and serves the function of translating human-friendly hostnames into numeric protocol addresses, called IP addresses, that identify and locate a host in an IP network.&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>System Variables Path</title>
@@ -40,9 +78,9 @@
     <link href="https://dukebode.github.io/2020/0206-python-web.html"/>
     <id>https://dukebode.github.io/2020/0206-python-web.html</id>
     <published>2020-02-06T04:55:04.000Z</published>
-    <updated>2020-02-19T04:35:39.194Z</updated>
+    <updated>2020-02-24T08:13:14.238Z</updated>
     
-    <content type="html"><![CDATA[<p>Python Web Frequently Asked Questions</p><a id="more"></a><h2 id="flask-基础操作"><a href="#flask-基础操作" class="headerlink" title="flask 基础操作"></a>flask 基础操作</h2><ul><li><a href="https://www.jianshu.com/p/44d88abb9515" target="_blank" rel="noopener">Flask中request请求、make_response响应、redirect跳转</a></li></ul><h2 id="flask-的request-full-path当链接无参数时末尾会自动添加一个"><a href="#flask-的request-full-path当链接无参数时末尾会自动添加一个" class="headerlink" title="flask 的request.full_path当链接无参数时末尾会自动添加一个?"></a>flask 的request.full_path当链接无参数时末尾会自动添加一个?</h2><h2 id="uwsgi-下载"><a href="#uwsgi-下载" class="headerlink" title="uwsgi 下载"></a>uwsgi 下载</h2><ul><li><a href="https://uwsgi-docs.readthedocs.io/en/latest/Download.html" target="_blank" rel="noopener">https://uwsgi-docs.readthedocs.io/en/latest/Download.html</a></li><li><a href="https://uwsgi-docs.readthedocs.io/en/latest/Install.html" target="_blank" rel="noopener">https://uwsgi-docs.readthedocs.io/en/latest/Install.html</a></li><li><a href="https://uwsgi-docs.readthedocs.io/en/latest/WSGIquickstart.html" target="_blank" rel="noopener">https://uwsgi-docs.readthedocs.io/en/latest/WSGIquickstart.html</a></li></ul><h2 id="uwsgi部署flask测试"><a href="#uwsgi部署flask测试" class="headerlink" title="uwsgi部署flask测试"></a>uwsgi部署flask测试</h2><ul><li><a href="https://flask.palletsprojects.com/en/1.1.x/deploying/wsgi-standalone/#uwsgi" target="_blank" rel="noopener">https://flask.palletsprojects.com/en/1.1.x/deploying/wsgi-standalone/#uwsgi</a></li><li><a href="https://flask.palletsprojects.com/en/1.1.x/deploying/uwsgi/" target="_blank" rel="noopener">https://flask.palletsprojects.com/en/1.1.x/deploying/uwsgi/</a></li></ul><h2 id="部署测试，uwsgi-中-http、http-socket、socket-区别，unix套字节"><a href="#部署测试，uwsgi-中-http、http-socket、socket-区别，unix套字节" class="headerlink" title="部署测试，uwsgi 中 http、http-socket、socket 区别，unix套字节"></a>部署测试，uwsgi 中 http、http-socket、socket 区别，unix套字节</h2><ul><li><a href="https://www.cnblogs.com/BlueFire-py/p/11381494.html?tdsourcetag=s_pctim_aiomsg" target="_blank" rel="noopener">https://www.cnblogs.com/BlueFire-py/p/11381494.html?tdsourcetag=s_pctim_aiomsg</a></li></ul><h2 id="uwsgi-中-root-部署，指定uid、gid、chmod-socket"><a href="#uwsgi-中-root-部署，指定uid、gid、chmod-socket" class="headerlink" title="uwsgi 中 root 部署，指定uid、gid、chmod-socket"></a>uwsgi 中 root 部署，指定uid、gid、chmod-socket</h2><ul><li><a href="https://www.cnblogs.com/BlueFire-py/p/11381494.html?tdsourcetag=s_pctim_aiomsg" target="_blank" rel="noopener">https://www.cnblogs.com/BlueFire-py/p/11381494.html?tdsourcetag=s_pctim_aiomsg</a></li></ul><h2 id="nginx-配置"><a href="#nginx-配置" class="headerlink" title="nginx 配置"></a>nginx 配置</h2><ul><li><a href="https://www.cnblogs.com/BlueFire-py/p/11380439.html" target="_blank" rel="noopener">https://www.cnblogs.com/BlueFire-py/p/11380439.html</a></li></ul><h2 id="nginx-通过-uwsgi-部署-flask"><a href="#nginx-通过-uwsgi-部署-flask" class="headerlink" title="nginx 通过 uwsgi 部署 flask"></a>nginx 通过 uwsgi 部署 flask</h2><ul><li><a href="http://www.pythondoc.com/flask/deploying/uwsgi.html#nginx" target="_blank" rel="noopener">http://www.pythondoc.com/flask/deploying/uwsgi.html#nginx</a></li><li><a href="https://www.missshi.cn/api/view/blog/5b1511a213d85b1251000000" target="_blank" rel="noopener">https://www.missshi.cn/api/view/blog/5b1511a213d85b1251000000</a></li><li><a href="https://www.jianshu.com/p/76b28c7e71cc" target="_blank" rel="noopener">https://www.jianshu.com/p/76b28c7e71cc</a></li><li><a href="https://my.oschina.net/zhaojunhui/blog/3045805?tdsourcetag=s_pctim_aiomsg" target="_blank" rel="noopener">https://my.oschina.net/zhaojunhui/blog/3045805?tdsourcetag=s_pctim_aiomsg</a></li></ul><h2 id="nginx-部署后-链接中的-会自动变为一个"><a href="#nginx-部署后-链接中的-会自动变为一个" class="headerlink" title="nginx 部署后 链接中的//会自动变为一个/"></a>nginx 部署后 链接中的//会自动变为一个/</h2><ul><li><a href="https://blog.csdn.net/github_33644920/article/details/52914932" target="_blank" rel="noopener">https://blog.csdn.net/github_33644920/article/details/52914932</a></li></ul><h2 id="uwsgi-systemctl"><a href="#uwsgi-systemctl" class="headerlink" title="uwsgi systemctl"></a>uwsgi systemctl</h2><ul><li><a href="https://uwsgi-docs-zh.readthedocs.io/zh_CN/latest/Emperor.html?tdsourcetag=s_pctim_aiomsg" target="_blank" rel="noopener">https://uwsgi-docs-zh.readthedocs.io/zh_CN/latest/Emperor.html?tdsourcetag=s_pctim_aiomsg</a></li><li><a href="https://uwsgi-docs-zh.readthedocs.io/zh_CN/latest/Systemd.html" target="_blank" rel="noopener">https://uwsgi-docs-zh.readthedocs.io/zh_CN/latest/Systemd.html</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<p>Python Web Frequently Asked Questions</p><a id="more"></a><ul><li><a href="https://weppy.org/" target="_blank" rel="noopener">weppy</a></li></ul><h2 id="模板"><a href="#模板" class="headerlink" title="模板"></a>模板</h2><table><thead><tr><th>模板</th><th>pip</th><th>page</th></tr></thead><tbody><tr><td><a href="https://www.makotemplates.org/" target="_blank" rel="noopener">Mako</a></td><td><code>pip install Mako</code></td><td><a href="https://docs.makotemplates.org/en/latest/" target="_blank" rel="noopener">Docs</a></td></tr><tr><td><a href="https://mustache.github.io/" target="_blank" rel="noopener">mustache</a></td><td></td><td></td></tr></tbody></table><h2 id="flask-基础操作"><a href="#flask-基础操作" class="headerlink" title="flask 基础操作"></a>flask 基础操作</h2><ul><li><a href="https://www.jianshu.com/p/44d88abb9515" target="_blank" rel="noopener">Flask中request请求、make_response响应、redirect跳转</a></li></ul><h2 id="flask-的request-full-path当链接无参数时末尾会自动添加一个"><a href="#flask-的request-full-path当链接无参数时末尾会自动添加一个" class="headerlink" title="flask 的request.full_path当链接无参数时末尾会自动添加一个?"></a>flask 的request.full_path当链接无参数时末尾会自动添加一个?</h2><h2 id="uwsgi-下载"><a href="#uwsgi-下载" class="headerlink" title="uwsgi 下载"></a>uwsgi 下载</h2><ul><li><a href="https://uwsgi-docs.readthedocs.io/en/latest/Download.html" target="_blank" rel="noopener">https://uwsgi-docs.readthedocs.io/en/latest/Download.html</a></li><li><a href="https://uwsgi-docs.readthedocs.io/en/latest/Install.html" target="_blank" rel="noopener">https://uwsgi-docs.readthedocs.io/en/latest/Install.html</a></li><li><a href="https://uwsgi-docs.readthedocs.io/en/latest/WSGIquickstart.html" target="_blank" rel="noopener">https://uwsgi-docs.readthedocs.io/en/latest/WSGIquickstart.html</a></li></ul><h2 id="uwsgi部署flask测试"><a href="#uwsgi部署flask测试" class="headerlink" title="uwsgi部署flask测试"></a>uwsgi部署flask测试</h2><ul><li><a href="https://flask.palletsprojects.com/en/1.1.x/deploying/wsgi-standalone/#uwsgi" target="_blank" rel="noopener">https://flask.palletsprojects.com/en/1.1.x/deploying/wsgi-standalone/#uwsgi</a></li><li><a href="https://flask.palletsprojects.com/en/1.1.x/deploying/uwsgi/" target="_blank" rel="noopener">https://flask.palletsprojects.com/en/1.1.x/deploying/uwsgi/</a></li></ul><h2 id="部署测试，uwsgi-中-http、http-socket、socket-区别，unix套字节"><a href="#部署测试，uwsgi-中-http、http-socket、socket-区别，unix套字节" class="headerlink" title="部署测试，uwsgi 中 http、http-socket、socket 区别，unix套字节"></a>部署测试，uwsgi 中 http、http-socket、socket 区别，unix套字节</h2><ul><li><a href="https://www.cnblogs.com/BlueFire-py/p/11381494.html?tdsourcetag=s_pctim_aiomsg" target="_blank" rel="noopener">https://www.cnblogs.com/BlueFire-py/p/11381494.html?tdsourcetag=s_pctim_aiomsg</a></li></ul><h2 id="uwsgi-中-root-部署，指定uid、gid、chmod-socket"><a href="#uwsgi-中-root-部署，指定uid、gid、chmod-socket" class="headerlink" title="uwsgi 中 root 部署，指定uid、gid、chmod-socket"></a>uwsgi 中 root 部署，指定uid、gid、chmod-socket</h2><ul><li><a href="https://www.cnblogs.com/BlueFire-py/p/11381494.html?tdsourcetag=s_pctim_aiomsg" target="_blank" rel="noopener">https://www.cnblogs.com/BlueFire-py/p/11381494.html?tdsourcetag=s_pctim_aiomsg</a></li></ul><h2 id="nginx-配置"><a href="#nginx-配置" class="headerlink" title="nginx 配置"></a>nginx 配置</h2><ul><li><a href="https://www.cnblogs.com/BlueFire-py/p/11380439.html" target="_blank" rel="noopener">https://www.cnblogs.com/BlueFire-py/p/11380439.html</a></li></ul><h2 id="nginx-通过-uwsgi-部署-flask"><a href="#nginx-通过-uwsgi-部署-flask" class="headerlink" title="nginx 通过 uwsgi 部署 flask"></a>nginx 通过 uwsgi 部署 flask</h2><ul><li><a href="http://www.pythondoc.com/flask/deploying/uwsgi.html#nginx" target="_blank" rel="noopener">http://www.pythondoc.com/flask/deploying/uwsgi.html#nginx</a></li><li><a href="https://www.missshi.cn/api/view/blog/5b1511a213d85b1251000000" target="_blank" rel="noopener">https://www.missshi.cn/api/view/blog/5b1511a213d85b1251000000</a></li><li><a href="https://www.jianshu.com/p/76b28c7e71cc" target="_blank" rel="noopener">https://www.jianshu.com/p/76b28c7e71cc</a></li><li><a href="https://my.oschina.net/zhaojunhui/blog/3045805?tdsourcetag=s_pctim_aiomsg" target="_blank" rel="noopener">https://my.oschina.net/zhaojunhui/blog/3045805?tdsourcetag=s_pctim_aiomsg</a></li></ul><h2 id="nginx-部署后-链接中的-会自动变为一个"><a href="#nginx-部署后-链接中的-会自动变为一个" class="headerlink" title="nginx 部署后 链接中的//会自动变为一个/"></a>nginx 部署后 链接中的//会自动变为一个/</h2><ul><li><a href="https://blog.csdn.net/github_33644920/article/details/52914932" target="_blank" rel="noopener">https://blog.csdn.net/github_33644920/article/details/52914932</a></li></ul><h2 id="uwsgi-systemctl"><a href="#uwsgi-systemctl" class="headerlink" title="uwsgi systemctl"></a>uwsgi systemctl</h2><ul><li><a href="https://uwsgi-docs-zh.readthedocs.io/zh_CN/latest/Emperor.html?tdsourcetag=s_pctim_aiomsg" target="_blank" rel="noopener">https://uwsgi-docs-zh.readthedocs.io/zh_CN/latest/Emperor.html?tdsourcetag=s_pctim_aiomsg</a></li><li><a href="https://uwsgi-docs-zh.readthedocs.io/zh_CN/latest/Systemd.html" target="_blank" rel="noopener">https://uwsgi-docs-zh.readthedocs.io/zh_CN/latest/Systemd.html</a></li></ul>]]></content>
     
     <summary type="html">
     
@@ -399,53 +437,6 @@
     </summary>
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>开源镜像站</title>
-    <link href="https://dukebode.github.io/2019/0901-mirrors.html"/>
-    <id>https://dukebode.github.io/2019/0901-mirrors.html</id>
-    <published>2019-09-01T02:19:53.000Z</published>
-    <updated>2020-02-19T05:22:10.601Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a><ul><li><a href="https://mirrors.tuna.tsinghua.edu.cn/" target="_blank" rel="noopener">清华大学开源软件镜像站</a></li><li><a href="http://mirrors.163.com/" target="_blank" rel="noopener">网易开源镜像站</a></li><li><a href="https://mirrors.cloud.tencent.com/" target="_blank" rel="noopener">腾讯云软件源站</a></li><li><a href="https://mirrors.huaweicloud.com/" target="_blank" rel="noopener">华为开源镜像站</a></li><li><a href="https://mirrors.aliyun.com" target="_blank" rel="noopener">阿里巴巴开源镜像站</a></li><li><a href="http://mirrors.ustc.edu.cn/" target="_blank" rel="noopener">中国科学技术大学开源软件镜像</a></li><li><a href="http://mirrors.neusoft.edu.cn/" target="_blank" rel="noopener">东软信息学院开源镜像站</a></li><li><a href="https://mirror.bjtu.edu.cn/" target="_blank" rel="noopener">北京交通大学自由与开源软件镜像站</a></li><li><a href="http://mirrors.zju.edu.cn/" target="_blank" rel="noopener">浙江大学开源镜像站</a></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://mirrors.tuna.tsinghua.edu.cn/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;清华大学开源软件镜像站&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>git 仓库配置</title>
-    <link href="https://dukebode.github.io/2019/0815-git.html"/>
-    <id>https://dukebode.github.io/2019/0815-git.html</id>
-    <published>2019-08-15T06:57:42.000Z</published>
-    <updated>2020-02-19T05:21:07.622Z</updated>
-    
-    <content type="html"><![CDATA[<p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p><a id="more"></a><h2 id="常用-Git-仓库"><a href="#常用-Git-仓库" class="headerlink" title="常用 Git 仓库"></a>常用 Git 仓库</h2><p>腾讯工蜂 <a href="https://git.code.tencent.com" target="_blank" rel="noopener">https://git.code.tencent.com</a></p><h2 id="git"><a href="#git" class="headerlink" title="git"></a>git</h2><p><img src="/img/git/0.png" alt="git 官网"></p><p><a href="https://git-scm.com/" target="_blank" rel="noopener">官网</a> | <a href="https://github.com/waylau/git-for-win" target="_blank" rel="noopener">中国下载</a></p><h2 id="安装-git"><a href="#安装-git" class="headerlink" title="安装 git"></a>安装 git</h2><p>蝈蝈强烈要求读者，先读下文，然后再碰安装包。</p><h3 id="中国用户问题"><a href="#中国用户问题" class="headerlink" title="中国用户问题"></a>中国用户问题</h3><p>中国地区的 Window 宝宝请访问中国下载地址，最新日期的第一个链接即可</p><p><img src="/img/blog/5.png" alt="git 下载页面"></p><h3 id="path-环境变量问题"><a href="#path-环境变量问题" class="headerlink" title="path 环境变量问题"></a>path 环境变量问题</h3><p>安装的时候，为了方便以后操作，下面的修改环境变量操作选第二个，其它操作建议选择默认。</p><p><img src="/img/git/4.png" alt="git 安装界面"></p><h2 id="shell-操作"><a href="#shell-操作" class="headerlink" title="shell 操作"></a>shell 操作</h2><ol><li>点击 <code>Windows + R</code> 打开在运行界面</li><li>输入powershell 后，打开powershell</li></ol><p><img src="/img/git/11.png" alt="运行 cmd"></p><p>在弹出的软件中输入<code>git version</code>,回车查看 git 版本，确认安装成功</p><p><img src="/img/git/12.png" alt="验证 git 安装"></p><p>确认成功安装后，依次输入以下命令回车执行，使用前面记录的信息替换相关内容，全程一律回车，直到执行完毕。</p><h2 id="设置-git"><a href="#设置-git" class="headerlink" title="设置 git"></a>设置 git</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 查看 git 版本</span></span><br><span class="line">git version</span><br><span class="line"><span class="comment"># 设置 git 全局用户名</span></span><br><span class="line">git config --global user.name <span class="string">"DukeBode"</span></span><br><span class="line"><span class="comment"># 设置 git 全局邮箱</span></span><br><span class="line">git config --global user.email Duke123@aliyun.com</span><br></pre></td></tr></table></figure><h2 id="创建本地仓库"><a href="#创建本地仓库" class="headerlink" title="创建本地仓库"></a>创建本地仓库</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git init  <span class="comment"># 初始化仓库</span></span><br><span class="line">git add * <span class="comment"># 添加全部文件</span></span><br></pre></td></tr></table></figure><h2 id="配置远程仓库"><a href="#配置远程仓库" class="headerlink" title="配置远程仓库"></a>配置远程仓库</h2><p>git remote add origin git@。。。。。。。。。。。。。。。<br>git push -u origin –all</p><h2 id="配置-SSH-Key"><a href="#配置-SSH-Key" class="headerlink" title="配置 SSH-Key"></a>配置 SSH-Key</h2><h3 id="生成密钥对"><a href="#生成密钥对" class="headerlink" title="生成密钥对"></a>生成密钥对</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 格式 </span></span><br><span class="line"><span class="comment"># ssh-keygen -t rsa -C "通常为邮箱" -f "私钥文件绝对路径"</span></span><br><span class="line">ssh-keygen -t rsa -C <span class="string">"Duke123@aliyun.com"</span> -f <span class="string">"C:\Users\Duke1\.ssh\github"</span></span><br></pre></td></tr></table></figure><h3 id="配置-ssh-config-文件"><a href="#配置-ssh-config-文件" class="headerlink" title="配置 ssh config 文件"></a>配置 ssh config 文件</h3><p>模板</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 仓库名</span><br><span class="line"># 仓库地址</span><br><span class="line">Host 仓库 git 地址</span><br><span class="line">Host 仓库 git 地址</span><br><span class="line">PreferredAuthentications publickey</span><br><span class="line">IdentityFile 私钥文件绝对路径</span><br></pre></td></tr></table></figure><p>config<br><a href="/config/ssh/config">config</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># github</span><br><span class="line"># https:&#x2F;&#x2F;github.com&#x2F;</span><br><span class="line">Host github.com</span><br><span class="line">    HostName github.com</span><br><span class="line">    PreferredAuthentications publickey</span><br><span class="line">    IdentityFile C:\Users\Duke1\.ssh\github</span><br></pre></td></tr></table></figure><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git -T git@github.com</span><br></pre></td></tr></table></figure><h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><ol><li><a href="https://www.jianshu.com/p/dbb352ea14cf" target="_blank" rel="noopener">Git命令备份</a></li><li><a href="https://gitee.com/help/articles/4229" target="_blank" rel="noopener">Git配置多个SSH-Key</a></li><li><a href="https://code.aliyun.com/help/ssh/README" target="_blank" rel="noopener">aliyun SSH-Key</a></li><li><a href="https://www.cnblogs.com/liuguanglin/p/8351616.html" target="_blank" rel="noopener">在Windows下配置多个git账号</a></li><li><a href="https://blog.csdn.net/sinat_29963957/article/details/81256227" target="_blank" rel="noopener">Linux下安装Git</a></li><li><a href="https://www.cnblogs.com/sahara/p/5683066.html" target="_blank" rel="noopener">CentOS安装GIT</a></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.&lt;/p&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="git" scheme="https://dukebode.github.io/tags/git/"/>
     
   </entry>
   
