@@ -5,8 +5,8 @@ from os import mkdir,listdir
 from shutil import rmtree
 
 md_re = re.compile('(?sm)^---\s*(.*?)\s*^---\s*(.*)')
-page='E:\WorkSpace\github\DukeBode.github.io\source\_posts'
 
+# 文件路径
 def a(uri):
     files=[]
     for item in listdir(uri):
@@ -17,8 +17,17 @@ def a(uri):
             files.append(u)
     return files
 
-l =len(page)+1
 from ruamel.yaml import YAML
+
+config=None
+with open('_config.yml','r',encoding="utf-8") as f:
+    config = YAML(typ='safe').load(f.read())
+
+page=config['page_dir']
+theme=None
+with open(f"data/{config['theme']}.yml",'r',encoding="utf-8") as f:
+    theme = YAML(typ='safe').load(f.read())
+
 from markdown import Markdown
 from jinja2 import Environment,FileSystemLoader
 env = Environment(loader=FileSystemLoader('themes/cosmos/layout'))
@@ -28,6 +37,7 @@ output = "public"
 rmtree(output,ignore_errors=True)
 
 mkdir(output)
+l =len(page)+1
 for item in a(page):
     # print(,end='\t')
     print(strftime("%Y-%m-%d %H:%M:%S",localtime(getmtime(item))))
@@ -43,9 +53,12 @@ for item in a(page):
             'markdown.extensions.codehilite',
             'markdown.extensions.tables'])
         body = m.convert(md[2])
-        html = template.render(body=body,page=frontmaster)
+        html = template.render(body=body,page=frontmaster,theme=theme,config=config)
+        # 除空行
+        html = re.sub(r'\n\s*\n','\n',html)
         output_uri = join(output,f'{item[l:]}.html')
         output_file = codecs.open(output_uri, mode="w", encoding="utf-8")
         output_file.write(html)
-        print(output_uri)
+        # print(output_uri)
+    # break
 

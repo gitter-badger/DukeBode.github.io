@@ -1,0 +1,73 @@
+base:
+  site1: theme
+  site2: head
+  html:
+    index:
+      head:
+      body: false
+    layout:
+      head:
+      - | # 百度统计 https://tongji.baidu.com/
+        <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?97779506b515b3e6a2cae140e3a4f2b0";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+        </script>
+      body:
+      - | # 友盟统计 https://web.umeng.com/
+        <script type="text/javascript">
+          var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+          document.write(unescape("%3Cspan id='cnzz_stat_icon_1277911231'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "v1.cnzz.com/stat.php%3Fid%3D1277911231' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+      - | # 腾讯统计 https://ta.qq.com/
+        <script type="text/javascript" src="http://tajs.qq.com/stats?sId=66461794" charset="UTF-8"></script>
+      - | # 360 搜索 自动收录
+        <script>
+        (function(){
+        var src = "https://jspassport.ssl.qhimg.com/11.0.1.js?d182b3f28525f2db83acfaaf6e696dba";
+        document.write('<script src="' + src + '" id="sozz"><\/script>');
+        })();
+        </script>
+      - | # 360分析 https://fenxi.360.cn/
+        <script>
+        (function(b,a,e,h,f,c,g,s){b[h]=b[h]||function(){(b[h].c=b[h].c||[]).push(arguments)};
+        b[h].s=!!c;g=a.getElementsByTagName(e)[0];s=a.createElement(e);
+        s.src="//s.union.360.cn/"+f+".js";s.defer=!0;s.async=!0;g.parentNode.insertBefore(s,g)
+        })(window,document,"script","_qha",335532,false);
+        </script>
+  menu:
+    rss: /atom.xml
+  manifest: manifest.json
+  TOC: true # 是否显示目录
+  app_pay:
+    MicroMessenger: /img/open/微信支付.png,
+    AlipayClient: /img/open/支付宝支付.jpg,
+    QQ: /img/open/
+
+# 是否自动播放音乐
+autoplay: false
+
+# # 首页封面图, 为空时取文章的cover作为封面
+# welcome_cover: # /img/welcome-cover.jpg
+
+# # 默认文章封面图
+# cover: /img/cover.jpg
+
+# # 是否关闭默认滚动条
+# scrollbar: true
+
+# # 网站ico
+# favicon: /img/favicon.png
+
+# 搜狗、百度、微软、360、神马、谷歌 HTML 标记验证
+sogou_site_verification: fZpDhj24Zh
+baidu-site-verification: qDoVswL6yu
+bing_site_verification: EECB419B3BD7309C048E8C9E4A512F4C
+so_site_verification: 0da51abd1d385491d30db1469ae30347
+shenma_site_verification: 315a34d9fc97b8123a79f6bdd7b88f28_1578289464
+google_site_verification: 2hXKxigOPaMOnUb0RaDecub4lR-EUVwTcIyvEigcc-E
+yandex_site_verification:
