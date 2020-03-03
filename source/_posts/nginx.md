@@ -10,6 +10,10 @@ tags:
 
 [官网](https://www.nginx.com/)
 
+- expires
+
+[Nginx设置expires设定页面缓存时间 不缓存或一直使用缓存](https://www.cnblogs.com/yuanzai12345/p/5946743.html)
+
 # 版本简介
 
 - Mainline 主线开发版本，版本号为奇数

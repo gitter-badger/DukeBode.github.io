@@ -12,6 +12,10 @@ tags:
 
 [官网](https://nodejs.org/)
 
+[nvm](https://github.com/nvm-sh/nvm#node-version-manager---)
+
+[nodesource](https://github.com/nodesource/distributions#enterprise-linux-based-distributions)
+
 ## 切换 npm 源
 
 Node 的官方模块仓库网速太慢，模块仓库需要切换到阿里的源。
@@ -39,3 +43,5 @@ https://mirrors.huaweicloud.com/yarn/
 # 若经常网络异常，执行此句
 yarn config set registry https://registry.npm.taobao.org/ -g
 ```
+
+[如何在CentOS Linux 7.5上安装Node.js](https://www.linuxidc.com/Linux/2018-05/152389.htm)

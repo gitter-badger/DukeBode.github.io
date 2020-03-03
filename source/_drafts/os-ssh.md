@@ -16,3 +16,21 @@ The SSH protocol (also referred to as Secure Shell) is a method for secure remot
 ```
 
 ## 端口转发
+
+参数|功能
+-|-
+-C | 压缩数据传输
+-f | 后台运行
+-N | 不执行shell
+-L | 本地端口转发
+-R | 远程端口转发
+-D | 动态端口转发
+
+```
+sudo vim /etc/ssh/sshd_config
+PasswordAuthentication yes
+PermitRootLogin yes
+sudo systemctl restart sshd
+```
+
+[适用于 Windows 的 OpenSSH 服务器配置 | Microsoft Docs](https://docs.microsoft.com/zh-cn/windows-server/administration/openssh/openssh_keymanagement)
