@@ -77,8 +77,8 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 # theme: false
 # theme: diaspora
-# theme: duke
-theme: next
+theme: duke
+# theme: next
 # theme: njk
 
 # Deployment

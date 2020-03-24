@@ -31,5 +31,5 @@ njkRenderer.compile = data => {
     };
 };
 
-// hexo.extend.renderer.register('swig', 'html', njkRenderer);
-// hexo.extend.renderer.register('njk', 'html', njkRenderer);
+hexo.extend.renderer.register('swig', 'html', njkRenderer);
+hexo.extend.renderer.register('njk', 'html', njkRenderer);
